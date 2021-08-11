@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "kms",
+    "version": "1.100.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "smkqp7thvbfexba6catfwegxzq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "kms",
+          "version": {
+            "requires": "1.100.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.100.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.100.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.100.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kms-1.100.0-0.6.21.jar",
+          "url": "kms-1.100.0-0.6.21.jar",
+          "size": 52404,
+          "sha512": "77978ace0267cc604c67c82e8b9355a0da6f78b3e7169de777d0d2a8616a435fbc80c92ea016b162a2752ad044558021a2bd2dd9c0884e810844636205be309a",
+          "sha256": "fc35cf5dedf91859432ee41fb1ba95947060f9d2990bf429438fec3658890b69",
+          "sha1": "9cdbe26b66f75641e6b3193c19e2d120a5976fd6",
+          "md5": "4c67daf683d68cab341e4e70a9139065"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.100.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "kms",
+          "version": {
+            "requires": "1.100.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.100.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.100.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.100.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kms-1.100.0-0.6.21.jar",
+          "url": "kms-1.100.0-0.6.21.jar",
+          "size": 52404,
+          "sha512": "77978ace0267cc604c67c82e8b9355a0da6f78b3e7169de777d0d2a8616a435fbc80c92ea016b162a2752ad044558021a2bd2dd9c0884e810844636205be309a",
+          "sha256": "fc35cf5dedf91859432ee41fb1ba95947060f9d2990bf429438fec3658890b69",
+          "sha1": "9cdbe26b66f75641e6b3193c19e2d120a5976fd6",
+          "md5": "4c67daf683d68cab341e4e70a9139065"
+        }
+      ]
+    }
+  ]
+}

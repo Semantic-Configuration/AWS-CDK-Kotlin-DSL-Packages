@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "codeguruprofiler",
+    "version": "1.64.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codeguruprofiler",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codeguruprofiler-1.64.0-0.6.22.jar",
+          "url": "codeguruprofiler-1.64.0-0.6.22.jar",
+          "size": 30601,
+          "sha512": "3d3e1d3928b36a7e872eb46dcd3c6cd20f35505ed01aba4e35a486869f67fd74ea84dc0860183ea4b23ce7c6e000393d2c95cc123fcc447fdaf91ef10db20a69",
+          "sha256": "586d00500d84cbd48ff1ef129d1fa263d3ea44fab404ce4409478b92072184ee",
+          "sha1": "c79695e9c88ab2b48b8e81a965441b87a7955e17",
+          "md5": "eb3605903e64508cff365174a7b20ec1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codeguruprofiler",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codeguruprofiler-1.64.0-0.6.22.jar",
+          "url": "codeguruprofiler-1.64.0-0.6.22.jar",
+          "size": 30601,
+          "sha512": "3d3e1d3928b36a7e872eb46dcd3c6cd20f35505ed01aba4e35a486869f67fd74ea84dc0860183ea4b23ce7c6e000393d2c95cc123fcc447fdaf91ef10db20a69",
+          "sha256": "586d00500d84cbd48ff1ef129d1fa263d3ea44fab404ce4409478b92072184ee",
+          "sha1": "c79695e9c88ab2b48b8e81a965441b87a7955e17",
+          "md5": "eb3605903e64508cff365174a7b20ec1"
+        }
+      ]
+    }
+  ]
+}

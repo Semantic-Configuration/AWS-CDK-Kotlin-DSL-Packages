@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "sam",
+    "version": "1.110.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "k23roxkwqjbs5i6arr4lg4r4xm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "sam",
+          "version": {
+            "requires": "1.110.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sam-1.110.1-0.6.21.jar",
+          "url": "sam-1.110.1-0.6.21.jar",
+          "size": 799597,
+          "sha512": "d2984a32e495287ee400644ec4d9ca8f768575fcc5b41a367f13b1a513f4d0c3a580a82536c02f22293f4970189284f747dfac85de94ce6640c46e17d923b2f8",
+          "sha256": "1caa8cc2ce05364f4f74616af2001b6fa533c97df3d966e5e6254318b9a5281",
+          "sha1": "b592ab2b396d23a70fbec667b7d5910c1f0e2d64",
+          "md5": "e9c277934425341eee59c3a528fc1cdd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.110.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "sam",
+          "version": {
+            "requires": "1.110.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sam-1.110.1-0.6.21.jar",
+          "url": "sam-1.110.1-0.6.21.jar",
+          "size": 799597,
+          "sha512": "d2984a32e495287ee400644ec4d9ca8f768575fcc5b41a367f13b1a513f4d0c3a580a82536c02f22293f4970189284f747dfac85de94ce6640c46e17d923b2f8",
+          "sha256": "1caa8cc2ce05364f4f74616af2001b6fa533c97df3d966e5e6254318b9a5281",
+          "sha1": "b592ab2b396d23a70fbec667b7d5910c1f0e2d64",
+          "md5": "e9c277934425341eee59c3a528fc1cdd"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "backup",
+    "version": "1.115.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "mmt4x645szht5dd4sh3qtmk2ta"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "backup",
+          "version": {
+            "requires": "1.115.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dynamodb",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "efs",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "events",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "rds",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sns",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "backup-1.115.0-0.6.21.jar",
+          "url": "backup-1.115.0-0.6.21.jar",
+          "size": 173406,
+          "sha512": "61618cfe669db4cdb031c8ff085a237f4f95bd8a170bbba8acda776e4f73e7b7c0c222d31a197c815663d7d2265ec4ad07e028d69159dc7fc0d89fdfee7b1f0",
+          "sha256": "2a742bb89ced7374929207282d124997a56b320b7b2d2220caf1db22063d1e50",
+          "sha1": "ddf2b96bafb8a31f7185954ea8d6fdbad9c2da7b",
+          "md5": "3ce9a719237f1832c48f4a373a9e93be"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.115.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "backup",
+          "version": {
+            "requires": "1.115.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dynamodb",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "efs",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "events",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "rds",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sns",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "backup-1.115.0-0.6.21.jar",
+          "url": "backup-1.115.0-0.6.21.jar",
+          "size": 173406,
+          "sha512": "61618cfe669db4cdb031c8ff085a237f4f95bd8a170bbba8acda776e4f73e7b7c0c222d31a197c815663d7d2265ec4ad07e028d69159dc7fc0d89fdfee7b1f0",
+          "sha256": "2a742bb89ced7374929207282d124997a56b320b7b2d2220caf1db22063d1e50",
+          "sha1": "ddf2b96bafb8a31f7185954ea8d6fdbad9c2da7b",
+          "md5": "3ce9a719237f1832c48f4a373a9e93be"
+        }
+      ]
+    }
+  ]
+}

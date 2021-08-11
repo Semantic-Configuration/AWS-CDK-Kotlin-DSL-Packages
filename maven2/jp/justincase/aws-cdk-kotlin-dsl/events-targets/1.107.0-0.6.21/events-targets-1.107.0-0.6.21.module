@@ -1,0 +1,356 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "events-targets",
+    "version": "1.107.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "ii37qlm56fdwtlikv7tspxqqje"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "events-targets",
+          "version": {
+            "requires": "1.107.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "apigateway",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "codebuild",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "codepipeline",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ecs",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "events",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kinesis",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kinesisfirehose",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "logs",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sns",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sns-subscriptions",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sqs",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "stepfunctions",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-customresources",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "events-targets-1.107.0-0.6.21.jar",
+          "url": "events-targets-1.107.0-0.6.21.jar",
+          "size": 76415,
+          "sha512": "66c9b7c5b5b9073af3f032632be5e0b7ec48d9886c5a7c87bbf4a9d8754e9796f036155ff09893acae35786f54891d67f068c9a932a33a91b1261c9012bfc82e",
+          "sha256": "3cd3e383ec7bec893bc204093dbeefa49565582b82ed777a49ce2c0cf90fe8ea",
+          "sha1": "a7be297c119aa4575ddb7c22bd698a011b97c658",
+          "md5": "15b317c2f30be5a48128afe63724ede0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.107.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "events-targets",
+          "version": {
+            "requires": "1.107.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "apigateway",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "codebuild",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "codepipeline",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ecs",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "events",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kinesis",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kinesisfirehose",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "logs",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sns",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sns-subscriptions",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sqs",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "stepfunctions",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-customresources",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "events-targets-1.107.0-0.6.21.jar",
+          "url": "events-targets-1.107.0-0.6.21.jar",
+          "size": 76415,
+          "sha512": "66c9b7c5b5b9073af3f032632be5e0b7ec48d9886c5a7c87bbf4a9d8754e9796f036155ff09893acae35786f54891d67f068c9a932a33a91b1261c9012bfc82e",
+          "sha256": "3cd3e383ec7bec893bc204093dbeefa49565582b82ed777a49ce2c0cf90fe8ea",
+          "sha1": "a7be297c119aa4575ddb7c22bd698a011b97c658",
+          "md5": "15b317c2f30be5a48128afe63724ede0"
+        }
+      ]
+    }
+  ]
+}

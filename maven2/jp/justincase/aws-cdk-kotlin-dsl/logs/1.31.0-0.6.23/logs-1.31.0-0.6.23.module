@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "logs",
+    "version": "1.31.0-0.6.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "logs",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudwatch",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logs-1.31.0-0.6.23.jar",
+          "url": "logs-1.31.0-0.6.23.jar",
+          "size": 105269,
+          "sha512": "ff99668528485d43486a2e03494b2b77704a9841b4e6820c8f1153106791f3e9552057556b5fd1db5663cc9f4f044b41c7bd9566452b02dc32d2d49e43f58531",
+          "sha256": "13dc2b6b38d43c405cf1524f3e36045ce3f728e2496beccc02b0c97a55d940f1",
+          "sha1": "bc30eed19ae785f3208f215d563ea6bb32ccf473",
+          "md5": "cd4e0128203eb60bebb5905db107aa31"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.23"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "logs",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudwatch",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logs-1.31.0-0.6.23.jar",
+          "url": "logs-1.31.0-0.6.23.jar",
+          "size": 105269,
+          "sha512": "ff99668528485d43486a2e03494b2b77704a9841b4e6820c8f1153106791f3e9552057556b5fd1db5663cc9f4f044b41c7bd9566452b02dc32d2d49e43f58531",
+          "sha256": "13dc2b6b38d43c405cf1524f3e36045ce3f728e2496beccc02b0c97a55d940f1",
+          "sha1": "bc30eed19ae785f3208f215d563ea6bb32ccf473",
+          "md5": "cd4e0128203eb60bebb5905db107aa31"
+        }
+      ]
+    }
+  ]
+}

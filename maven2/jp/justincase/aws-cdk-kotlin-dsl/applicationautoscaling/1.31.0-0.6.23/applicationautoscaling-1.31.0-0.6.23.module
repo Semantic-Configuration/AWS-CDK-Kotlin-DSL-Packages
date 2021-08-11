@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "applicationautoscaling",
+    "version": "1.31.0-0.6.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "applicationautoscaling",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "autoscaling-common",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudwatch",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "applicationautoscaling-1.31.0-0.6.23.jar",
+          "url": "applicationautoscaling-1.31.0-0.6.23.jar",
+          "size": 211628,
+          "sha512": "7f468e1c04e973f228ef6baa11efde9a7a8ee2a3dfbe8ab73c34451e219522b69a90d231524800c3486b85cf7938bd702f3edcedecab26286bbf11c25fe5c116",
+          "sha256": "414c958007a7ba1650e1fdb6ec4bc9e40b99927178f9a8c334e89c2b1aa3c5f3",
+          "sha1": "3c750e7c9867c79a824618243e8f58947e607a82",
+          "md5": "0b59d91bfe96b171a332da7baa209a01"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.23"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "applicationautoscaling",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "autoscaling-common",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudwatch",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "applicationautoscaling-1.31.0-0.6.23.jar",
+          "url": "applicationautoscaling-1.31.0-0.6.23.jar",
+          "size": 211628,
+          "sha512": "7f468e1c04e973f228ef6baa11efde9a7a8ee2a3dfbe8ab73c34451e219522b69a90d231524800c3486b85cf7938bd702f3edcedecab26286bbf11c25fe5c116",
+          "sha256": "414c958007a7ba1650e1fdb6ec4bc9e40b99927178f9a8c334e89c2b1aa3c5f3",
+          "sha1": "3c750e7c9867c79a824618243e8f58947e607a82",
+          "md5": "0b59d91bfe96b171a332da7baa209a01"
+        }
+      ]
+    }
+  ]
+}

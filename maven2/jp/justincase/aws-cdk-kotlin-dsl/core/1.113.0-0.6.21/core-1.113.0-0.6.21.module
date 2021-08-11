@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "core",
+    "version": "1.113.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "4eq3z6kztfacfbxsxa2ublfmc4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cloud-assembly-schema",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-region-info",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-1.113.0-0.6.21.jar",
+          "url": "core-1.113.0-0.6.21.jar",
+          "size": 547046,
+          "sha512": "929f3e3d7e33fe2602c64ff5f155145c7cbea64e00c665a50fd5bbe831456f590cb30ff1a53106ebcfa8d43fe30eedade254611950ac2dc840c428a370a289b5",
+          "sha256": "1abdebe535b9d51d8e50bfacad15445ee19bf7fb9a077a27f0f532f96d577fa",
+          "sha1": "e89344a52ae7554f79b6783d81717c39f1bbd428",
+          "md5": "1350b196af37722c561d60d6b856b185"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cloud-assembly-schema",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-region-info",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-1.113.0-0.6.21.jar",
+          "url": "core-1.113.0-0.6.21.jar",
+          "size": 547046,
+          "sha512": "929f3e3d7e33fe2602c64ff5f155145c7cbea64e00c665a50fd5bbe831456f590cb30ff1a53106ebcfa8d43fe30eedade254611950ac2dc840c428a370a289b5",
+          "sha256": "1abdebe535b9d51d8e50bfacad15445ee19bf7fb9a077a27f0f532f96d577fa",
+          "sha1": "e89344a52ae7554f79b6783d81717c39f1bbd428",
+          "md5": "1350b196af37722c561d60d6b856b185"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "kms",
+    "version": "1.31.0-unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "kms",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kms-1.31.0-unspecified.jar",
+          "url": "kms-1.31.0-unspecified.jar",
+          "size": 51371,
+          "sha512": "7c03798a2dfdb694b085b617b10c57358492455fd25d7e3da132a890c9c82a609fee313fcc94c21fc8c66017b286b0ace92723a1d0243699a617ec8e66e36c01",
+          "sha256": "711ca8078061ef714c645cb26fc5a535045e32019c13a06ead0eb3778a0a1447",
+          "sha1": "9ce1b00a9103435cfdaf50f2179c8aad42af8610",
+          "md5": "bc0f5ed9e3964343ee69ef9a66d00010"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "kms",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kms-1.31.0-unspecified.jar",
+          "url": "kms-1.31.0-unspecified.jar",
+          "size": 51371,
+          "sha512": "7c03798a2dfdb694b085b617b10c57358492455fd25d7e3da132a890c9c82a609fee313fcc94c21fc8c66017b286b0ace92723a1d0243699a617ec8e66e36c01",
+          "sha256": "711ca8078061ef714c645cb26fc5a535045e32019c13a06ead0eb3778a0a1447",
+          "sha1": "9ce1b00a9103435cfdaf50f2179c8aad42af8610",
+          "md5": "bc0f5ed9e3964343ee69ef9a66d00010"
+        }
+      ]
+    }
+  ]
+}

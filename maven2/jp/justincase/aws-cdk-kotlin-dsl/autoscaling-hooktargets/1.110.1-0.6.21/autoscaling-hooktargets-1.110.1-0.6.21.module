@@ -1,0 +1,216 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "autoscaling-hooktargets",
+    "version": "1.110.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "pksuzuox3ne6pgnvsva7g32w2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "autoscaling-hooktargets",
+          "version": {
+            "requires": "1.110.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "autoscaling",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sns",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sns-subscriptions",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sqs",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "autoscaling-hooktargets-1.110.1-0.6.21.jar",
+          "url": "autoscaling-hooktargets-1.110.1-0.6.21.jar",
+          "size": 448,
+          "sha512": "9d4b0d132b716ab8090fd70ac376eda9d2f061cf402a0fa65dc72171ded2742fae1440de695393191cacb95af8ee21b3c2e07ed48edf52cb2a5e344d8dd36197",
+          "sha256": "51f20943c99bbe9506bc2f7580ba8486eb0adc54b07b0f3f572a6fc62e9bca05",
+          "sha1": "a505af0fa616e455e75dcb08c4674fdbfb1f7b3f",
+          "md5": "d0dec1e0923a8530a7ee3ec96b48f9b6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.110.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "autoscaling-hooktargets",
+          "version": {
+            "requires": "1.110.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "autoscaling",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sns",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sns-subscriptions",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sqs",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "autoscaling-hooktargets-1.110.1-0.6.21.jar",
+          "url": "autoscaling-hooktargets-1.110.1-0.6.21.jar",
+          "size": 448,
+          "sha512": "9d4b0d132b716ab8090fd70ac376eda9d2f061cf402a0fa65dc72171ded2742fae1440de695393191cacb95af8ee21b3c2e07ed48edf52cb2a5e344d8dd36197",
+          "sha256": "51f20943c99bbe9506bc2f7580ba8486eb0adc54b07b0f3f572a6fc62e9bca05",
+          "sha1": "a505af0fa616e455e75dcb08c4674fdbfb1f7b3f",
+          "md5": "d0dec1e0923a8530a7ee3ec96b48f9b6"
+        }
+      ]
+    }
+  ]
+}

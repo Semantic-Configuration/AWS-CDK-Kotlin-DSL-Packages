@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "redshift",
+    "version": "1.104.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "qufggsntgrgwvj22f7mprctb2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "redshift",
+          "version": {
+            "requires": "1.104.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.104.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.104.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.104.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.104.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "secretsmanager",
+          "version": {
+            "requires": "1.104.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.104.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "redshift-1.104.0-0.6.21.jar",
+          "url": "redshift-1.104.0-0.6.21.jar",
+          "size": 138865,
+          "sha512": "f787ea53aca53890f1b1e221cba7ba4771b9bdeca669e253dec6a5d174a33682ecc946b6af1d8b879491d357a587ba595adbd25dc3ef0182adf3142b30c7f691",
+          "sha256": "73b9e85844969f57893f0d54a40325a4ff2362f0dfa4e0355738ab45473f4641",
+          "sha1": "c1c192c79a1df7e7d4e8ae4a97dcd8cd251328b5",
+          "md5": "13ec75810ec32073931b56515c7b58c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.104.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "redshift",
+          "version": {
+            "requires": "1.104.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.104.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.104.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.104.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.104.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "secretsmanager",
+          "version": {
+            "requires": "1.104.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.104.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "redshift-1.104.0-0.6.21.jar",
+          "url": "redshift-1.104.0-0.6.21.jar",
+          "size": 138865,
+          "sha512": "f787ea53aca53890f1b1e221cba7ba4771b9bdeca669e253dec6a5d174a33682ecc946b6af1d8b879491d357a587ba595adbd25dc3ef0182adf3142b30c7f691",
+          "sha256": "73b9e85844969f57893f0d54a40325a4ff2362f0dfa4e0355738ab45473f4641",
+          "sha1": "c1c192c79a1df7e7d4e8ae4a97dcd8cd251328b5",
+          "md5": "13ec75810ec32073931b56515c7b58c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "codepipeline",
+    "version": "1.34.1-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codepipeline",
+          "version": {
+            "requires": "1.34.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "events",
+          "version": {
+            "requires": "1.34.1-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.34.1-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.34.1-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.34.1-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.1-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codepipeline-1.34.1-0.6.22.jar",
+          "url": "codepipeline-1.34.1-0.6.22.jar",
+          "size": 281544,
+          "sha512": "d6870e1ed6375e9896a9729ad63aac4cf8e1c1bff3982e26f46adbf5033d421cf0b50565da511b54b89d0ba6958e02e99d7f461866500a33ed29e5bde537c495",
+          "sha256": "561ba01e992d09b4bfd9cc839c4558846bb85a01d40d524872e293c1c23f60f6",
+          "sha1": "50f40f61995f9481e128ffb9fc898167eb34635c",
+          "md5": "5596b293bca2192c90b6261799566fca"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.34.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codepipeline",
+          "version": {
+            "requires": "1.34.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "events",
+          "version": {
+            "requires": "1.34.1-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.34.1-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.34.1-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.34.1-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.1-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codepipeline-1.34.1-0.6.22.jar",
+          "url": "codepipeline-1.34.1-0.6.22.jar",
+          "size": 281544,
+          "sha512": "d6870e1ed6375e9896a9729ad63aac4cf8e1c1bff3982e26f46adbf5033d421cf0b50565da511b54b89d0ba6958e02e99d7f461866500a33ed29e5bde537c495",
+          "sha256": "561ba01e992d09b4bfd9cc839c4558846bb85a01d40d524872e293c1c23f60f6",
+          "sha1": "50f40f61995f9481e128ffb9fc898167eb34635c",
+          "md5": "5596b293bca2192c90b6261799566fca"
+        }
+      ]
+    }
+  ]
+}

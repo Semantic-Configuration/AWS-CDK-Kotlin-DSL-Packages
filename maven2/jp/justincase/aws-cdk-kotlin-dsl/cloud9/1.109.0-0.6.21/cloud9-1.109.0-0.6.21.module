@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "cloud9",
+    "version": "1.109.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "4umeix6puva4lkvlrzj7iisxg4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cloud9",
+          "version": {
+            "requires": "1.109.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "codecommit",
+          "version": {
+            "requires": "1.109.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.109.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.109.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cloud9-1.109.0-0.6.21.jar",
+          "url": "cloud9-1.109.0-0.6.21.jar",
+          "size": 32010,
+          "sha512": "20a90a85f4685b1b40439407f79a915c1613257c65ba615ab89b6d1407b0e17e1aa1f1dfb54d2ca790de98eb209791394e5ea4f73a1c613266c3c2d1a6d91348",
+          "sha256": "e155f0dc2c84d006a049fa3a718f7feae85a135f54404b7303cf60622943752e",
+          "sha1": "927d1a10eab03c81b1800bcd7da5481fe202d2b2",
+          "md5": "2cbfcc6daededb21a2f4268af7193b4f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.109.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cloud9",
+          "version": {
+            "requires": "1.109.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "codecommit",
+          "version": {
+            "requires": "1.109.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.109.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.109.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cloud9-1.109.0-0.6.21.jar",
+          "url": "cloud9-1.109.0-0.6.21.jar",
+          "size": 32010,
+          "sha512": "20a90a85f4685b1b40439407f79a915c1613257c65ba615ab89b6d1407b0e17e1aa1f1dfb54d2ca790de98eb209791394e5ea4f73a1c613266c3c2d1a6d91348",
+          "sha256": "e155f0dc2c84d006a049fa3a718f7feae85a135f54404b7303cf60622943752e",
+          "sha1": "927d1a10eab03c81b1800bcd7da5481fe202d2b2",
+          "md5": "2cbfcc6daededb21a2f4268af7193b4f"
+        }
+      ]
+    }
+  ]
+}

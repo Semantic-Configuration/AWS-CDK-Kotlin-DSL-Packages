@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "cdk-lambda-layer-awscli",
+    "version": "1.106.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "apa3jttzlbgsjbklj7vcehaque"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cdk-lambda-layer-awscli",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cdk-lambda-layer-awscli-1.106.1-0.6.21.jar",
+          "url": "cdk-lambda-layer-awscli-1.106.1-0.6.21.jar",
+          "size": 448,
+          "sha512": "6da07b9d4ce6f37ba1f2c15292d18d51e1901666bda582bf5bae177d6ac5149584cf6e2c25375835574cb08c7494166937869e0732d44a3c599f1ab9bb333956",
+          "sha256": "c07a23e7255ee8b6d446cb4d8df067b7e258863d4b2b176a128598fe4e2f5a64",
+          "sha1": "dfc113d5ceaeec468784d44e776608405270a174",
+          "md5": "85191ebe638f96ef572fc35e6a743efe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cdk-lambda-layer-awscli",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cdk-lambda-layer-awscli-1.106.1-0.6.21.jar",
+          "url": "cdk-lambda-layer-awscli-1.106.1-0.6.21.jar",
+          "size": 448,
+          "sha512": "6da07b9d4ce6f37ba1f2c15292d18d51e1901666bda582bf5bae177d6ac5149584cf6e2c25375835574cb08c7494166937869e0732d44a3c599f1ab9bb333956",
+          "sha256": "c07a23e7255ee8b6d446cb4d8df067b7e258863d4b2b176a128598fe4e2f5a64",
+          "sha1": "dfc113d5ceaeec468784d44e776608405270a174",
+          "md5": "85191ebe638f96ef572fc35e6a743efe"
+        }
+      ]
+    }
+  ]
+}

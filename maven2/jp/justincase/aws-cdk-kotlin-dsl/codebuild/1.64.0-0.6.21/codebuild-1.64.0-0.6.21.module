@@ -1,0 +1,299 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "codebuild",
+    "version": "1.64.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codebuild",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-assets",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudwatch",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "codecommit",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ecr",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ecr-assets",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "events",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3-assets",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "secretsmanager",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-region-info",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codebuild-1.64.0-0.6.21.jar",
+          "url": "codebuild-1.64.0-0.6.21.jar",
+          "size": 441682,
+          "sha512": "6ea48f5c730ba4f21a59641a4718c264600f2c739c400cea4285e413ec5943390bd9c83cac69c23d73afba015ffcf0dbb2aa0c258dea91d249b3467bfd1a7496",
+          "sha256": "29b77b109ddfae561b733ceefbef26a7a23a0eb3ed22c6f6c8133a62357b3760",
+          "sha1": "5442a7c6d823c42a638cab0f1d06db0c2fcec244",
+          "md5": "57533512e1c12e48008d29c9e4a19e98"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codebuild",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-assets",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudwatch",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "codecommit",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ecr",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ecr-assets",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "events",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3-assets",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "secretsmanager",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-region-info",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codebuild-1.64.0-0.6.21.jar",
+          "url": "codebuild-1.64.0-0.6.21.jar",
+          "size": 441682,
+          "sha512": "6ea48f5c730ba4f21a59641a4718c264600f2c739c400cea4285e413ec5943390bd9c83cac69c23d73afba015ffcf0dbb2aa0c258dea91d249b3467bfd1a7496",
+          "sha256": "29b77b109ddfae561b733ceefbef26a7a23a0eb3ed22c6f6c8133a62357b3760",
+          "sha1": "5442a7c6d823c42a638cab0f1d06db0c2fcec244",
+          "md5": "57533512e1c12e48008d29c9e4a19e98"
+        }
+      ]
+    }
+  ]
+}

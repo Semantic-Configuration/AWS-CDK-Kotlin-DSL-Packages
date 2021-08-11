@@ -1,0 +1,454 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "ecs",
+    "version": "1.105.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "6ksfungeebg7lbcagzumy3ww64"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "ecs",
+          "version": {
+            "requires": "1.105.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "applicationautoscaling",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "autoscaling",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "autoscaling-hooktargets",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "certificatemanager",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudwatch",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ecr",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ecr-assets",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "elasticloadbalancing",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "elasticloadbalancingv2",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "logs",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "route53",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "route53-targets",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3-assets",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "secretsmanager",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "servicediscovery",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sns",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sqs",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ssm",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ecs-1.105.0-0.6.21.jar",
+          "url": "ecs-1.105.0-0.6.21.jar",
+          "size": 1087422,
+          "sha512": "1aa5025f4e7ad0fe5be42388ed1696bac58bec82331921b7e185176c762e2be32e562acc5fc38cc2008608a6e7afd2388c01e46c13c500d079cb3898a2616901",
+          "sha256": "f61bc24ec188c2b23a971f31a381fd22403938d9240a00b189fb48716e4288c4",
+          "sha1": "8d13dccbbc9f3e8dd59e9ce964a874456f7e6e72",
+          "md5": "d08b7c0b42073ac03fcd5afbf34a3304"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.105.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "ecs",
+          "version": {
+            "requires": "1.105.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "applicationautoscaling",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "autoscaling",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "autoscaling-hooktargets",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "certificatemanager",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudwatch",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ecr",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ecr-assets",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "elasticloadbalancing",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "elasticloadbalancingv2",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "logs",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "route53",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "route53-targets",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3-assets",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "secretsmanager",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "servicediscovery",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sns",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "sqs",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ssm",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ecs-1.105.0-0.6.21.jar",
+          "url": "ecs-1.105.0-0.6.21.jar",
+          "size": 1087422,
+          "sha512": "1aa5025f4e7ad0fe5be42388ed1696bac58bec82331921b7e185176c762e2be32e562acc5fc38cc2008608a6e7afd2388c01e46c13c500d079cb3898a2616901",
+          "sha256": "f61bc24ec188c2b23a971f31a381fd22403938d9240a00b189fb48716e4288c4",
+          "sha1": "8d13dccbbc9f3e8dd59e9ce964a874456f7e6e72",
+          "md5": "d08b7c0b42073ac03fcd5afbf34a3304"
+        }
+      ]
+    }
+  ]
+}

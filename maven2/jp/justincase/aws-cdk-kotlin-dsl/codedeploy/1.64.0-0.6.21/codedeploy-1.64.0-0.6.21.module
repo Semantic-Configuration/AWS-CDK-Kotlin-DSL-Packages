@@ -1,0 +1,229 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "codedeploy",
+    "version": "1.64.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codedeploy",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "autoscaling",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudwatch",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "elasticloadbalancing",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "elasticloadbalancingv2",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codedeploy-1.64.0-0.6.21.jar",
+          "url": "codedeploy-1.64.0-0.6.21.jar",
+          "size": 317662,
+          "sha512": "292326e9c887203678efc8e3926e43a23fea3fa5a7b3403b24f714f62b16d79a46f9913c7c1c839f9abbb929396f3d6b6570864f3e8b1ac651c7cb53f8a59aad",
+          "sha256": "9578b9eaeb176a0093d73652cc573d11cd20e4353805752657b63a0f5485515d",
+          "sha1": "c839bf6844766c9b5c9718c16155b1b9c94e7186",
+          "md5": "1c6227cc042192c92e78953c29e38f84"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codedeploy",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "autoscaling",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudwatch",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "elasticloadbalancing",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "elasticloadbalancingv2",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codedeploy-1.64.0-0.6.21.jar",
+          "url": "codedeploy-1.64.0-0.6.21.jar",
+          "size": 317662,
+          "sha512": "292326e9c887203678efc8e3926e43a23fea3fa5a7b3403b24f714f62b16d79a46f9913c7c1c839f9abbb929396f3d6b6570864f3e8b1ac651c7cb53f8a59aad",
+          "sha256": "9578b9eaeb176a0093d73652cc573d11cd20e4353805752657b63a0f5485515d",
+          "sha1": "c839bf6844766c9b5c9718c16155b1b9c94e7186",
+          "md5": "1c6227cc042192c92e78953c29e38f84"
+        }
+      ]
+    }
+  ]
+}

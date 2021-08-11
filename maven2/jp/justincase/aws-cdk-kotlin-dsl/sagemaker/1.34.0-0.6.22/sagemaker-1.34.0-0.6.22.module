@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "sagemaker",
+    "version": "1.34.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "sagemaker",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sagemaker-1.34.0-0.6.22.jar",
+          "url": "sagemaker-1.34.0-0.6.22.jar",
+          "size": 193825,
+          "sha512": "5504dc1ad23338a38efd1b0acf63b38a41529aee455108ec05ba44c115875241f83e93717a35c58ca9842665e1baa027c5d9824d5c10f4b812b4365eeec6daa3",
+          "sha256": "1a8cd4a9f42ede40c1b2ce9303e4c56c913e47d975da21a2398e3a6b698941ea",
+          "sha1": "7705567931ad46428e8b59b4e0e97f6d36f1adfd",
+          "md5": "8234434b3cf0076c4701c119772b55d2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "sagemaker",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sagemaker-1.34.0-0.6.22.jar",
+          "url": "sagemaker-1.34.0-0.6.22.jar",
+          "size": 193825,
+          "sha512": "5504dc1ad23338a38efd1b0acf63b38a41529aee455108ec05ba44c115875241f83e93717a35c58ca9842665e1baa027c5d9824d5c10f4b812b4365eeec6daa3",
+          "sha256": "1a8cd4a9f42ede40c1b2ce9303e4c56c913e47d975da21a2398e3a6b698941ea",
+          "sha1": "7705567931ad46428e8b59b4e0e97f6d36f1adfd",
+          "md5": "8234434b3cf0076c4701c119772b55d2"
+        }
+      ]
+    }
+  ]
+}

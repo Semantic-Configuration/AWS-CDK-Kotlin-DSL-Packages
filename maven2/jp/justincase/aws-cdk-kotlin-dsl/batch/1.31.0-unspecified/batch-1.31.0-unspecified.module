@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "batch",
+    "version": "1.31.0-unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "batch",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ecr",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ecs",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "batch-1.31.0-unspecified.jar",
+          "url": "batch-1.31.0-unspecified.jar",
+          "size": 241942,
+          "sha512": "ce1ed20509bfbd4cd18a073488e1622f394503a5def400c686f8278c52367409612f392d73d0357352a30c2c9690d1438dde15218a9b26bec2680a397df9ff4a",
+          "sha256": "04d5372f4095fc06456d7edd26dbf3ef301c5542eec6f3de29d431b738ced69b",
+          "sha1": "39b7c5f23fe6a52015015c3301e93bf8ec91aef5",
+          "md5": "441a2d2d332f2c5c29f4832331633d17"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "batch",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ecr",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ecs",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "batch-1.31.0-unspecified.jar",
+          "url": "batch-1.31.0-unspecified.jar",
+          "size": 241942,
+          "sha512": "ce1ed20509bfbd4cd18a073488e1622f394503a5def400c686f8278c52367409612f392d73d0357352a30c2c9690d1438dde15218a9b26bec2680a397df9ff4a",
+          "sha256": "04d5372f4095fc06456d7edd26dbf3ef301c5542eec6f3de29d431b738ced69b",
+          "sha1": "39b7c5f23fe6a52015015c3301e93bf8ec91aef5",
+          "md5": "441a2d2d332f2c5c29f4832331633d17"
+        }
+      ]
+    }
+  ]
+}

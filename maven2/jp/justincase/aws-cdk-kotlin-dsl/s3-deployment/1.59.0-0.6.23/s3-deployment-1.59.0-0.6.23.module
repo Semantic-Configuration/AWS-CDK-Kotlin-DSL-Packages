@@ -1,0 +1,187 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "s3-deployment",
+    "version": "1.59.0-0.6.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "s3-deployment",
+          "version": {
+            "requires": "1.59.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudfront",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3-assets",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "s3-deployment-1.59.0-0.6.23.jar",
+          "url": "s3-deployment-1.59.0-0.6.23.jar",
+          "size": 24187,
+          "sha512": "829be8b5e514e947834a19b8fc75914f935775cc316189d029018b02b9d2ba3a6787ada47c825cb667238081b1cc773ea9a11dd46321e286bcb508fb2d27f129",
+          "sha256": "a79961be368731d475b6b3bb8f18af486794b98f508aaa438290c41d954b9d6d",
+          "sha1": "9c7071853d5e7680c8e012a28fab096113d0c5a9",
+          "md5": "76feb9d43311f297d5aefdd075b4cfa2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.23"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.59.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "s3-deployment",
+          "version": {
+            "requires": "1.59.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudfront",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3-assets",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "s3-deployment-1.59.0-0.6.23.jar",
+          "url": "s3-deployment-1.59.0-0.6.23.jar",
+          "size": 24187,
+          "sha512": "829be8b5e514e947834a19b8fc75914f935775cc316189d029018b02b9d2ba3a6787ada47c825cb667238081b1cc773ea9a11dd46321e286bcb508fb2d27f129",
+          "sha256": "a79961be368731d475b6b3bb8f18af486794b98f508aaa438290c41d954b9d6d",
+          "sha1": "9c7071853d5e7680c8e012a28fab096113d0c5a9",
+          "md5": "76feb9d43311f297d5aefdd075b4cfa2"
+        }
+      ]
+    }
+  ]
+}

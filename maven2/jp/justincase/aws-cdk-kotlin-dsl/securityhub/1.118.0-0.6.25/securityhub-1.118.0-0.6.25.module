@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "securityhub",
+    "version": "1.118.0-0.6.25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "securityhub",
+          "version": {
+            "requires": "1.118.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.118.0-0.6.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securityhub-1.118.0-0.6.25.jar",
+          "url": "securityhub-1.118.0-0.6.25.jar",
+          "size": 8521,
+          "sha512": "cf02918c2209adc4be04ce7dfed68bfa80bf219657282e7504afde33ef40252e69917f26fc91e7c249882168b0f387c13aa0d29df7a064428297deff36544062",
+          "sha256": "38313b92373becf1fedbb44877c099b5a8f02e73cccbbb62b864ab8cdae6ad29",
+          "sha1": "9fe7203cda782f76fbd91096ec185322d363318b",
+          "md5": "cf2dbddf2371c260211d44189838c5df"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.25"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.118.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "securityhub",
+          "version": {
+            "requires": "1.118.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.118.0-0.6.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securityhub-1.118.0-0.6.25.jar",
+          "url": "securityhub-1.118.0-0.6.25.jar",
+          "size": 8521,
+          "sha512": "cf02918c2209adc4be04ce7dfed68bfa80bf219657282e7504afde33ef40252e69917f26fc91e7c249882168b0f387c13aa0d29df7a064428297deff36544062",
+          "sha256": "38313b92373becf1fedbb44877c099b5a8f02e73cccbbb62b864ab8cdae6ad29",
+          "sha1": "9fe7203cda782f76fbd91096ec185322d363318b",
+          "md5": "cf2dbddf2371c260211d44189838c5df"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "lakeformation",
+    "version": "1.113.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "4eq3z6kztfacfbxsxa2ublfmc4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "lakeformation",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lakeformation-1.113.0-0.6.21.jar",
+          "url": "lakeformation-1.113.0-0.6.21.jar",
+          "size": 118729,
+          "sha512": "5e4b7f9f2d1fdd231321434ed547fce64c64bc92fcb2a885bf76cd90feb4188b3be362fbe7f2dd896cd858bf94fc38fe135b0dc0852642a99fc93e62e1065c12",
+          "sha256": "99b7754a35105be7616595dfe85f9f0e41f9d295fe09933b58a6deb72b701729",
+          "sha1": "304a01cb2c25385f17ca40b3e9401f8087b17edc",
+          "md5": "6022cc2b8f3608199890ef355e949474"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "lakeformation",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lakeformation-1.113.0-0.6.21.jar",
+          "url": "lakeformation-1.113.0-0.6.21.jar",
+          "size": 118729,
+          "sha512": "5e4b7f9f2d1fdd231321434ed547fce64c64bc92fcb2a885bf76cd90feb4188b3be362fbe7f2dd896cd858bf94fc38fe135b0dc0852642a99fc93e62e1065c12",
+          "sha256": "99b7754a35105be7616595dfe85f9f0e41f9d295fe09933b58a6deb72b701729",
+          "sha1": "304a01cb2c25385f17ca40b3e9401f8087b17edc",
+          "md5": "6022cc2b8f3608199890ef355e949474"
+        }
+      ]
+    }
+  ]
+}

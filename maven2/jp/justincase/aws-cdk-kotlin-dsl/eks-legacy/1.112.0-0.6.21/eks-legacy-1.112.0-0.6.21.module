@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "eks-legacy",
+    "version": "1.112.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "635otboqmzf4dpqli6tn2j4rca"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "eks-legacy",
+          "version": {
+            "requires": "1.112.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "autoscaling",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudformation",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ssm",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "eks-legacy-1.112.0-0.6.21.jar",
+          "url": "eks-legacy-1.112.0-0.6.21.jar",
+          "size": 236270,
+          "sha512": "1f94b23ee3088dba8469217dbc5bfc5f7ea3badecaa85bded2b90cbfe3810c830616f13c5669af7d85b1ddac72435269cfcaf04e2be4a1e51600a73f3dee027",
+          "sha256": "23ea19eb491f0125c48a6990a19403b77fbf6bbb54353135544192b8f7e8a1bf",
+          "sha1": "962390921ee3e0edabae7cde914793e4c093565f",
+          "md5": "57228b47e49050482395047eb0dbb2fa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.112.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "eks-legacy",
+          "version": {
+            "requires": "1.112.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "autoscaling",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudformation",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ssm",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "eks-legacy-1.112.0-0.6.21.jar",
+          "url": "eks-legacy-1.112.0-0.6.21.jar",
+          "size": 236270,
+          "sha512": "1f94b23ee3088dba8469217dbc5bfc5f7ea3badecaa85bded2b90cbfe3810c830616f13c5669af7d85b1ddac72435269cfcaf04e2be4a1e51600a73f3dee027",
+          "sha256": "23ea19eb491f0125c48a6990a19403b77fbf6bbb54353135544192b8f7e8a1bf",
+          "sha1": "962390921ee3e0edabae7cde914793e4c093565f",
+          "md5": "57228b47e49050482395047eb0dbb2fa"
+        }
+      ]
+    }
+  ]
+}

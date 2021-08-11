@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "stepfunctions",
+    "version": "1.34.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "stepfunctions",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudwatch",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "events",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "logs",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stepfunctions-1.34.0-0.6.22.jar",
+          "url": "stepfunctions-1.34.0-0.6.22.jar",
+          "size": 175769,
+          "sha512": "0672b8216e6db08ebfebbf2cac1a5964a091b25ab27c65e09344d78d0d79de9c91bf19dfca1852b2307a3f0e0053d9b609a05e1b6c1014c2bd3ca048e3f48053",
+          "sha256": "bef6eab57fb67add8e86b27926ec18e28ee4010f853a2449a8ba25362704d6cd",
+          "sha1": "47c8c6841b6c1532a9e995248962c8fb4be27842",
+          "md5": "0637a4b732bcc6b54d9b2d574fa819de"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "stepfunctions",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudwatch",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "events",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "logs",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stepfunctions-1.34.0-0.6.22.jar",
+          "url": "stepfunctions-1.34.0-0.6.22.jar",
+          "size": 175769,
+          "sha512": "0672b8216e6db08ebfebbf2cac1a5964a091b25ab27c65e09344d78d0d79de9c91bf19dfca1852b2307a3f0e0053d9b609a05e1b6c1014c2bd3ca048e3f48053",
+          "sha256": "bef6eab57fb67add8e86b27926ec18e28ee4010f853a2449a8ba25362704d6cd",
+          "sha1": "47c8c6841b6c1532a9e995248962c8fb4be27842",
+          "md5": "0637a4b732bcc6b54d9b2d574fa819de"
+        }
+      ]
+    }
+  ]
+}

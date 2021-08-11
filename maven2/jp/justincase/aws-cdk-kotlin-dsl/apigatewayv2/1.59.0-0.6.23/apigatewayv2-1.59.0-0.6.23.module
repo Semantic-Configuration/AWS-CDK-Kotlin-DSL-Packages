@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "apigatewayv2",
+    "version": "1.59.0-0.6.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "apigatewayv2",
+          "version": {
+            "requires": "1.59.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "certificatemanager",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apigatewayv2-1.59.0-0.6.23.jar",
+          "url": "apigatewayv2-1.59.0-0.6.23.jar",
+          "size": 428409,
+          "sha512": "eb3e978f235374fa226c7c8906157e867f69dc70c1842a079c722b414e548d0c428bd7c9224273c3c75eda6d67233ae31c41af5f8cc8fd63d3d23f131966f63e",
+          "sha256": "3c608ff0f702339d1b35ec9dd7914028f7bc06d8693f2a50fc2dc009698a775d",
+          "sha1": "f909717a80e526d3bd28ff4995526128e6411ba6",
+          "md5": "93cdb47c66fd4c31180ca483f22d13b4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.23"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.59.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "apigatewayv2",
+          "version": {
+            "requires": "1.59.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "certificatemanager",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apigatewayv2-1.59.0-0.6.23.jar",
+          "url": "apigatewayv2-1.59.0-0.6.23.jar",
+          "size": 428409,
+          "sha512": "eb3e978f235374fa226c7c8906157e867f69dc70c1842a079c722b414e548d0c428bd7c9224273c3c75eda6d67233ae31c41af5f8cc8fd63d3d23f131966f63e",
+          "sha256": "3c608ff0f702339d1b35ec9dd7914028f7bc06d8693f2a50fc2dc009698a775d",
+          "sha1": "f909717a80e526d3bd28ff4995526128e6411ba6",
+          "md5": "93cdb47c66fd4c31180ca483f22d13b4"
+        }
+      ]
+    }
+  ]
+}

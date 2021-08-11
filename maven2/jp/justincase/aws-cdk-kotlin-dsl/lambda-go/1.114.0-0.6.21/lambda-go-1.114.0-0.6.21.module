@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "lambda-go",
+    "version": "1.114.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "eyeo232rubbsjhxluyggv7snsq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "lambda-go",
+          "version": {
+            "requires": "1.114.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.114.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.114.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lambda-go-1.114.0-0.6.21.jar",
+          "url": "lambda-go-1.114.0-0.6.21.jar",
+          "size": 24032,
+          "sha512": "9bd2c0d2e28176aefdf72491785ae80adf876901a86ccf305ec59736971469e8305dc3d1433acf5c32d71c8d01ae4a7d54479f742e4207535012639c175db196",
+          "sha256": "241f2bbe607b902740a8cb0b6879918e4bc6312c560b6d383394325731794e6b",
+          "sha1": "f9b42cfd1fd957a5589238113f63bca218d656a9",
+          "md5": "a318ad1315a4a641dc5b8f30ad486ef4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.114.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "lambda-go",
+          "version": {
+            "requires": "1.114.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.114.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.114.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lambda-go-1.114.0-0.6.21.jar",
+          "url": "lambda-go-1.114.0-0.6.21.jar",
+          "size": 24032,
+          "sha512": "9bd2c0d2e28176aefdf72491785ae80adf876901a86ccf305ec59736971469e8305dc3d1433acf5c32d71c8d01ae4a7d54479f742e4207535012639c175db196",
+          "sha256": "241f2bbe607b902740a8cb0b6879918e4bc6312c560b6d383394325731794e6b",
+          "sha1": "f9b42cfd1fd957a5589238113f63bca218d656a9",
+          "md5": "a318ad1315a4a641dc5b8f30ad486ef4"
+        }
+      ]
+    }
+  ]
+}

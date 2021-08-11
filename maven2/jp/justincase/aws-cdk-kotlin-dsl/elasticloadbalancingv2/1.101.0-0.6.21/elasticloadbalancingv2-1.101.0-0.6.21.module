@@ -1,0 +1,244 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "elasticloadbalancingv2",
+    "version": "1.101.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "d5vusioiqzbnxk6vuwjeusvgpu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "elasticloadbalancingv2",
+          "version": {
+            "requires": "1.101.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "certificatemanager",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudwatch",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cloud-assembly-schema",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-region-info",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticloadbalancingv2-1.101.0-0.6.21.jar",
+          "url": "elasticloadbalancingv2-1.101.0-0.6.21.jar",
+          "size": 612571,
+          "sha512": "acc8e5aed037b8a2a23aba2126c28b28cb9269faeb236f069aec6c5b4b5e29775cd98bb6b30978ff9fe4f7a8c6772ffb077121d836206d50863b129e4a7859cb",
+          "sha256": "de5be942dc69229104c4a9ad836d99ae06c73d82ba7c0068636581dae4dc08a9",
+          "sha1": "6177e3dce5e7b046ca787e2696b5f94b8f433de0",
+          "md5": "e3039c95e7f93b2a42eaebfb426f507d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.101.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "elasticloadbalancingv2",
+          "version": {
+            "requires": "1.101.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "certificatemanager",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudwatch",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cloud-assembly-schema",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-region-info",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticloadbalancingv2-1.101.0-0.6.21.jar",
+          "url": "elasticloadbalancingv2-1.101.0-0.6.21.jar",
+          "size": 612571,
+          "sha512": "acc8e5aed037b8a2a23aba2126c28b28cb9269faeb236f069aec6c5b4b5e29775cd98bb6b30978ff9fe4f7a8c6772ffb077121d836206d50863b129e4a7859cb",
+          "sha256": "de5be942dc69229104c4a9ad836d99ae06c73d82ba7c0068636581dae4dc08a9",
+          "sha1": "6177e3dce5e7b046ca787e2696b5f94b8f433de0",
+          "md5": "e3039c95e7f93b2a42eaebfb426f507d"
+        }
+      ]
+    }
+  ]
+}

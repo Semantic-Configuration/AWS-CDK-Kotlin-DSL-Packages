@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "codecommit",
+    "version": "1.106.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "apa3jttzlbgsjbklj7vcehaque"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codecommit",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "events",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codecommit-1.106.1-0.6.21.jar",
+          "url": "codecommit-1.106.1-0.6.21.jar",
+          "size": 56759,
+          "sha512": "5c089e2daeecc1369421c9b5495459c2fd1ca802a3a480c36e34a8fb263f7d4084a5221cdfad002038b3667ea5e281bb9118a935f2c314a0e2d7dbb14f97b17e",
+          "sha256": "aabb57d84d7dcd665b12ed1ce7823709de5a60d453ea6a44cc04831ee1d4c4aa",
+          "sha1": "776bafbc4f649b7c299fec5e639850c6f496af99",
+          "md5": "5a0348ffd6b5d1532fdece377dd0ded"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codecommit",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "events",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codecommit-1.106.1-0.6.21.jar",
+          "url": "codecommit-1.106.1-0.6.21.jar",
+          "size": 56759,
+          "sha512": "5c089e2daeecc1369421c9b5495459c2fd1ca802a3a480c36e34a8fb263f7d4084a5221cdfad002038b3667ea5e281bb9118a935f2c314a0e2d7dbb14f97b17e",
+          "sha256": "aabb57d84d7dcd665b12ed1ce7823709de5a60d453ea6a44cc04831ee1d4c4aa",
+          "sha1": "776bafbc4f649b7c299fec5e639850c6f496af99",
+          "md5": "5a0348ffd6b5d1532fdece377dd0ded"
+        }
+      ]
+    }
+  ]
+}

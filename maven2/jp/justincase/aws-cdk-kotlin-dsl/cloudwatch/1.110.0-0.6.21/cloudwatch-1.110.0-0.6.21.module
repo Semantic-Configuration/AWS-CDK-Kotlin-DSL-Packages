@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "cloudwatch",
+    "version": "1.110.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "cnrjfrtzdvad5bhmsg7msamtuq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cloudwatch",
+          "version": {
+            "requires": "1.110.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.110.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cloudwatch-1.110.0-0.6.21.jar",
+          "url": "cloudwatch-1.110.0-0.6.21.jar",
+          "size": 334808,
+          "sha512": "6cfa90da40b7b0b4c833e2a3473f218b02d83b7a0336ab1e935d467ced0ae8d96e9c27d03d4ccc6dc89580bae9b8b3df7b2d56bafbcd7d4ec1265744891abf76",
+          "sha256": "5cd555861be05746544117d5ba3bab7d52890348a0e3e608f53f0c6c866800ea",
+          "sha1": "e643f4279ab834015076d1b8791600a44807c1bc",
+          "md5": "b51ebfcc5868151e76a618f04b7a61e8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.110.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cloudwatch",
+          "version": {
+            "requires": "1.110.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.110.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cloudwatch-1.110.0-0.6.21.jar",
+          "url": "cloudwatch-1.110.0-0.6.21.jar",
+          "size": 334808,
+          "sha512": "6cfa90da40b7b0b4c833e2a3473f218b02d83b7a0336ab1e935d467ced0ae8d96e9c27d03d4ccc6dc89580bae9b8b3df7b2d56bafbcd7d4ec1265744891abf76",
+          "sha256": "5cd555861be05746544117d5ba3bab7d52890348a0e3e608f53f0c6c866800ea",
+          "sha1": "e643f4279ab834015076d1b8791600a44807c1bc",
+          "md5": "b51ebfcc5868151e76a618f04b7a61e8"
+        }
+      ]
+    }
+  ]
+}

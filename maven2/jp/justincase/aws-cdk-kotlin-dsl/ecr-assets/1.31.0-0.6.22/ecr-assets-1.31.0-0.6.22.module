@@ -1,0 +1,215 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "ecr-assets",
+    "version": "1.31.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "ecr-assets",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-assets",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudformation",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ecr",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ecr-assets-1.31.0-0.6.22.jar",
+          "url": "ecr-assets-1.31.0-0.6.22.jar",
+          "size": 14781,
+          "sha512": "edf9b4862c14146146dee7c1850f014e762feb1e0f254d0936331c7594002b49e74d32a6499b34ab32b29b47b83221f6d48078c7c0d5af2e7d99621825f6b77d",
+          "sha256": "f85cb6ef02957c3543758459304236fd2298756b7b364ec0348326b8c2eea8a3",
+          "sha1": "50c232a5ef77b7cced23be0bf49dcc3c1c04ec66",
+          "md5": "9354acc3ab975945e55dbf7a673b13f7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "ecr-assets",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-assets",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudformation",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ecr",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ecr-assets-1.31.0-0.6.22.jar",
+          "url": "ecr-assets-1.31.0-0.6.22.jar",
+          "size": 14781,
+          "sha512": "edf9b4862c14146146dee7c1850f014e762feb1e0f254d0936331c7594002b49e74d32a6499b34ab32b29b47b83221f6d48078c7c0d5af2e7d99621825f6b77d",
+          "sha256": "f85cb6ef02957c3543758459304236fd2298756b7b364ec0348326b8c2eea8a3",
+          "sha1": "50c232a5ef77b7cced23be0bf49dcc3c1c04ec66",
+          "md5": "9354acc3ab975945e55dbf7a673b13f7"
+        }
+      ]
+    }
+  ]
+}

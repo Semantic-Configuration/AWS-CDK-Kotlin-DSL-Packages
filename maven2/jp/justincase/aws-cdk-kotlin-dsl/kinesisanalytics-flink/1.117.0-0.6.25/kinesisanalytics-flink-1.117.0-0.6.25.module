@@ -1,0 +1,215 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "kinesisanalytics-flink",
+    "version": "1.117.0-0.6.25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "kinesisanalytics-flink",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-assets",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kinesisanalytics",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "logs",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3-assets",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kinesisanalytics-flink-1.117.0-0.6.25.jar",
+          "url": "kinesisanalytics-flink-1.117.0-0.6.25.jar",
+          "size": 20256,
+          "sha512": "38273cbabc31aa6fb60d3d5392c71cddfdfbbb8d5523c021bbef758715f13cb68069ff27944427e75bc7f0249587218aa1df10bc451035321a2ca47f977e65b2",
+          "sha256": "a994013e0a5c90069934230b21988b30c6201b722001feec7a6e6b3ce0809f12",
+          "sha1": "e201b58f43f7301a1a1e18489c5641ffd1fbd04e",
+          "md5": "ab90b489a8b4052f6b6177de9a5768e1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.25"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "kinesisanalytics-flink",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-assets",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kinesisanalytics",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "logs",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3-assets",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kinesisanalytics-flink-1.117.0-0.6.25.jar",
+          "url": "kinesisanalytics-flink-1.117.0-0.6.25.jar",
+          "size": 20256,
+          "sha512": "38273cbabc31aa6fb60d3d5392c71cddfdfbbb8d5523c021bbef758715f13cb68069ff27944427e75bc7f0249587218aa1df10bc451035321a2ca47f977e65b2",
+          "sha256": "a994013e0a5c90069934230b21988b30c6201b722001feec7a6e6b3ce0809f12",
+          "sha1": "e201b58f43f7301a1a1e18489c5641ffd1fbd04e",
+          "md5": "ab90b489a8b4052f6b6177de9a5768e1"
+        }
+      ]
+    }
+  ]
+}

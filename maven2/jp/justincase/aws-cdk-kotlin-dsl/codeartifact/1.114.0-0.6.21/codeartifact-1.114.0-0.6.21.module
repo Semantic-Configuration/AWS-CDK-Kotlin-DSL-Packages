@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "codeartifact",
+    "version": "1.114.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "eyeo232rubbsjhxluyggv7snsq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codeartifact",
+          "version": {
+            "requires": "1.114.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.114.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codeartifact-1.114.0-0.6.21.jar",
+          "url": "codeartifact-1.114.0-0.6.21.jar",
+          "size": 17914,
+          "sha512": "e22f0a5442e6ff645eaa3e3477ca8ed72d914c26fcdb1dca90209c5463e3f73c4bdd1dd2493b9cd5d85ead066c0eaaa5266f92d2275752194f2850b8b1b46155",
+          "sha256": "53590eefa02e97ef0e5e3227ffc5daa911e7e64d9d85d806b0f3c8fbd3160235",
+          "sha1": "d98e0625951745b6625454ff8f0bf38d9d49b103",
+          "md5": "ce2ca38e543a21450bd5e2b71daf2d56"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.114.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codeartifact",
+          "version": {
+            "requires": "1.114.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.114.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codeartifact-1.114.0-0.6.21.jar",
+          "url": "codeartifact-1.114.0-0.6.21.jar",
+          "size": 17914,
+          "sha512": "e22f0a5442e6ff645eaa3e3477ca8ed72d914c26fcdb1dca90209c5463e3f73c4bdd1dd2493b9cd5d85ead066c0eaaa5266f92d2275752194f2850b8b1b46155",
+          "sha256": "53590eefa02e97ef0e5e3227ffc5daa911e7e64d9d85d806b0f3c8fbd3160235",
+          "sha1": "d98e0625951745b6625454ff8f0bf38d9d49b103",
+          "md5": "ce2ca38e543a21450bd5e2b71daf2d56"
+        }
+      ]
+    }
+  ]
+}

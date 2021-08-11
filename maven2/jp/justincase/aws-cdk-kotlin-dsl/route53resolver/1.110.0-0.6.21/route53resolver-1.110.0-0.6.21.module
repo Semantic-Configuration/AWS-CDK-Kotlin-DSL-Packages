@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "route53resolver",
+    "version": "1.110.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "cnrjfrtzdvad5bhmsg7msamtuq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "route53resolver",
+          "version": {
+            "requires": "1.110.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "route53resolver-1.110.0-0.6.21.jar",
+          "url": "route53resolver-1.110.0-0.6.21.jar",
+          "size": 108551,
+          "sha512": "ae05b45bdff992a5302f520d8fbe21c4f421f22fa1a775d080ada226249e3320c6824794b2057ec27161df3418ab6330a65304282102891bc6d2692c2f01fefd",
+          "sha256": "4c719884c1a6577a1eb9844994ef052419f1238041f49621014bb2cfc338182d",
+          "sha1": "fa694e42bc64a74722857cded6bcd0345cac423e",
+          "md5": "17e0a3d23eeae97f5e64fb76996599fb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.110.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "route53resolver",
+          "version": {
+            "requires": "1.110.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "route53resolver-1.110.0-0.6.21.jar",
+          "url": "route53resolver-1.110.0-0.6.21.jar",
+          "size": 108551,
+          "sha512": "ae05b45bdff992a5302f520d8fbe21c4f421f22fa1a775d080ada226249e3320c6824794b2057ec27161df3418ab6330a65304282102891bc6d2692c2f01fefd",
+          "sha256": "4c719884c1a6577a1eb9844994ef052419f1238041f49621014bb2cfc338182d",
+          "sha1": "fa694e42bc64a74722857cded6bcd0345cac423e",
+          "md5": "17e0a3d23eeae97f5e64fb76996599fb"
+        }
+      ]
+    }
+  ]
+}

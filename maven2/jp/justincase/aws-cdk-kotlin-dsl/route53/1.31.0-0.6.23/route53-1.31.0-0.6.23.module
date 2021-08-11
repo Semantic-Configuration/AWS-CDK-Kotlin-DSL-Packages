@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "route53",
+    "version": "1.31.0-0.6.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "route53",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "logs",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "route53-1.31.0-0.6.23.jar",
+          "url": "route53-1.31.0-0.6.23.jar",
+          "size": 335443,
+          "sha512": "286500877e70bd1b17aa01b89569e8d7bd75f3e107327b0da6571ad2bc2ca43810e6433634da060affccfd93fb52c7c40541e287d9dc2279dc90add930255c9e",
+          "sha256": "8b05d6a52374d48f43dc1addff97031c6205932aac1648a5bec88c34ccd3d14e",
+          "sha1": "04bf563e8b5c06bbb2aecf6187ae54b1e2d4ae1c",
+          "md5": "c82d7006663e3a410f5773fcdf1809ea"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.23"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "route53",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "logs",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "route53-1.31.0-0.6.23.jar",
+          "url": "route53-1.31.0-0.6.23.jar",
+          "size": 335443,
+          "sha512": "286500877e70bd1b17aa01b89569e8d7bd75f3e107327b0da6571ad2bc2ca43810e6433634da060affccfd93fb52c7c40541e287d9dc2279dc90add930255c9e",
+          "sha256": "8b05d6a52374d48f43dc1addff97031c6205932aac1648a5bec88c34ccd3d14e",
+          "sha1": "04bf563e8b5c06bbb2aecf6187ae54b1e2d4ae1c",
+          "md5": "c82d7006663e3a410f5773fcdf1809ea"
+        }
+      ]
+    }
+  ]
+}

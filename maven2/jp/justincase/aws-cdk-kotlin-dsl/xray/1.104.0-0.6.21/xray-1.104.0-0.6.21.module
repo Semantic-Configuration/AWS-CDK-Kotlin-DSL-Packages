@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "xray",
+    "version": "1.104.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "qufggsntgrgwvj22f7mprctb2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "xray",
+          "version": {
+            "requires": "1.104.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.104.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "xray-1.104.0-0.6.21.jar",
+          "url": "xray-1.104.0-0.6.21.jar",
+          "size": 91780,
+          "sha512": "a217dc34f51fa320d4cef0084c7ccca020c37e26c50a61b45d0b10d194f75c02d21cd678ed3c51b861d5e7373a91260588e8e898026fb5fd20c5c325fc890cbc",
+          "sha256": "550be733cb2d3219d4979d3f568d467deed8138c19854e06d35e4e4efc94d2fc",
+          "sha1": "f56b24b1a85cad4299622cdb36147745895744cd",
+          "md5": "58bf875506c5ab744cd864a4243f0374"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.104.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "xray",
+          "version": {
+            "requires": "1.104.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.104.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "xray-1.104.0-0.6.21.jar",
+          "url": "xray-1.104.0-0.6.21.jar",
+          "size": 91780,
+          "sha512": "a217dc34f51fa320d4cef0084c7ccca020c37e26c50a61b45d0b10d194f75c02d21cd678ed3c51b861d5e7373a91260588e8e898026fb5fd20c5c325fc890cbc",
+          "sha256": "550be733cb2d3219d4979d3f568d467deed8138c19854e06d35e4e4efc94d2fc",
+          "sha1": "f56b24b1a85cad4299622cdb36147745895744cd",
+          "md5": "58bf875506c5ab744cd864a4243f0374"
+        }
+      ]
+    }
+  ]
+}

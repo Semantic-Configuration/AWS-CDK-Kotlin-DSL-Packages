@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "managedblockchain",
+    "version": "1.105.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "6ksfungeebg7lbcagzumy3ww64"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "managedblockchain",
+          "version": {
+            "requires": "1.105.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "managedblockchain-1.105.0-0.6.21.jar",
+          "url": "managedblockchain-1.105.0-0.6.21.jar",
+          "size": 105056,
+          "sha512": "f7e5bdac777480a67e7c721d1506bc64be43e1c15af7623fac517b643b107b45b7de8dfee1c436449e2afe915d1ea1776d58180e74af4425b1af889be4940b94",
+          "sha256": "8b8e4ae2843e663b02a62a9b64d62606b1a70cbce81b7a88aeb173cfd5723a0a",
+          "sha1": "73cb4a2505713cc5dfa61ee88f59cfeaddfaa619",
+          "md5": "3f46e90795008fc45a235a4acb7ff827"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.105.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "managedblockchain",
+          "version": {
+            "requires": "1.105.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "managedblockchain-1.105.0-0.6.21.jar",
+          "url": "managedblockchain-1.105.0-0.6.21.jar",
+          "size": 105056,
+          "sha512": "f7e5bdac777480a67e7c721d1506bc64be43e1c15af7623fac517b643b107b45b7de8dfee1c436449e2afe915d1ea1776d58180e74af4425b1af889be4940b94",
+          "sha256": "8b8e4ae2843e663b02a62a9b64d62606b1a70cbce81b7a88aeb173cfd5723a0a",
+          "sha1": "73cb4a2505713cc5dfa61ee88f59cfeaddfaa619",
+          "md5": "3f46e90795008fc45a235a4acb7ff827"
+        }
+      ]
+    }
+  ]
+}

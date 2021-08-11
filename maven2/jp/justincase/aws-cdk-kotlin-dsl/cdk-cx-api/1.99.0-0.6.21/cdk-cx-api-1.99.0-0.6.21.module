@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "cdk-cx-api",
+    "version": "1.99.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "77l3wsmng5dcnbpnx6e7ui64wu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.99.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cloud-assembly-schema",
+          "version": {
+            "requires": "1.99.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cdk-cx-api-1.99.0-0.6.21.jar",
+          "url": "cdk-cx-api-1.99.0-0.6.21.jar",
+          "size": 76025,
+          "sha512": "bb42882efce05bea3d0ed18a8a0307e842529d02558d5b93138604b079704a99908683266832194e7417b7c73c635986c759715b7b8b5e7f7290c4f06ef734e7",
+          "sha256": "101f66ff2b71da2d66a179608aa728722226907b9dbed1d68e8d679140d2d71c",
+          "sha1": "f729d4f79ed20edc618c70b9ad2b37374d86694f",
+          "md5": "717c939f688e95ed47d284c00abee691"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.99.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.99.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cloud-assembly-schema",
+          "version": {
+            "requires": "1.99.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cdk-cx-api-1.99.0-0.6.21.jar",
+          "url": "cdk-cx-api-1.99.0-0.6.21.jar",
+          "size": 76025,
+          "sha512": "bb42882efce05bea3d0ed18a8a0307e842529d02558d5b93138604b079704a99908683266832194e7417b7c73c635986c759715b7b8b5e7f7290c4f06ef734e7",
+          "sha256": "101f66ff2b71da2d66a179608aa728722226907b9dbed1d68e8d679140d2d71c",
+          "sha1": "f729d4f79ed20edc618c70b9ad2b37374d86694f",
+          "md5": "717c939f688e95ed47d284c00abee691"
+        }
+      ]
+    }
+  ]
+}

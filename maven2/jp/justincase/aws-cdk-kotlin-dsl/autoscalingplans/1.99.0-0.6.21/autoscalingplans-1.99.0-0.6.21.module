@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "autoscalingplans",
+    "version": "1.99.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "77l3wsmng5dcnbpnx6e7ui64wu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "autoscalingplans",
+          "version": {
+            "requires": "1.99.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.99.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "autoscalingplans-1.99.0-0.6.21.jar",
+          "url": "autoscalingplans-1.99.0-0.6.21.jar",
+          "size": 109972,
+          "sha512": "39a57bf4d7893a7f4272d66ae4edfc0301e57f42aa466a6fb9d3e3b297ee5ac583e025980ef4f11a948b94cd07d47a599d8027a63675f1de85ab3eab08293a58",
+          "sha256": "e7378dabe1e139ba8eccf93974ba8c66e88b5de512af8e52bfddbf01b5b610f8",
+          "sha1": "4540ff4f0259b1ef7f261a0845103d8ef9038c03",
+          "md5": "76c18f78cac47772aa0392093cb31c30"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.99.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "autoscalingplans",
+          "version": {
+            "requires": "1.99.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.99.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "autoscalingplans-1.99.0-0.6.21.jar",
+          "url": "autoscalingplans-1.99.0-0.6.21.jar",
+          "size": 109972,
+          "sha512": "39a57bf4d7893a7f4272d66ae4edfc0301e57f42aa466a6fb9d3e3b297ee5ac583e025980ef4f11a948b94cd07d47a599d8027a63675f1de85ab3eab08293a58",
+          "sha256": "e7378dabe1e139ba8eccf93974ba8c66e88b5de512af8e52bfddbf01b5b610f8",
+          "sha1": "4540ff4f0259b1ef7f261a0845103d8ef9038c03",
+          "md5": "76c18f78cac47772aa0392093cb31c30"
+        }
+      ]
+    }
+  ]
+}

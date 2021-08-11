@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "iotthingsgraph",
+    "version": "1.106.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "dr3fova3trezxe3kqt6fk3hm3m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iotthingsgraph",
+          "version": {
+            "requires": "1.106.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iotthingsgraph-1.106.0-0.6.21.jar",
+          "url": "iotthingsgraph-1.106.0-0.6.21.jar",
+          "size": 22260,
+          "sha512": "916e66568338b074b82c5bae15004a2107677fc1fba6cba69e46c1b9d01e8df961566278c7cc8f6ec735b9ed7f10f41e8ae359686b5eb83330f243063f5ccd0",
+          "sha256": "2e9a55fa9a6d6089061eec3193fcbd1f5277d01bde43cd1f034edb477049d08c",
+          "sha1": "6aedb334fc56d405f5541fd018e5eeb969082039",
+          "md5": "7765fb4a5bb35453cb6faa01ef1c21ab"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.106.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iotthingsgraph",
+          "version": {
+            "requires": "1.106.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iotthingsgraph-1.106.0-0.6.21.jar",
+          "url": "iotthingsgraph-1.106.0-0.6.21.jar",
+          "size": 22260,
+          "sha512": "916e66568338b074b82c5bae15004a2107677fc1fba6cba69e46c1b9d01e8df961566278c7cc8f6ec735b9ed7f10f41e8ae359686b5eb83330f243063f5ccd0",
+          "sha256": "2e9a55fa9a6d6089061eec3193fcbd1f5277d01bde43cd1f034edb477049d08c",
+          "sha1": "6aedb334fc56d405f5541fd018e5eeb969082039",
+          "md5": "7765fb4a5bb35453cb6faa01ef1c21ab"
+        }
+      ]
+    }
+  ]
+}

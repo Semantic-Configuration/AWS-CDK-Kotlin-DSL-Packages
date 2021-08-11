@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "certificatemanager",
+    "version": "1.105.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "6ksfungeebg7lbcagzumy3ww64"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "certificatemanager",
+          "version": {
+            "requires": "1.105.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "route53",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "certificatemanager-1.105.0-0.6.21.jar",
+          "url": "certificatemanager-1.105.0-0.6.21.jar",
+          "size": 64646,
+          "sha512": "670cc37c2e3bee7d8418fda08ad35f60c7d366909cd247ec5db8b16132bc35693e99927927be4b37231e516a57d613f4dab03554238b5e7c7cfae51b158944e6",
+          "sha256": "383e2ab236b4b828ed09836c2aaf141cd0cd7e66ad926f4506389506b58221ad",
+          "sha1": "cd9e4fc5808946bfb1edd9c41e9fa23c8047a3dd",
+          "md5": "f52653591d27ddec59a9f22e8ddf1873"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.105.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "certificatemanager",
+          "version": {
+            "requires": "1.105.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "route53",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "certificatemanager-1.105.0-0.6.21.jar",
+          "url": "certificatemanager-1.105.0-0.6.21.jar",
+          "size": 64646,
+          "sha512": "670cc37c2e3bee7d8418fda08ad35f60c7d366909cd247ec5db8b16132bc35693e99927927be4b37231e516a57d613f4dab03554238b5e7c7cfae51b158944e6",
+          "sha256": "383e2ab236b4b828ed09836c2aaf141cd0cd7e66ad926f4506389506b58221ad",
+          "sha1": "cd9e4fc5808946bfb1edd9c41e9fa23c8047a3dd",
+          "md5": "f52653591d27ddec59a9f22e8ddf1873"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "cloud9",
+    "version": "1.34.1-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cloud9",
+          "version": {
+            "requires": "1.34.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.34.1-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.1-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cloud9-1.34.1-0.6.22.jar",
+          "url": "cloud9-1.34.1-0.6.22.jar",
+          "size": 31176,
+          "sha512": "8884f98880a20038cf543d7744d93cf8b1148cf153193bda36c640b69e528112f63c535168c229527a7ba85f0ad8ee6415bf89dd87de05bad4cd98160d679388",
+          "sha256": "53ac38d335a2a6aad6efdcc38f2f7972aed0e7d753c961289ac23d0d3ff94783",
+          "sha1": "634af95633f3754aed520fe2d5f0ff766bc50897",
+          "md5": "36d48b47ef468a682dcbb4941367f55f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.34.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cloud9",
+          "version": {
+            "requires": "1.34.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.34.1-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.1-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cloud9-1.34.1-0.6.22.jar",
+          "url": "cloud9-1.34.1-0.6.22.jar",
+          "size": 31176,
+          "sha512": "8884f98880a20038cf543d7744d93cf8b1148cf153193bda36c640b69e528112f63c535168c229527a7ba85f0ad8ee6415bf89dd87de05bad4cd98160d679388",
+          "sha256": "53ac38d335a2a6aad6efdcc38f2f7972aed0e7d753c961289ac23d0d3ff94783",
+          "sha1": "634af95633f3754aed520fe2d5f0ff766bc50897",
+          "md5": "36d48b47ef468a682dcbb4941367f55f"
+        }
+      ]
+    }
+  ]
+}

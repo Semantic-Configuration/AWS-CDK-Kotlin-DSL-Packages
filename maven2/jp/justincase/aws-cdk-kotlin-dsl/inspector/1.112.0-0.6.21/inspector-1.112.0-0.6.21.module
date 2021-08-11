@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "inspector",
+    "version": "1.112.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "635otboqmzf4dpqli6tn2j4rca"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "inspector",
+          "version": {
+            "requires": "1.112.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inspector-1.112.0-0.6.21.jar",
+          "url": "inspector-1.112.0-0.6.21.jar",
+          "size": 41158,
+          "sha512": "d057ee4fc6ebdc37ed50b512d78221f2ce270bfb93b462401cbce1d537d077ea62056fd02ce17f2f201fbd26c22731c3ccc79f65014b61d247da828e81efbbee",
+          "sha256": "488a7034e8264561b9edcd56567ea33ffeda621afec2938d31c2985ff517af9b",
+          "sha1": "212d4507458bd41da58a7894f0323eb03c02729e",
+          "md5": "4322686625aea1de7b342a0ad53cfabf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.112.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "inspector",
+          "version": {
+            "requires": "1.112.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inspector-1.112.0-0.6.21.jar",
+          "url": "inspector-1.112.0-0.6.21.jar",
+          "size": 41158,
+          "sha512": "d057ee4fc6ebdc37ed50b512d78221f2ce270bfb93b462401cbce1d537d077ea62056fd02ce17f2f201fbd26c22731c3ccc79f65014b61d247da828e81efbbee",
+          "sha256": "488a7034e8264561b9edcd56567ea33ffeda621afec2938d31c2985ff517af9b",
+          "sha1": "212d4507458bd41da58a7894f0323eb03c02729e",
+          "md5": "4322686625aea1de7b342a0ad53cfabf"
+        }
+      ]
+    }
+  ]
+}

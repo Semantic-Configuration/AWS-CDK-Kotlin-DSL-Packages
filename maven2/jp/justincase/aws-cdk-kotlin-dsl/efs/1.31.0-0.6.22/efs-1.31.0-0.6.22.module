@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "efs",
+    "version": "1.31.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "efs",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "efs-1.31.0-0.6.22.jar",
+          "url": "efs-1.31.0-0.6.22.jar",
+          "size": 62908,
+          "sha512": "c6b9d5f274c7fc8251ead596ce309fc13df3d81fef98a5f52689b00fb2783281a86a0cf442d22f0c6ff6b46bf0223b09025004f2a56100bbb4f086def9dd628f",
+          "sha256": "c776da9a74995af8205b0f88937ccaeefd691d58bfc28e0b07c2f3787c9ae435",
+          "sha1": "256f59b59fc73123b7f96b5f17ca848ebdbd5a66",
+          "md5": "e29fc6c20817c4f151aed20183ca113c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "efs",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "efs-1.31.0-0.6.22.jar",
+          "url": "efs-1.31.0-0.6.22.jar",
+          "size": 62908,
+          "sha512": "c6b9d5f274c7fc8251ead596ce309fc13df3d81fef98a5f52689b00fb2783281a86a0cf442d22f0c6ff6b46bf0223b09025004f2a56100bbb4f086def9dd628f",
+          "sha256": "c776da9a74995af8205b0f88937ccaeefd691d58bfc28e0b07c2f3787c9ae435",
+          "sha1": "256f59b59fc73123b7f96b5f17ca848ebdbd5a66",
+          "md5": "e29fc6c20817c4f151aed20183ca113c"
+        }
+      ]
+    }
+  ]
+}

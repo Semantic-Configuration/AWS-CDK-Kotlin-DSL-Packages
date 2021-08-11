@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "iotanalytics",
+    "version": "1.103.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "scwtlzl2vng5vmpmjwmjvsfnoa"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iotanalytics",
+          "version": {
+            "requires": "1.103.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.103.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iotanalytics-1.103.0-0.6.21.jar",
+          "url": "iotanalytics-1.103.0-0.6.21.jar",
+          "size": 472941,
+          "sha512": "fc70bf05b28156eabae6bc4511c08af7ddb66eb2990ca2398afbb248b63d13d1c2ff3c22cc3c3044234be995235bed570472f91e30929a8e588d0a2f63c54136",
+          "sha256": "8c1f457a4af53a53433dd4833a7ce3ea79b7e13bb02e77f8f4c95b85bed06a76",
+          "sha1": "e9fc9c2bc57ccccadc074e192d0cacb744fff69a",
+          "md5": "b6d53ed9ccf417755097bc141fa4d6d4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.103.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iotanalytics",
+          "version": {
+            "requires": "1.103.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.103.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iotanalytics-1.103.0-0.6.21.jar",
+          "url": "iotanalytics-1.103.0-0.6.21.jar",
+          "size": 472941,
+          "sha512": "fc70bf05b28156eabae6bc4511c08af7ddb66eb2990ca2398afbb248b63d13d1c2ff3c22cc3c3044234be995235bed570472f91e30929a8e588d0a2f63c54136",
+          "sha256": "8c1f457a4af53a53433dd4833a7ce3ea79b7e13bb02e77f8f4c95b85bed06a76",
+          "sha1": "e9fc9c2bc57ccccadc074e192d0cacb744fff69a",
+          "md5": "b6d53ed9ccf417755097bc141fa4d6d4"
+        }
+      ]
+    }
+  ]
+}

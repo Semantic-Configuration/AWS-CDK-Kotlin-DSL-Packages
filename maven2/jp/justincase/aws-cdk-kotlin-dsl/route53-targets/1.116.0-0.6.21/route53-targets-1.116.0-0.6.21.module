@@ -1,0 +1,272 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "route53-targets",
+    "version": "1.116.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "u6lzbl5mhzberecib7k5lnyrnq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "route53-targets",
+          "version": {
+            "requires": "1.116.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "apigateway",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudfront",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cognito",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "elasticloadbalancing",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "elasticloadbalancingv2",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "globalaccelerator",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "route53",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-region-info",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "route53-targets-1.116.0-0.6.21.jar",
+          "url": "route53-targets-1.116.0-0.6.21.jar",
+          "size": 432,
+          "sha512": "cac6750153bab67068ad260782d8609910a64a7bb1b1d6ca8eba0e4ab27bef9d84a0c9a42ea8f8f9eca24f7d9c3a54df4b3735a50f57d3c87a7393a097c47e50",
+          "sha256": "5c78a18ee6d74a9fcb069487fd0cc653c30b70d60b340075d2847a25b6ee0293",
+          "sha1": "4b9263b18ffcb7ec873ae4387b99f808a83b67ee",
+          "md5": "a5d3f66cdd4f59cc8d98665107037b68"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.116.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "route53-targets",
+          "version": {
+            "requires": "1.116.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "apigateway",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cloudfront",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cognito",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "elasticloadbalancing",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "elasticloadbalancingv2",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "globalaccelerator",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "route53",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-region-info",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "route53-targets-1.116.0-0.6.21.jar",
+          "url": "route53-targets-1.116.0-0.6.21.jar",
+          "size": 432,
+          "sha512": "cac6750153bab67068ad260782d8609910a64a7bb1b1d6ca8eba0e4ab27bef9d84a0c9a42ea8f8f9eca24f7d9c3a54df4b3735a50f57d3c87a7393a097c47e50",
+          "sha256": "5c78a18ee6d74a9fcb069487fd0cc653c30b70d60b340075d2847a25b6ee0293",
+          "sha1": "4b9263b18ffcb7ec873ae4387b99f808a83b67ee",
+          "md5": "a5d3f66cdd4f59cc8d98665107037b68"
+        }
+      ]
+    }
+  ]
+}

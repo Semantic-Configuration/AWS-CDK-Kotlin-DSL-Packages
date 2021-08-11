@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "budgets",
+    "version": "1.59.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "budgets",
+          "version": {
+            "requires": "1.59.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.59.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "budgets-1.59.0-0.6.22.jar",
+          "url": "budgets-1.59.0-0.6.22.jar",
+          "size": 121014,
+          "sha512": "5419eb5c10acab479d49d5ac640694cfdfad60a689d5b3b997606ec46adf8a412cd13c07a38f9ec345517aaedf2be2add5556e1741bf23a836e8e6a1d3b222bb",
+          "sha256": "253214cbe82bc72fca58305df7d3dde8d1a438c42f38a01bba2f4f97489e31cc",
+          "sha1": "5eaf22ddfd5cdfa6d8e266e66c7470d5eca115a2",
+          "md5": "849bde83b4ca210859a6f8b022dd3945"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.59.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "budgets",
+          "version": {
+            "requires": "1.59.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.59.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "budgets-1.59.0-0.6.22.jar",
+          "url": "budgets-1.59.0-0.6.22.jar",
+          "size": 121014,
+          "sha512": "5419eb5c10acab479d49d5ac640694cfdfad60a689d5b3b997606ec46adf8a412cd13c07a38f9ec345517aaedf2be2add5556e1741bf23a836e8e6a1d3b222bb",
+          "sha256": "253214cbe82bc72fca58305df7d3dde8d1a438c42f38a01bba2f4f97489e31cc",
+          "sha1": "5eaf22ddfd5cdfa6d8e266e66c7470d5eca115a2",
+          "md5": "849bde83b4ca210859a6f8b022dd3945"
+        }
+      ]
+    }
+  ]
+}

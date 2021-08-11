@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "emr",
+    "version": "1.31.0-0.6.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "emr",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "emr-1.31.0-0.6.23.jar",
+          "url": "emr-1.31.0-0.6.23.jar",
+          "size": 566088,
+          "sha512": "5e43a26f3ea60368fabff7c1af6b9116dbd5bb87d78a15d5a44ae69a852eb9610ef961aa03e027245e3355a24839a3fdf6eb52c34411764605e33a063d104be3",
+          "sha256": "ef9de162ad52e498806a7b7c90fac54a151cc69137c0ed33438bebe3ebe1ed87",
+          "sha1": "90c58809b90372fca7e2f7a03cdc11ee1a586b28",
+          "md5": "6226a68b8eecafec9b4e15d2f4d98d45"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.23"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "emr",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "emr-1.31.0-0.6.23.jar",
+          "url": "emr-1.31.0-0.6.23.jar",
+          "size": 566088,
+          "sha512": "5e43a26f3ea60368fabff7c1af6b9116dbd5bb87d78a15d5a44ae69a852eb9610ef961aa03e027245e3355a24839a3fdf6eb52c34411764605e33a063d104be3",
+          "sha256": "ef9de162ad52e498806a7b7c90fac54a151cc69137c0ed33438bebe3ebe1ed87",
+          "sha1": "90c58809b90372fca7e2f7a03cdc11ee1a586b28",
+          "md5": "6226a68b8eecafec9b4e15d2f4d98d45"
+        }
+      ]
+    }
+  ]
+}

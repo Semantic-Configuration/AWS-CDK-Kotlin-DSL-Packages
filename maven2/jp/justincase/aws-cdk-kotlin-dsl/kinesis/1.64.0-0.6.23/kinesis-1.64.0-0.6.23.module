@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "kinesis",
+    "version": "1.64.0-0.6.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "kinesis",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.64.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.64.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "logs",
+          "version": {
+            "requires": "1.64.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kinesis-1.64.0-0.6.23.jar",
+          "url": "kinesis-1.64.0-0.6.23.jar",
+          "size": 40311,
+          "sha512": "59ed0e89f9e7d34ce7f31153f1364dee80c8cb851e50ce9fe3dccfeda2bd2723d4f67802df6e0a34dd7c3e282dfdbea8d1db14c6347a751a69258de8788e47ed",
+          "sha256": "d317d99dfbcbc0f6e979e896d81545600e30752b2cf1eb77e211236257fa02bd",
+          "sha1": "ca5549d714efc8fcd7a707b4c30bbeb2a5e290b4",
+          "md5": "30d14ac8f7bcca1d032a4c40c44a68a7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.23"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "kinesis",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.64.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "kms",
+          "version": {
+            "requires": "1.64.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "logs",
+          "version": {
+            "requires": "1.64.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kinesis-1.64.0-0.6.23.jar",
+          "url": "kinesis-1.64.0-0.6.23.jar",
+          "size": 40311,
+          "sha512": "59ed0e89f9e7d34ce7f31153f1364dee80c8cb851e50ce9fe3dccfeda2bd2723d4f67802df6e0a34dd7c3e282dfdbea8d1db14c6347a751a69258de8788e47ed",
+          "sha256": "d317d99dfbcbc0f6e979e896d81545600e30752b2cf1eb77e211236257fa02bd",
+          "sha1": "ca5549d714efc8fcd7a707b4c30bbeb2a5e290b4",
+          "md5": "30d14ac8f7bcca1d032a4c40c44a68a7"
+        }
+      ]
+    }
+  ]
+}

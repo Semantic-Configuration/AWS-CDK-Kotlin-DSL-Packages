@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "medialive",
+    "version": "1.64.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "medialive",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "medialive-1.64.0-0.6.22.jar",
+          "url": "medialive-1.64.0-0.6.22.jar",
+          "size": 302816,
+          "sha512": "22837ac2796236f251e5c9b2023cb029994ddb82c3e9fb2d93e956306c239f66f6f37b128bf83b1273eec3ba99a0bc3422245c84e85d5385c7d29e37554de70c",
+          "sha256": "f782a62c3585405bc7b86513a1d6d1a7d35c337a7ac61f06434e3cf95b352125",
+          "sha1": "6c6559616f7d60e61b13857fd8c22dd4938bcdf5",
+          "md5": "3d0799de02ba7f6b1c884f71834cb21e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "medialive",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "medialive-1.64.0-0.6.22.jar",
+          "url": "medialive-1.64.0-0.6.22.jar",
+          "size": 302816,
+          "sha512": "22837ac2796236f251e5c9b2023cb029994ddb82c3e9fb2d93e956306c239f66f6f37b128bf83b1273eec3ba99a0bc3422245c84e85d5385c7d29e37554de70c",
+          "sha256": "f782a62c3585405bc7b86513a1d6d1a7d35c337a7ac61f06434e3cf95b352125",
+          "sha1": "6c6559616f7d60e61b13857fd8c22dd4938bcdf5",
+          "md5": "3d0799de02ba7f6b1c884f71834cb21e"
+        }
+      ]
+    }
+  ]
+}

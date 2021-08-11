@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "pinpoint",
+    "version": "1.100.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "smkqp7thvbfexba6catfwegxzq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "pinpoint",
+          "version": {
+            "requires": "1.100.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.100.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pinpoint-1.100.0-0.6.21.jar",
+          "url": "pinpoint-1.100.0-0.6.21.jar",
+          "size": 629375,
+          "sha512": "2e65a3c0a8a6e3052b6895f69d9a0a52a7243b242d50fd7e609753f2f68bbf761cef58cc593552fc12cd2a0c2780a12967c46e900bd4b47778e4910945d7ee6d",
+          "sha256": "58159ca1825fa573db8e44e3690ea84054afea87fa150ab5bdc7e9f38c2b0092",
+          "sha1": "ca1a265ff3f776c889cef9a060ffa040677f579",
+          "md5": "25db8cd60d2af4dc56f541ac2978926f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.100.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "pinpoint",
+          "version": {
+            "requires": "1.100.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.100.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pinpoint-1.100.0-0.6.21.jar",
+          "url": "pinpoint-1.100.0-0.6.21.jar",
+          "size": 629375,
+          "sha512": "2e65a3c0a8a6e3052b6895f69d9a0a52a7243b242d50fd7e609753f2f68bbf761cef58cc593552fc12cd2a0c2780a12967c46e900bd4b47778e4910945d7ee6d",
+          "sha256": "58159ca1825fa573db8e44e3690ea84054afea87fa150ab5bdc7e9f38c2b0092",
+          "sha1": "ca1a265ff3f776c889cef9a060ffa040677f579",
+          "md5": "25db8cd60d2af4dc56f541ac2978926f"
+        }
+      ]
+    }
+  ]
+}

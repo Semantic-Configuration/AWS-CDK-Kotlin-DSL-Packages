@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "auditmanager",
+    "version": "1.108.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "gmwtoadzizbz5jj3nknjggc274"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "auditmanager",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auditmanager-1.108.1-0.6.21.jar",
+          "url": "auditmanager-1.108.1-0.6.21.jar",
+          "size": 76369,
+          "sha512": "4a7608dd6ca79194470c3ee2baf5f75c4a7e814dffb0ef10c7776ed907f9730e2e91f01a54e8964702a90d481c8745b90957b9d34844a205f8a87d2ea8a1d609",
+          "sha256": "1fd32cd921ac4b6223c62a6b8367498fede8d81eb8e5e038b0b78a0c87973511",
+          "sha1": "6a23d10eb23ecee576bbb1cffcc080752d42efef",
+          "md5": "c7e73a4521c2f4bf8106d6bfff7cee72"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "auditmanager",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auditmanager-1.108.1-0.6.21.jar",
+          "url": "auditmanager-1.108.1-0.6.21.jar",
+          "size": 76369,
+          "sha512": "4a7608dd6ca79194470c3ee2baf5f75c4a7e814dffb0ef10c7776ed907f9730e2e91f01a54e8964702a90d481c8745b90957b9d34844a205f8a87d2ea8a1d609",
+          "sha256": "1fd32cd921ac4b6223c62a6b8367498fede8d81eb8e5e038b0b78a0c87973511",
+          "sha1": "6a23d10eb23ecee576bbb1cffcc080752d42efef",
+          "md5": "c7e73a4521c2f4bf8106d6bfff7cee72"
+        }
+      ]
+    }
+  ]
+}

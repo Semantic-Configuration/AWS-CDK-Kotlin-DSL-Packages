@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "cassandra",
+    "version": "1.109.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "4umeix6puva4lkvlrzj7iisxg4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cassandra",
+          "version": {
+            "requires": "1.109.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.109.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cassandra-1.109.0-0.6.21.jar",
+          "url": "cassandra-1.109.0-0.6.21.jar",
+          "size": 83818,
+          "sha512": "ef84626c6d541640d2b1aa7891d24a7dad05e7b63e0820499c68a7556d98306688f67609500dbad4629cfa5f76e2b22cefd27af56d0bff84ae93305739205b7e",
+          "sha256": "1c2ad5aad5b1f3531e1a964b9d996813a5e8342c6198a8f23f354f524ff9cc16",
+          "sha1": "42f009108ac8471db1673207d99fcfae54e81fe6",
+          "md5": "ca9ad299f49d2b0f68ebc5dd0418ab6e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.109.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cassandra",
+          "version": {
+            "requires": "1.109.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.109.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cassandra-1.109.0-0.6.21.jar",
+          "url": "cassandra-1.109.0-0.6.21.jar",
+          "size": 83818,
+          "sha512": "ef84626c6d541640d2b1aa7891d24a7dad05e7b63e0820499c68a7556d98306688f67609500dbad4629cfa5f76e2b22cefd27af56d0bff84ae93305739205b7e",
+          "sha256": "1c2ad5aad5b1f3531e1a964b9d996813a5e8342c6198a8f23f354f524ff9cc16",
+          "sha1": "42f009108ac8471db1673207d99fcfae54e81fe6",
+          "md5": "ca9ad299f49d2b0f68ebc5dd0418ab6e"
+        }
+      ]
+    }
+  ]
+}

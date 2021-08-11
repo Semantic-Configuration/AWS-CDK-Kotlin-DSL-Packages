@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "cdk-lambda-layer-kubectl",
+    "version": "1.117.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "ka4pthfoybhvvnwbwaxmu2dbry"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cdk-lambda-layer-kubectl",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.117.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cdk-lambda-layer-kubectl-1.117.0-0.6.21.jar",
+          "url": "cdk-lambda-layer-kubectl-1.117.0-0.6.21.jar",
+          "size": 450,
+          "sha512": "4eb3c91bf3efdaa98ea18dbaf69ab96ee1f50cb495a423454d17d9a3c9aefbd2e5e71b2e0b9c8e7b95b919d5f650b8b2e947158af8bdbdcd7e1766a8a3178d8c",
+          "sha256": "93aabb697a99423602caa7a32ce96a79ade6fe5bb30cb975ad7b7532d57dc252",
+          "sha1": "b1913453f78e6916f9d0f00f790708b4445859af",
+          "md5": "d5badd21e046ebd429c54072489b4905"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cdk-lambda-layer-kubectl",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.117.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cdk-lambda-layer-kubectl-1.117.0-0.6.21.jar",
+          "url": "cdk-lambda-layer-kubectl-1.117.0-0.6.21.jar",
+          "size": 450,
+          "sha512": "4eb3c91bf3efdaa98ea18dbaf69ab96ee1f50cb495a423454d17d9a3c9aefbd2e5e71b2e0b9c8e7b95b919d5f650b8b2e947158af8bdbdcd7e1766a8a3178d8c",
+          "sha256": "93aabb697a99423602caa7a32ce96a79ade6fe5bb30cb975ad7b7532d57dc252",
+          "sha1": "b1913453f78e6916f9d0f00f790708b4445859af",
+          "md5": "d5badd21e046ebd429c54072489b4905"
+        }
+      ]
+    }
+  ]
+}

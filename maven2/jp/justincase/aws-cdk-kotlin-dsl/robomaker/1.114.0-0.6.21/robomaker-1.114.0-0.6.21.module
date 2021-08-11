@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "robomaker",
+    "version": "1.114.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "eyeo232rubbsjhxluyggv7snsq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "robomaker",
+          "version": {
+            "requires": "1.114.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.114.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "robomaker-1.114.0-0.6.21.jar",
+          "url": "robomaker-1.114.0-0.6.21.jar",
+          "size": 121028,
+          "sha512": "cdd1da661f2efc25421a89c7ccd1d9af0f282dae1a9a130af83400df488407273065aa23d9533ffbc8ceb45f5f3c3fd994e2c96a25036357698339e09996e575",
+          "sha256": "296ccb9963b2400c812a01f948162fc253ee0cf8f57f6317e061012d3e406e8",
+          "sha1": "c3eae55d3645514041af9fa3377855bb5503722c",
+          "md5": "d4760e9846044eb51e24696e83f2aeba"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.114.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "robomaker",
+          "version": {
+            "requires": "1.114.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.114.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "robomaker-1.114.0-0.6.21.jar",
+          "url": "robomaker-1.114.0-0.6.21.jar",
+          "size": 121028,
+          "sha512": "cdd1da661f2efc25421a89c7ccd1d9af0f282dae1a9a130af83400df488407273065aa23d9533ffbc8ceb45f5f3c3fd994e2c96a25036357698339e09996e575",
+          "sha256": "296ccb9963b2400c812a01f948162fc253ee0cf8f57f6317e061012d3e406e8",
+          "sha1": "c3eae55d3645514041af9fa3377855bb5503722c",
+          "md5": "d4760e9846044eb51e24696e83f2aeba"
+        }
+      ]
+    }
+  ]
+}

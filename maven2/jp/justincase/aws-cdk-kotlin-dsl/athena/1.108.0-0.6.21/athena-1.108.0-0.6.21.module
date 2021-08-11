@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "athena",
+    "version": "1.108.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "kpsw6vvxevhebcaohgovtllzpe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "athena",
+          "version": {
+            "requires": "1.108.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "athena-1.108.0-0.6.21.jar",
+          "url": "athena-1.108.0-0.6.21.jar",
+          "size": 152059,
+          "sha512": "4880253d0498b5b086df0e3e2bd63e111f3fed618e59f0b4fdbee5808544bb5e9a6df826b364a1a779ea055cdd93b650d646a09212e7a683e15ee5a4f38112a6",
+          "sha256": "10d82638f6be98795ddd3a25ab87534e5c845d6600ef38a97b6019c66dfe70a2",
+          "sha1": "ed77fd4b448664965b9741e34bb3c0989361bffa",
+          "md5": "a624a8709da24862930eceeeb3d874f9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.108.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "athena",
+          "version": {
+            "requires": "1.108.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "athena-1.108.0-0.6.21.jar",
+          "url": "athena-1.108.0-0.6.21.jar",
+          "size": 152059,
+          "sha512": "4880253d0498b5b086df0e3e2bd63e111f3fed618e59f0b4fdbee5808544bb5e9a6df826b364a1a779ea055cdd93b650d646a09212e7a683e15ee5a4f38112a6",
+          "sha256": "10d82638f6be98795ddd3a25ab87534e5c845d6600ef38a97b6019c66dfe70a2",
+          "sha1": "ed77fd4b448664965b9741e34bb3c0989361bffa",
+          "md5": "a624a8709da24862930eceeeb3d874f9"
+        }
+      ]
+    }
+  ]
+}

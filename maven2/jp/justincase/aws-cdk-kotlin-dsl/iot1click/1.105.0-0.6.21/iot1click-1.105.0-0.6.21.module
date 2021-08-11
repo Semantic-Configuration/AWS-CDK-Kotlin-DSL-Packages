@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "iot1click",
+    "version": "1.105.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "6ksfungeebg7lbcagzumy3ww64"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iot1click",
+          "version": {
+            "requires": "1.105.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iot1click-1.105.0-0.6.21.jar",
+          "url": "iot1click-1.105.0-0.6.21.jar",
+          "size": 52525,
+          "sha512": "a1116df21ddeed0956630ba44e5032b507bada4e2a9074d201a7e4bf51638d1b42f0d76ac3bd00a8ddd32ce993e6e215819be12b4a4d0bf5848eccae3173f9d9",
+          "sha256": "230c2cbed624741ce5683392a92b038bbd4e7a34a54adb36db43b8eef2965608",
+          "sha1": "b82d9d4066b4b927d75d956fda7cfa68d5625c7e",
+          "md5": "d4ac63bc1c4a38b00e74acaa2530aa4a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.105.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iot1click",
+          "version": {
+            "requires": "1.105.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iot1click-1.105.0-0.6.21.jar",
+          "url": "iot1click-1.105.0-0.6.21.jar",
+          "size": 52525,
+          "sha512": "a1116df21ddeed0956630ba44e5032b507bada4e2a9074d201a7e4bf51638d1b42f0d76ac3bd00a8ddd32ce993e6e215819be12b4a4d0bf5848eccae3173f9d9",
+          "sha256": "230c2cbed624741ce5683392a92b038bbd4e7a34a54adb36db43b8eef2965608",
+          "sha1": "b82d9d4066b4b927d75d956fda7cfa68d5625c7e",
+          "md5": "d4ac63bc1c4a38b00e74acaa2530aa4a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "amazonmq",
+    "version": "1.64.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "amazonmq",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amazonmq-1.64.0-0.6.22.jar",
+          "url": "amazonmq-1.64.0-0.6.22.jar",
+          "size": 202223,
+          "sha512": "6d11b55aea5a3f5ee664f2736b29a2048fb2ece57fb6a26f1614a93f47ee5c3341849608d2e339e012f0690fa1df0f61550447d914aeb03ac06c693de488a70d",
+          "sha256": "36c30a54c3e5b502498fd0e16c25ab385ef348fc8255589dcf597c5b1acc0b33",
+          "sha1": "6ca15ede0a0efd7e3939961f184bb9ccffbc2541",
+          "md5": "30469fd6deaad1fabcfa680c7ba74782"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "amazonmq",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amazonmq-1.64.0-0.6.22.jar",
+          "url": "amazonmq-1.64.0-0.6.22.jar",
+          "size": 202223,
+          "sha512": "6d11b55aea5a3f5ee664f2736b29a2048fb2ece57fb6a26f1614a93f47ee5c3341849608d2e339e012f0690fa1df0f61550447d914aeb03ac06c693de488a70d",
+          "sha256": "36c30a54c3e5b502498fd0e16c25ab385ef348fc8255589dcf597c5b1acc0b33",
+          "sha1": "6ca15ede0a0efd7e3939961f184bb9ccffbc2541",
+          "md5": "30469fd6deaad1fabcfa680c7ba74782"
+        }
+      ]
+    }
+  ]
+}

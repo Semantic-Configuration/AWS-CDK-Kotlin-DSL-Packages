@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "iotcoredeviceadvisor",
+    "version": "1.117.0-0.6.25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iotcoredeviceadvisor",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iotcoredeviceadvisor-1.117.0-0.6.25.jar",
+          "url": "iotcoredeviceadvisor-1.117.0-0.6.25.jar",
+          "size": 9307,
+          "sha512": "d3db33b44b2024bf44c4449631ed10f26d940d0819b39e9109fe2adbc2ee62bf178187ecfda682822b3d9a47a3d99c9775df1bae838efa2e585839be61f50773",
+          "sha256": "0dec9a6e5a1767ca9ae1d03bb8bfbb946cf8a857c71f31b9903d11f9a9facb2a",
+          "sha1": "0b060a25af1c7780fbfb55ce76619f2805e542ae",
+          "md5": "756b395a06c60b6e7a9d9c8c566884f7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.25"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iotcoredeviceadvisor",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iotcoredeviceadvisor-1.117.0-0.6.25.jar",
+          "url": "iotcoredeviceadvisor-1.117.0-0.6.25.jar",
+          "size": 9307,
+          "sha512": "d3db33b44b2024bf44c4449631ed10f26d940d0819b39e9109fe2adbc2ee62bf178187ecfda682822b3d9a47a3d99c9775df1bae838efa2e585839be61f50773",
+          "sha256": "0dec9a6e5a1767ca9ae1d03bb8bfbb946cf8a857c71f31b9903d11f9a9facb2a",
+          "sha1": "0b060a25af1c7780fbfb55ce76619f2805e542ae",
+          "md5": "756b395a06c60b6e7a9d9c8c566884f7"
+        }
+      ]
+    }
+  ]
+}

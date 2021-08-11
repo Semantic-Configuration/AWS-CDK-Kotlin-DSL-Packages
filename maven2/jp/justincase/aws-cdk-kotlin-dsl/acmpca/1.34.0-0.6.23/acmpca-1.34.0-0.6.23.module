@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "acmpca",
+    "version": "1.34.0-0.6.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "acmpca",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "acmpca-1.34.0-0.6.23.jar",
+          "url": "acmpca-1.34.0-0.6.23.jar",
+          "size": 77000,
+          "sha512": "dbfadf19ab12db881709912e2b4707c32c9c0b5c0e066235cf1789ea36fdb75ef21bbdf349745a973662456e45cdcfe59411728def0881a3e5be8cca1f4c5149",
+          "sha256": "641e7d862a0d367b240d2b9d164090e4c7def006df4349e2814efdc7fee9d1b5",
+          "sha1": "5f75d32651cc27b1b7ed1e7c5e92f604264126be",
+          "md5": "1cb1ed0150d99f585c860052340285aa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.23"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "acmpca",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "acmpca-1.34.0-0.6.23.jar",
+          "url": "acmpca-1.34.0-0.6.23.jar",
+          "size": 77000,
+          "sha512": "dbfadf19ab12db881709912e2b4707c32c9c0b5c0e066235cf1789ea36fdb75ef21bbdf349745a973662456e45cdcfe59411728def0881a3e5be8cca1f4c5149",
+          "sha256": "641e7d862a0d367b240d2b9d164090e4c7def006df4349e2814efdc7fee9d1b5",
+          "sha1": "5f75d32651cc27b1b7ed1e7c5e92f604264126be",
+          "md5": "1cb1ed0150d99f585c860052340285aa"
+        }
+      ]
+    }
+  ]
+}

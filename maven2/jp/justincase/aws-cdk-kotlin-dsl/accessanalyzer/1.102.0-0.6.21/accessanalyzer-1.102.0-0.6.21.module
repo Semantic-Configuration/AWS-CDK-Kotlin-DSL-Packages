@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "accessanalyzer",
+    "version": "1.102.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "t35tw437effh5cnay6aiay4dyu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "accessanalyzer",
+          "version": {
+            "requires": "1.102.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.102.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "accessanalyzer-1.102.0-0.6.21.jar",
+          "url": "accessanalyzer-1.102.0-0.6.21.jar",
+          "size": 35427,
+          "sha512": "3a7e9f2bfc64a0fbde93983f27acc3e281d61068a1b511df3310b0f61fed3eb1613f60f7f2faec113e00468f1384ba6565d46376b9090f9df32fd9d92e9917a8",
+          "sha256": "82b6979e464ed38f3b2a8ede0e38cba5103e57e2977ab39fdacf34fc72d2d2cd",
+          "sha1": "56fa7f8283a7d69fc9c890a8e9cd7b036cfc9f67",
+          "md5": "c968dc1a9c7bf61dc838061fd436827a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.102.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "accessanalyzer",
+          "version": {
+            "requires": "1.102.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.102.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "accessanalyzer-1.102.0-0.6.21.jar",
+          "url": "accessanalyzer-1.102.0-0.6.21.jar",
+          "size": 35427,
+          "sha512": "3a7e9f2bfc64a0fbde93983f27acc3e281d61068a1b511df3310b0f61fed3eb1613f60f7f2faec113e00468f1384ba6565d46376b9090f9df32fd9d92e9917a8",
+          "sha256": "82b6979e464ed38f3b2a8ede0e38cba5103e57e2977ab39fdacf34fc72d2d2cd",
+          "sha1": "56fa7f8283a7d69fc9c890a8e9cd7b036cfc9f67",
+          "md5": "c968dc1a9c7bf61dc838061fd436827a"
+        }
+      ]
+    }
+  ]
+}

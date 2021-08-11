@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "imagebuilder",
+    "version": "1.64.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "imagebuilder",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imagebuilder-1.64.0-0.6.22.jar",
+          "url": "imagebuilder-1.64.0-0.6.22.jar",
+          "size": 205217,
+          "sha512": "328d84302f04a09b3c2cff6547447d5bd5a1ab00b36bc1085896437b9c91e02899153216b6cff73f262208fc2aa6d431a7b03c262b67463a41bad8e1e948caf6",
+          "sha256": "34822c5997cf0fda6c74b68b85f89221d00ff236db328f25e6b7e1cda3f84eeb",
+          "sha1": "d21d3824231023aef5012e3d9f7838ea0984114e",
+          "md5": "ceb3cc75adb733befeea20a2eb1b6965"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "imagebuilder",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imagebuilder-1.64.0-0.6.22.jar",
+          "url": "imagebuilder-1.64.0-0.6.22.jar",
+          "size": 205217,
+          "sha512": "328d84302f04a09b3c2cff6547447d5bd5a1ab00b36bc1085896437b9c91e02899153216b6cff73f262208fc2aa6d431a7b03c262b67463a41bad8e1e948caf6",
+          "sha256": "34822c5997cf0fda6c74b68b85f89221d00ff236db328f25e6b7e1cda3f84eeb",
+          "sha1": "d21d3824231023aef5012e3d9f7838ea0984114e",
+          "md5": "ceb3cc75adb733befeea20a2eb1b6965"
+        }
+      ]
+    }
+  ]
+}

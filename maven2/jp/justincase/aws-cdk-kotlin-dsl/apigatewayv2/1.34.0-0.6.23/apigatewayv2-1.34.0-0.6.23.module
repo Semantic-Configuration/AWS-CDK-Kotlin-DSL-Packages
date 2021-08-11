@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "apigatewayv2",
+    "version": "1.34.0-0.6.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "apigatewayv2",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apigatewayv2-1.34.0-0.6.23.jar",
+          "url": "apigatewayv2-1.34.0-0.6.23.jar",
+          "size": 246564,
+          "sha512": "854bcbdfa3d43b3251ec33dbcc91e89023c1124148bf4a0441d51a8504ea672efa9741fb8cd2098fcfcc5fc997fa1ed15b356f963b667f444a594b562b04ebeb",
+          "sha256": "e7abb6c5226dfd6c374bbd067cd118335e862ec785b38dab6eb87d2c002ca1f3",
+          "sha1": "78c491c97e66a4bf4d7d1e47279db4ccc23a153f",
+          "md5": "6aa7e7443e88831d67fc005c66d74dba"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.23"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "apigatewayv2",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apigatewayv2-1.34.0-0.6.23.jar",
+          "url": "apigatewayv2-1.34.0-0.6.23.jar",
+          "size": 246564,
+          "sha512": "854bcbdfa3d43b3251ec33dbcc91e89023c1124148bf4a0441d51a8504ea672efa9741fb8cd2098fcfcc5fc997fa1ed15b356f963b667f444a594b562b04ebeb",
+          "sha256": "e7abb6c5226dfd6c374bbd067cd118335e862ec785b38dab6eb87d2c002ca1f3",
+          "sha1": "78c491c97e66a4bf4d7d1e47279db4ccc23a153f",
+          "md5": "6aa7e7443e88831d67fc005c66d74dba"
+        }
+      ]
+    }
+  ]
+}

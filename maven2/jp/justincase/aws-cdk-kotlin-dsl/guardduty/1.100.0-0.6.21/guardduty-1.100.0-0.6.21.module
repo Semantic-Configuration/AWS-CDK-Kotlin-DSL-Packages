@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "guardduty",
+    "version": "1.100.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "smkqp7thvbfexba6catfwegxzq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "guardduty",
+          "version": {
+            "requires": "1.100.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.100.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "guardduty-1.100.0-0.6.21.jar",
+          "url": "guardduty-1.100.0-0.6.21.jar",
+          "size": 126552,
+          "sha512": "fac793a87e009a6a0827ab2cf7a69a8aab44ee45d66f87b1c933b06bbf0270971cfb04673948240f4a8061d7e3d654fceddd656605edd290e1843786c0e022aa",
+          "sha256": "347d714afa459df4537503c5beb5658e9eef220134c370b6a2c378625704487d",
+          "sha1": "ad2849ea50bbe89d37b8636c853164f11b80bdd",
+          "md5": "f668ecba0f95402b49f98dd399ee1fbe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.100.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "guardduty",
+          "version": {
+            "requires": "1.100.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.100.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "guardduty-1.100.0-0.6.21.jar",
+          "url": "guardduty-1.100.0-0.6.21.jar",
+          "size": 126552,
+          "sha512": "fac793a87e009a6a0827ab2cf7a69a8aab44ee45d66f87b1c933b06bbf0270971cfb04673948240f4a8061d7e3d654fceddd656605edd290e1843786c0e022aa",
+          "sha256": "347d714afa459df4537503c5beb5658e9eef220134c370b6a2c378625704487d",
+          "sha1": "ad2849ea50bbe89d37b8636c853164f11b80bdd",
+          "md5": "f668ecba0f95402b49f98dd399ee1fbe"
+        }
+      ]
+    }
+  ]
+}

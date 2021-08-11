@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "quicksight",
+    "version": "1.113.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "4eq3z6kztfacfbxsxa2ublfmc4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "quicksight",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quicksight-1.113.0-0.6.21.jar",
+          "url": "quicksight-1.113.0-0.6.21.jar",
+          "size": 977950,
+          "sha512": "4253b9a5a6bc15174909e238756b0cb8ad1736fe25fd70c3b9df3506b7c618d832ba61ba608f1d787973b8b2daf887a2b5ea91a8e3c784123f08690dff931470",
+          "sha256": "79b27656ddd63786ec6ffd7deeb1feee93ce786942e588c35575d8fc3fef5398",
+          "sha1": "e765d86ebcb6016aedb47559d6cd8576a93aa408",
+          "md5": "f2e7811e66adcdd0f5f75772c1dfb32c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "quicksight",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quicksight-1.113.0-0.6.21.jar",
+          "url": "quicksight-1.113.0-0.6.21.jar",
+          "size": 977950,
+          "sha512": "4253b9a5a6bc15174909e238756b0cb8ad1736fe25fd70c3b9df3506b7c618d832ba61ba608f1d787973b8b2daf887a2b5ea91a8e3c784123f08690dff931470",
+          "sha256": "79b27656ddd63786ec6ffd7deeb1feee93ce786942e588c35575d8fc3fef5398",
+          "sha1": "e765d86ebcb6016aedb47559d6cd8576a93aa408",
+          "md5": "f2e7811e66adcdd0f5f75772c1dfb32c"
+        }
+      ]
+    }
+  ]
+}

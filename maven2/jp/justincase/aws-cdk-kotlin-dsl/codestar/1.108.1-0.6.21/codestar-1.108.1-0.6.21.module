@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "codestar",
+    "version": "1.108.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "gmwtoadzizbz5jj3nknjggc274"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codestar",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.108.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codestar-1.108.1-0.6.21.jar",
+          "url": "codestar-1.108.1-0.6.21.jar",
+          "size": 56232,
+          "sha512": "abc76b969037e2ec3aae27686fbfc3550973e8436ace3c2c0f84bf64f2116122f7f6bf82a42f77d19b4b402412828788e408bc4a5a2f6b900dd4db3d7498b91e",
+          "sha256": "bfefd97331b1a6349eda5b0755e34b5f2aa4a1006033696a02f4e5b5f3f0e0c6",
+          "sha1": "604e67907e0cee4e0eba64724b2d9b4bfa207016",
+          "md5": "e21b30fb6974f5175a590adf5ddfef16"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codestar",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "s3",
+          "version": {
+            "requires": "1.108.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codestar-1.108.1-0.6.21.jar",
+          "url": "codestar-1.108.1-0.6.21.jar",
+          "size": 56232,
+          "sha512": "abc76b969037e2ec3aae27686fbfc3550973e8436ace3c2c0f84bf64f2116122f7f6bf82a42f77d19b4b402412828788e408bc4a5a2f6b900dd4db3d7498b91e",
+          "sha256": "bfefd97331b1a6349eda5b0755e34b5f2aa4a1006033696a02f4e5b5f3f0e0c6",
+          "sha1": "604e67907e0cee4e0eba64724b2d9b4bfa207016",
+          "md5": "e21b30fb6974f5175a590adf5ddfef16"
+        }
+      ]
+    }
+  ]
+}

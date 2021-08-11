@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "kendra",
+    "version": "1.102.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "3v7jvpyge5da5n7rhvpphv65wa"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "kendra",
+          "version": {
+            "requires": "1.102.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.102.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kendra-1.102.0-0.6.21.jar",
+          "url": "kendra-1.102.0-0.6.21.jar",
+          "size": 554907,
+          "sha512": "460e286fbe742ae52848dd550aa4bb6bdeb6efc304d95ee8561f75f639f6c65806f0bd35b656e0577077f4271959deb28dcc4768adcae3f72366b85e29279ce8",
+          "sha256": "4acbfb0468bdaa34f8f81babfe8f0580a822b919957147adbf391957d716e038",
+          "sha1": "1d0752b23cac91084a0803f0b3adb734a4193fd0",
+          "md5": "e07e217321bd3c801d903960d17d4cfa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.102.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "kendra",
+          "version": {
+            "requires": "1.102.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.102.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kendra-1.102.0-0.6.21.jar",
+          "url": "kendra-1.102.0-0.6.21.jar",
+          "size": 554907,
+          "sha512": "460e286fbe742ae52848dd550aa4bb6bdeb6efc304d95ee8561f75f639f6c65806f0bd35b656e0577077f4271959deb28dcc4768adcae3f72366b85e29279ce8",
+          "sha256": "4acbfb0468bdaa34f8f81babfe8f0580a822b919957147adbf391957d716e038",
+          "sha1": "1d0752b23cac91084a0803f0b3adb734a4193fd0",
+          "md5": "e07e217321bd3c801d903960d17d4cfa"
+        }
+      ]
+    }
+  ]
+}

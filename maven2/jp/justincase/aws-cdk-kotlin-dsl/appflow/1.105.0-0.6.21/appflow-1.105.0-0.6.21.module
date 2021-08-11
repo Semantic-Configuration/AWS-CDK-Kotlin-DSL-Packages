@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "appflow",
+    "version": "1.105.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "6ksfungeebg7lbcagzumy3ww64"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "appflow",
+          "version": {
+            "requires": "1.105.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "appflow-1.105.0-0.6.21.jar",
+          "url": "appflow-1.105.0-0.6.21.jar",
+          "size": 641030,
+          "sha512": "2a1813b5e14e975845067041f3bea4436c8e03174ba21d6ced70bdaa2171b5a6d17e9b44f607bd7319bbb5ef858a5a707cf3441fd83e90dfa517f0a2b9d42932",
+          "sha256": "1741b3e20c352d0af5fb5759ad619bbdae8c6c8d95aad3f008367c674be1c55c",
+          "sha1": "51c98b0812d930640d22c716d9cfc23d335d2a3f",
+          "md5": "3e2298792353564d5ef7992cdd053f9a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.105.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "appflow",
+          "version": {
+            "requires": "1.105.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.105.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "appflow-1.105.0-0.6.21.jar",
+          "url": "appflow-1.105.0-0.6.21.jar",
+          "size": 641030,
+          "sha512": "2a1813b5e14e975845067041f3bea4436c8e03174ba21d6ced70bdaa2171b5a6d17e9b44f607bd7319bbb5ef858a5a707cf3441fd83e90dfa517f0a2b9d42932",
+          "sha256": "1741b3e20c352d0af5fb5759ad619bbdae8c6c8d95aad3f008367c674be1c55c",
+          "sha1": "51c98b0812d930640d22c716d9cfc23d335d2a3f",
+          "md5": "3e2298792353564d5ef7992cdd053f9a"
+        }
+      ]
+    }
+  ]
+}

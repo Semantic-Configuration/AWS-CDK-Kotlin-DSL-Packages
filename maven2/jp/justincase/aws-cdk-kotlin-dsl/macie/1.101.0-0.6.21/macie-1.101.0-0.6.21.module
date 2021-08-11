@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "macie",
+    "version": "1.101.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "jaowebu54rhl3bnpwvdhdg2v5y"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "macie",
+          "version": {
+            "requires": "1.101.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "macie-1.101.0-0.6.21.jar",
+          "url": "macie-1.101.0-0.6.21.jar",
+          "size": 47694,
+          "sha512": "4b0ba84f35d168aa4158d32e0e0a51a0ddb55252ba87ae298c904ecfeef32c0b5caab5ae31c42704419d4abd072162ca409bff7ed5931f927e7bd81128093a5a",
+          "sha256": "4bae858edff3fd143d99670e9a1b6061202e2892a7fa3c40abbdce7e763ca3e1",
+          "sha1": "e4269edebcad001d6d8161c72cdf3f14630985cd",
+          "md5": "959aa6c5a440a5de0de2bbb4b5b0781b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.101.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "macie",
+          "version": {
+            "requires": "1.101.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "macie-1.101.0-0.6.21.jar",
+          "url": "macie-1.101.0-0.6.21.jar",
+          "size": 47694,
+          "sha512": "4b0ba84f35d168aa4158d32e0e0a51a0ddb55252ba87ae298c904ecfeef32c0b5caab5ae31c42704419d4abd072162ca409bff7ed5931f927e7bd81128093a5a",
+          "sha256": "4bae858edff3fd143d99670e9a1b6061202e2892a7fa3c40abbdce7e763ca3e1",
+          "sha1": "e4269edebcad001d6d8161c72cdf3f14630985cd",
+          "md5": "959aa6c5a440a5de0de2bbb4b5b0781b"
+        }
+      ]
+    }
+  ]
+}

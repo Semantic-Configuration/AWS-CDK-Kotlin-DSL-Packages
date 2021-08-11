@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "autoscaling-common",
+    "version": "1.59.0-0.6.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "autoscaling-common",
+          "version": {
+            "requires": "1.59.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "autoscaling-common-1.59.0-0.6.23.jar",
+          "url": "autoscaling-common-1.59.0-0.6.23.jar",
+          "size": 15764,
+          "sha512": "0dfbcf96fc549e9c61ccb3bb6996e2d2619412ea3b73a15e719d39a9ccaf42545688805119cf899bf8ca3f16f3d6bdfb10675ec1b59244d58fd330256122bc51",
+          "sha256": "362fd65244eff0e19d5587fc785f6f6146c84ef931ad1851bc41eedecb55f90f",
+          "sha1": "5563005b54c8fd6c68a4132faab03e0a18a3bc14",
+          "md5": "c1de830b3738c3b0c22a04d79f2efd51"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.23"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.59.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "autoscaling-common",
+          "version": {
+            "requires": "1.59.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "autoscaling-common-1.59.0-0.6.23.jar",
+          "url": "autoscaling-common-1.59.0-0.6.23.jar",
+          "size": 15764,
+          "sha512": "0dfbcf96fc549e9c61ccb3bb6996e2d2619412ea3b73a15e719d39a9ccaf42545688805119cf899bf8ca3f16f3d6bdfb10675ec1b59244d58fd330256122bc51",
+          "sha256": "362fd65244eff0e19d5587fc785f6f6146c84ef931ad1851bc41eedecb55f90f",
+          "sha1": "5563005b54c8fd6c68a4132faab03e0a18a3bc14",
+          "md5": "c1de830b3738c3b0c22a04d79f2efd51"
+        }
+      ]
+    }
+  ]
+}

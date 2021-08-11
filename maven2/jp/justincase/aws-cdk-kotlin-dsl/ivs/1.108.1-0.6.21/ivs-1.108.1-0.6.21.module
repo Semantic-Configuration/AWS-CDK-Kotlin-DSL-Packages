@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "ivs",
+    "version": "1.108.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "gmwtoadzizbz5jj3nknjggc274"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "ivs",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ivs-1.108.1-0.6.21.jar",
+          "url": "ivs-1.108.1-0.6.21.jar",
+          "size": 80888,
+          "sha512": "8cee68436c29631315e2df0880ed11485043937b41e7a265fbaf926384fcd2c2c64393f8549014e4da497627ad13da14aa6b04ef8835ee339508ef7b945fc5e9",
+          "sha256": "989fcb5fb41601600bf8529ba2b017f66e4ae636dc4ccc065422bee85d64b6bf",
+          "sha1": "a066d139c8c885dcfb1825e8b4126049bb597b14",
+          "md5": "23c3a1e2f08a32cdc333edc4791b5778"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "ivs",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ivs-1.108.1-0.6.21.jar",
+          "url": "ivs-1.108.1-0.6.21.jar",
+          "size": 80888,
+          "sha512": "8cee68436c29631315e2df0880ed11485043937b41e7a265fbaf926384fcd2c2c64393f8549014e4da497627ad13da14aa6b04ef8835ee339508ef7b945fc5e9",
+          "sha256": "989fcb5fb41601600bf8529ba2b017f66e4ae636dc4ccc065422bee85d64b6bf",
+          "sha1": "a066d139c8c885dcfb1825e8b4126049bb597b14",
+          "md5": "23c3a1e2f08a32cdc333edc4791b5778"
+        }
+      ]
+    }
+  ]
+}

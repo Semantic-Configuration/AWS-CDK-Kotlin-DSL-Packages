@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "dlm",
+    "version": "1.31.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "dlm",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dlm-1.31.0-0.6.22.jar",
+          "url": "dlm-1.31.0-0.6.22.jar",
+          "size": 110797,
+          "sha512": "dbd22750b60e05b385458a00e21c87be5e33e03f8bf859b4e4dda29a1676ba57ee657545f121e99d7707f8895e8ee380cc8459e58064d9033e736281494d9c50",
+          "sha256": "b1a3b3743781ea7160c0234a68c761ee40a585fb65c443bee2f5dc1f061f2218",
+          "sha1": "a211764baa6250a4a64596113d2d057319527e8b",
+          "md5": "6c3b17890c8a837e7dca7d26141e4448"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "dlm",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dlm-1.31.0-0.6.22.jar",
+          "url": "dlm-1.31.0-0.6.22.jar",
+          "size": 110797,
+          "sha512": "dbd22750b60e05b385458a00e21c87be5e33e03f8bf859b4e4dda29a1676ba57ee657545f121e99d7707f8895e8ee380cc8459e58064d9033e736281494d9c50",
+          "sha256": "b1a3b3743781ea7160c0234a68c761ee40a585fb65c443bee2f5dc1f061f2218",
+          "sha1": "a211764baa6250a4a64596113d2d057319527e8b",
+          "md5": "6c3b17890c8a837e7dca7d26141e4448"
+        }
+      ]
+    }
+  ]
+}

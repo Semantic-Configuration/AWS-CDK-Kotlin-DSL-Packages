@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "gamelift",
+    "version": "1.64.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "gamelift",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gamelift-1.64.0-0.6.22.jar",
+          "url": "gamelift-1.64.0-0.6.22.jar",
+          "size": 280443,
+          "sha512": "15cbb00f303972a4d354cff112cbf6f81e5dae3356584c22c8b0d2a4039d30961437e8561d11804f02d08e51e9325d85923bce5d6ac6cda120a81d7bcea0e116",
+          "sha256": "2413e52e20024e8e4fcb39febe39b84ab566287fdaff46226122d4d60b0d3718",
+          "sha1": "ee10ebecd1a8b3737c8e9ed41b75402d4ec77f6f",
+          "md5": "f4a4190dadbd810d10197e61aabcc872"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "gamelift",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gamelift-1.64.0-0.6.22.jar",
+          "url": "gamelift-1.64.0-0.6.22.jar",
+          "size": 280443,
+          "sha512": "15cbb00f303972a4d354cff112cbf6f81e5dae3356584c22c8b0d2a4039d30961437e8561d11804f02d08e51e9325d85923bce5d6ac6cda120a81d7bcea0e116",
+          "sha256": "2413e52e20024e8e4fcb39febe39b84ab566287fdaff46226122d4d60b0d3718",
+          "sha1": "ee10ebecd1a8b3737c8e9ed41b75402d4ec77f6f",
+          "md5": "f4a4190dadbd810d10197e61aabcc872"
+        }
+      ]
+    }
+  ]
+}

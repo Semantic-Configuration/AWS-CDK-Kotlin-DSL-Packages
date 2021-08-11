@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "chatbot",
+    "version": "1.31.0-0.6.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "chatbot",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chatbot-1.31.0-0.6.23.jar",
+          "url": "chatbot-1.31.0-0.6.23.jar",
+          "size": 10186,
+          "sha512": "b6ca9291e573c7bd0e5ee5fdbfaf34729a77788b2f03c924962118349a6fd588cc20f0c23129cd34750f4b63aba5275a7a11166794767238d39eef312021630d",
+          "sha256": "bf3d0c5a089c080963cecf1d9bad37dcf93b04f6a8ebb833efa62c15370380eb",
+          "sha1": "350a839acc327863dae309add22d99a2b741a284",
+          "md5": "450e132c776b5e3c3afe26cb870c7b8b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.23"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "chatbot",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chatbot-1.31.0-0.6.23.jar",
+          "url": "chatbot-1.31.0-0.6.23.jar",
+          "size": 10186,
+          "sha512": "b6ca9291e573c7bd0e5ee5fdbfaf34729a77788b2f03c924962118349a6fd588cc20f0c23129cd34750f4b63aba5275a7a11166794767238d39eef312021630d",
+          "sha256": "bf3d0c5a089c080963cecf1d9bad37dcf93b04f6a8ebb833efa62c15370380eb",
+          "sha1": "350a839acc327863dae309add22d99a2b741a284",
+          "md5": "450e132c776b5e3c3afe26cb870c7b8b"
+        }
+      ]
+    }
+  ]
+}

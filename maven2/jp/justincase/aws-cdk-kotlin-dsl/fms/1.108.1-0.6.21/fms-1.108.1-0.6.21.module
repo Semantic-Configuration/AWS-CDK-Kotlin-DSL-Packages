@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "fms",
+    "version": "1.108.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "gmwtoadzizbz5jj3nknjggc274"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "fms",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fms-1.108.1-0.6.21.jar",
+          "url": "fms-1.108.1-0.6.21.jar",
+          "size": 74997,
+          "sha512": "6630b86f95546d9b4498d3f0b30600adedd1fce8ac06b30ff798079a11d3a51881ae0842322bb2e2c417d46d1d4302f8d16231ff47b33ac8f98be30b9bd2a051",
+          "sha256": "d2307403762e3dcd13697652fd8095251ed5fcd2a8c2180d349141ee2c04a06d",
+          "sha1": "83ddf6de654c1763c868c92bedc18a1b698df4b",
+          "md5": "1400f623c30c333eda9e03c515242dd9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "fms",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fms-1.108.1-0.6.21.jar",
+          "url": "fms-1.108.1-0.6.21.jar",
+          "size": 74997,
+          "sha512": "6630b86f95546d9b4498d3f0b30600adedd1fce8ac06b30ff798079a11d3a51881ae0842322bb2e2c417d46d1d4302f8d16231ff47b33ac8f98be30b9bd2a051",
+          "sha256": "d2307403762e3dcd13697652fd8095251ed5fcd2a8c2180d349141ee2c04a06d",
+          "sha1": "83ddf6de654c1763c868c92bedc18a1b698df4b",
+          "md5": "1400f623c30c333eda9e03c515242dd9"
+        }
+      ]
+    }
+  ]
+}

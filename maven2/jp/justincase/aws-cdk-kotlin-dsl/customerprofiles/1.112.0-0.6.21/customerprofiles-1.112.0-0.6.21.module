@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "customerprofiles",
+    "version": "1.112.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "635otboqmzf4dpqli6tn2j4rca"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "customerprofiles",
+          "version": {
+            "requires": "1.112.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "customerprofiles-1.112.0-0.6.21.jar",
+          "url": "customerprofiles-1.112.0-0.6.21.jar",
+          "size": 214557,
+          "sha512": "21ad9aa6aac7edd024d99f035828ad9ace57b2d8012f2ce1998ed10e14bf58edb17efe3de74f449e748d2e1ffc5221ed68b3a83fc2ff4b67e5196a2744ec1dd1",
+          "sha256": "489e82607df55dc76b734a7548a387a39f0561302153fa606411b1afc9a4f1ba",
+          "sha1": "4e328a054ee0646bc62659e2ef271c53eb3daefe",
+          "md5": "d8ba231a25dc1315955bebcae474d61d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.112.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "customerprofiles",
+          "version": {
+            "requires": "1.112.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "customerprofiles-1.112.0-0.6.21.jar",
+          "url": "customerprofiles-1.112.0-0.6.21.jar",
+          "size": 214557,
+          "sha512": "21ad9aa6aac7edd024d99f035828ad9ace57b2d8012f2ce1998ed10e14bf58edb17efe3de74f449e748d2e1ffc5221ed68b3a83fc2ff4b67e5196a2744ec1dd1",
+          "sha256": "489e82607df55dc76b734a7548a387a39f0561302153fa606411b1afc9a4f1ba",
+          "sha1": "4e328a054ee0646bc62659e2ef271c53eb3daefe",
+          "md5": "d8ba231a25dc1315955bebcae474d61d"
+        }
+      ]
+    }
+  ]
+}

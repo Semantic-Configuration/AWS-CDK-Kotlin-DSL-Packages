@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "s3objectlambda",
+    "version": "1.111.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "x2nrgrzbtvb4vn7ivydfsyaxee"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "s3objectlambda",
+          "version": {
+            "requires": "1.111.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.111.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "s3objectlambda-1.111.0-0.6.21.jar",
+          "url": "s3objectlambda-1.111.0-0.6.21.jar",
+          "size": 42843,
+          "sha512": "9158fc213a48d5dd388a0169a58ffe90b11919e6fe2693da7f7f168f126209b3a16d87beb13f76f2703d2b43c1f8311439f8c17c96c316d5fed0ff639bbe5639",
+          "sha256": "b1b794371a27f94c9338c64c1d6ab453f39c5e6400e2d3bdc48eb4bd70f415b2",
+          "sha1": "96ad471b00bcc2487defb58d258fd9178550b0b",
+          "md5": "9362a1b07a6a71ff440b8e6c46ee2550"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.111.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "s3objectlambda",
+          "version": {
+            "requires": "1.111.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.111.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "s3objectlambda-1.111.0-0.6.21.jar",
+          "url": "s3objectlambda-1.111.0-0.6.21.jar",
+          "size": 42843,
+          "sha512": "9158fc213a48d5dd388a0169a58ffe90b11919e6fe2693da7f7f168f126209b3a16d87beb13f76f2703d2b43c1f8311439f8c17c96c316d5fed0ff639bbe5639",
+          "sha256": "b1b794371a27f94c9338c64c1d6ab453f39c5e6400e2d3bdc48eb4bd70f415b2",
+          "sha1": "96ad471b00bcc2487defb58d258fd9178550b0b",
+          "md5": "9362a1b07a6a71ff440b8e6c46ee2550"
+        }
+      ]
+    }
+  ]
+}

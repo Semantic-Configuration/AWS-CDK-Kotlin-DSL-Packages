@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "sso",
+    "version": "1.99.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "77l3wsmng5dcnbpnx6e7ui64wu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "sso",
+          "version": {
+            "requires": "1.99.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.99.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sso-1.99.0-0.6.21.jar",
+          "url": "sso-1.99.0-0.6.21.jar",
+          "size": 55167,
+          "sha512": "d0c3258792419c9c2ed855fce0517380a95538bc84697a3dee1c68176f3aa3779f2fee1cc9253d73832b3c5a4a83def9714569d5ac90dc49ea3619f3bf958550",
+          "sha256": "eaffd1a37af911375c25ab424c0e325861f86a6999eb1efbc5de3502ff27a422",
+          "sha1": "358e9f47cbfc5f884d5c4711ad8fca03a9832a7f",
+          "md5": "e26dbe81c064f33370622191ca264d21"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.99.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "sso",
+          "version": {
+            "requires": "1.99.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.99.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sso-1.99.0-0.6.21.jar",
+          "url": "sso-1.99.0-0.6.21.jar",
+          "size": 55167,
+          "sha512": "d0c3258792419c9c2ed855fce0517380a95538bc84697a3dee1c68176f3aa3779f2fee1cc9253d73832b3c5a4a83def9714569d5ac90dc49ea3619f3bf958550",
+          "sha256": "eaffd1a37af911375c25ab424c0e325861f86a6999eb1efbc5de3502ff27a422",
+          "sha1": "358e9f47cbfc5f884d5c4711ad8fca03a9832a7f",
+          "md5": "e26dbe81c064f33370622191ca264d21"
+        }
+      ]
+    }
+  ]
+}

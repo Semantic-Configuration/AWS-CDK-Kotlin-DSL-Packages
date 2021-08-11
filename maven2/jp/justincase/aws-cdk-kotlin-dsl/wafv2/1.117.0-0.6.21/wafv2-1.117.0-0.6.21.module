@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "wafv2",
+    "version": "1.117.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "ka4pthfoybhvvnwbwaxmu2dbry"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "wafv2",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wafv2-1.117.0-0.6.21.jar",
+          "url": "wafv2-1.117.0-0.6.21.jar",
+          "size": 695864,
+          "sha512": "edca57b43db40c4f30084d01949992543bb243cd746cabbda595ed9b05050a8c0163540de562f3b8b0f7e71bdddd31a7ae753317afd579046b1f17f67fcbe36e",
+          "sha256": "82611c6b9bd57dabfcb9b1fa4af7de976f9cd1c3a57fd3d29a08ed2c677502fe",
+          "sha1": "147cf9f11c2f7d52c01330bf80117a79eed62732",
+          "md5": "f7114d6e439fab735269bf5d35ab83bc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "wafv2",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wafv2-1.117.0-0.6.21.jar",
+          "url": "wafv2-1.117.0-0.6.21.jar",
+          "size": 695864,
+          "sha512": "edca57b43db40c4f30084d01949992543bb243cd746cabbda595ed9b05050a8c0163540de562f3b8b0f7e71bdddd31a7ae753317afd579046b1f17f67fcbe36e",
+          "sha256": "82611c6b9bd57dabfcb9b1fa4af7de976f9cd1c3a57fd3d29a08ed2c677502fe",
+          "sha1": "147cf9f11c2f7d52c01330bf80117a79eed62732",
+          "md5": "f7114d6e439fab735269bf5d35ab83bc"
+        }
+      ]
+    }
+  ]
+}

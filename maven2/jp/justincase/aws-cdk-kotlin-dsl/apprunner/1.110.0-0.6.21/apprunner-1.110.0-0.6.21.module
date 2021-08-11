@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "apprunner",
+    "version": "1.110.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "cnrjfrtzdvad5bhmsg7msamtuq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "apprunner",
+          "version": {
+            "requires": "1.110.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apprunner-1.110.0-0.6.21.jar",
+          "url": "apprunner-1.110.0-0.6.21.jar",
+          "size": 134996,
+          "sha512": "d83a499d78b988bf9563fd8f29fe16b3a01fceb03ad6ba139498033597231e5853c49e8f434e5e488aa00c16d494be526c7f73acde5bc9dabd5047f22180f5bb",
+          "sha256": "f37f71c5c39c36c8c4131347ee3e000df950e953797f2c49d6779308c352736b",
+          "sha1": "a01e939e58c948067d3a80fe6431ba9d54ea4886",
+          "md5": "8f27b63dcea2d369454d85d039b756be"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.110.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "apprunner",
+          "version": {
+            "requires": "1.110.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apprunner-1.110.0-0.6.21.jar",
+          "url": "apprunner-1.110.0-0.6.21.jar",
+          "size": 134996,
+          "sha512": "d83a499d78b988bf9563fd8f29fe16b3a01fceb03ad6ba139498033597231e5853c49e8f434e5e488aa00c16d494be526c7f73acde5bc9dabd5047f22180f5bb",
+          "sha256": "f37f71c5c39c36c8c4131347ee3e000df950e953797f2c49d6779308c352736b",
+          "sha1": "a01e939e58c948067d3a80fe6431ba9d54ea4886",
+          "md5": "8f27b63dcea2d369454d85d039b756be"
+        }
+      ]
+    }
+  ]
+}

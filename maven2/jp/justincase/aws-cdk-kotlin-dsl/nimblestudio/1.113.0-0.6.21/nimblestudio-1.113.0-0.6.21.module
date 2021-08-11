@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "nimblestudio",
+    "version": "1.113.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "4eq3z6kztfacfbxsxa2ublfmc4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "nimblestudio",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nimblestudio-1.113.0-0.6.21.jar",
+          "url": "nimblestudio-1.113.0-0.6.21.jar",
+          "size": 142466,
+          "sha512": "5a536fddfe0b5cebe7482d703c03301054e3a12b6243f841ac48f5b1be43f99bac7cd662276db2f2bb19291f377ee1ce867d6aab5a76ae4b7e038f0fd5b5201d",
+          "sha256": "f5f3b77d161262af021912ccf62910554c187db192ca3c199063a6b577570b3b",
+          "sha1": "aaa952729dade2fe49577ae435bbeaff73f69d8d",
+          "md5": "8f5b80be8757226c2178957d339ec1e2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "nimblestudio",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nimblestudio-1.113.0-0.6.21.jar",
+          "url": "nimblestudio-1.113.0-0.6.21.jar",
+          "size": 142466,
+          "sha512": "5a536fddfe0b5cebe7482d703c03301054e3a12b6243f841ac48f5b1be43f99bac7cd662276db2f2bb19291f377ee1ce867d6aab5a76ae4b7e038f0fd5b5201d",
+          "sha256": "f5f3b77d161262af021912ccf62910554c187db192ca3c199063a6b577570b3b",
+          "sha1": "aaa952729dade2fe49577ae435bbeaff73f69d8d",
+          "md5": "8f5b80be8757226c2178957d339ec1e2"
+        }
+      ]
+    }
+  ]
+}

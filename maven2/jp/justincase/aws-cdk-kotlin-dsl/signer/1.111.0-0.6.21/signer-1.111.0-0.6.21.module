@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "signer",
+    "version": "1.111.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "x2nrgrzbtvb4vn7ivydfsyaxee"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "signer",
+          "version": {
+            "requires": "1.111.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.111.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "signer-1.111.0-0.6.21.jar",
+          "url": "signer-1.111.0-0.6.21.jar",
+          "size": 40332,
+          "sha512": "6a131c8a21db59d384b7e7372a975df0485cad2d2375641333f1168f1a39cc867f869028c72db2a3c5320a88014b18fd60ebcc831dcf0ffaaf13de1d1031fa7e",
+          "sha256": "519bd1b9dadb08daa34f7cc22a383fcb87302819ec9464de2d3ed789beb21f08",
+          "sha1": "24e322e3265837cde016f7b44eba9fd4d18bb326",
+          "md5": "f08e744d458c2e9282a58f062aebf591"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.111.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "signer",
+          "version": {
+            "requires": "1.111.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.111.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "signer-1.111.0-0.6.21.jar",
+          "url": "signer-1.111.0-0.6.21.jar",
+          "size": 40332,
+          "sha512": "6a131c8a21db59d384b7e7372a975df0485cad2d2375641333f1168f1a39cc867f869028c72db2a3c5320a88014b18fd60ebcc831dcf0ffaaf13de1d1031fa7e",
+          "sha256": "519bd1b9dadb08daa34f7cc22a383fcb87302819ec9464de2d3ed789beb21f08",
+          "sha1": "24e322e3265837cde016f7b44eba9fd4d18bb326",
+          "md5": "f08e744d458c2e9282a58f062aebf591"
+        }
+      ]
+    }
+  ]
+}

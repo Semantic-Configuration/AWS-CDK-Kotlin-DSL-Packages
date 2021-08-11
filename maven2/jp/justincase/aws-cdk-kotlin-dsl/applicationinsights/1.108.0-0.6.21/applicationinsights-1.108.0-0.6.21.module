@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "applicationinsights",
+    "version": "1.108.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "kpsw6vvxevhebcaohgovtllzpe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "applicationinsights",
+          "version": {
+            "requires": "1.108.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "applicationinsights-1.108.0-0.6.21.jar",
+          "url": "applicationinsights-1.108.0-0.6.21.jar",
+          "size": 177341,
+          "sha512": "eb4db87979313c582b9a3dd047fa2af4a4e25b4d7292527cf478d36c303503fbe5e762788047538b7e3a3772f4f2cd3d8ab836294513411a17a720cd73596601",
+          "sha256": "57fb5ac0bc1fdad0d25627fefc11270c8bdfcb7654ea538edeffe2e33dd24156",
+          "sha1": "62fca593362b9fdef6103cbc4af15a10c30cfc7b",
+          "md5": "36afced723606fa592d252342dc476ba"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.108.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "applicationinsights",
+          "version": {
+            "requires": "1.108.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "applicationinsights-1.108.0-0.6.21.jar",
+          "url": "applicationinsights-1.108.0-0.6.21.jar",
+          "size": 177341,
+          "sha512": "eb4db87979313c582b9a3dd047fa2af4a4e25b4d7292527cf478d36c303503fbe5e762788047538b7e3a3772f4f2cd3d8ab836294513411a17a720cd73596601",
+          "sha256": "57fb5ac0bc1fdad0d25627fefc11270c8bdfcb7654ea538edeffe2e33dd24156",
+          "sha1": "62fca593362b9fdef6103cbc4af15a10c30cfc7b",
+          "md5": "36afced723606fa592d252342dc476ba"
+        }
+      ]
+    }
+  ]
+}

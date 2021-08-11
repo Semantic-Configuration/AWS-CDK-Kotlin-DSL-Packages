@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "databrew",
+    "version": "1.117.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "ka4pthfoybhvvnwbwaxmu2dbry"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "databrew",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "databrew-1.117.0-0.6.21.jar",
+          "url": "databrew-1.117.0-0.6.21.jar",
+          "size": 497203,
+          "sha512": "4cd680bce87b811c8f1e6de1c3877b627cbe9f242fd2b0b5351d6ba33c01501e9cd277dd814d91f4663322259642da91e57ed6e0e3ca1b6a752382e90613aacf",
+          "sha256": "309960f0f7602ad157dfbc4d831d764722b4cba669da6b8506e42afc9f038d18",
+          "sha1": "45a2141ad381e178ec4534de27b326e4f4be8deb",
+          "md5": "3bfc38ccf753d6cefedbe7a9fdf2fb29"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "databrew",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "databrew-1.117.0-0.6.21.jar",
+          "url": "databrew-1.117.0-0.6.21.jar",
+          "size": 497203,
+          "sha512": "4cd680bce87b811c8f1e6de1c3877b627cbe9f242fd2b0b5351d6ba33c01501e9cd277dd814d91f4663322259642da91e57ed6e0e3ca1b6a752382e90613aacf",
+          "sha256": "309960f0f7602ad157dfbc4d831d764722b4cba669da6b8506e42afc9f038d18",
+          "sha1": "45a2141ad381e178ec4534de27b326e4f4be8deb",
+          "md5": "3bfc38ccf753d6cefedbe7a9fdf2fb29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "dax",
+    "version": "1.59.0-0.6.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "dax",
+          "version": {
+            "requires": "1.59.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dax-1.59.0-0.6.23.jar",
+          "url": "dax-1.59.0-0.6.23.jar",
+          "size": 42378,
+          "sha512": "72096afd4354369f4d988c1a738ec00c7272f8b1002fc92e7704a6a352f3cac2a193b8a0431777c0235ed5b43346902b904d6543d5aa6aadd332f4c216cb279a",
+          "sha256": "9053df9f9faabcd2d6901f6a57a3ff705b075ef2a8502b14d7d9c7e6a71dc5a3",
+          "sha1": "2ed9bd8bd4c02b63d01c2acc66244aac62975caf",
+          "md5": "b0d2055c7764afc5031865ff0ce25368"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.23"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.59.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "dax",
+          "version": {
+            "requires": "1.59.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.59.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dax-1.59.0-0.6.23.jar",
+          "url": "dax-1.59.0-0.6.23.jar",
+          "size": 42378,
+          "sha512": "72096afd4354369f4d988c1a738ec00c7272f8b1002fc92e7704a6a352f3cac2a193b8a0431777c0235ed5b43346902b904d6543d5aa6aadd332f4c216cb279a",
+          "sha256": "9053df9f9faabcd2d6901f6a57a3ff705b075ef2a8502b14d7d9c7e6a71dc5a3",
+          "sha1": "2ed9bd8bd4c02b63d01c2acc66244aac62975caf",
+          "md5": "b0d2055c7764afc5031865ff0ce25368"
+        }
+      ]
+    }
+  ]
+}

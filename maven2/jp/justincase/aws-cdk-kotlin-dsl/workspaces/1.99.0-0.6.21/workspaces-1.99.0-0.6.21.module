@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "workspaces",
+    "version": "1.99.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "77l3wsmng5dcnbpnx6e7ui64wu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "workspaces",
+          "version": {
+            "requires": "1.99.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.99.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "workspaces-1.99.0-0.6.21.jar",
+          "url": "workspaces-1.99.0-0.6.21.jar",
+          "size": 52133,
+          "sha512": "55917f44281b2181694f5bfa75214b27bff877633607158f5cc29b199adf8dc19c42635790ad7977a1b6508a2b56d4ffd9ba07c45cc2db023ab68e99b4799738",
+          "sha256": "e4eab0736a0c03b61289c96954a06760895bb5c7a7ed4bb02aa931f91bf7dcc4",
+          "sha1": "b80aa84c298873f7a0094cad88c089f85f636d0c",
+          "md5": "6f4502e67866a18408efb794dfd19c3f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.99.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "workspaces",
+          "version": {
+            "requires": "1.99.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.99.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "workspaces-1.99.0-0.6.21.jar",
+          "url": "workspaces-1.99.0-0.6.21.jar",
+          "size": 52133,
+          "sha512": "55917f44281b2181694f5bfa75214b27bff877633607158f5cc29b199adf8dc19c42635790ad7977a1b6508a2b56d4ffd9ba07c45cc2db023ab68e99b4799738",
+          "sha256": "e4eab0736a0c03b61289c96954a06760895bb5c7a7ed4bb02aa931f91bf7dcc4",
+          "sha1": "b80aa84c298873f7a0094cad88c089f85f636d0c",
+          "md5": "6f4502e67866a18408efb794dfd19c3f"
+        }
+      ]
+    }
+  ]
+}

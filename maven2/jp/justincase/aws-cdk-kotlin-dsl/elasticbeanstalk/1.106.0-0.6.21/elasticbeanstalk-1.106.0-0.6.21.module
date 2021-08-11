@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "elasticbeanstalk",
+    "version": "1.106.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "dr3fova3trezxe3kqt6fk3hm3m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "elasticbeanstalk",
+          "version": {
+            "requires": "1.106.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticbeanstalk-1.106.0-0.6.21.jar",
+          "url": "elasticbeanstalk-1.106.0-0.6.21.jar",
+          "size": 155130,
+          "sha512": "92599718b1cf977cea8f86b0f9f7b7a1d5820fd11db4a0681fdb2d8fa44bc005f7631f45817426f3501360f4b825aa672e49399647d6e712da5277bdfde3dc5c",
+          "sha256": "f4e7c85df5a99b19d4d62972bc9ca2ac19c019ed352cf273a2526ae8e222fe1a",
+          "sha1": "8fe6a48ec15b5bd244abc2f8fa12ab314fa599b9",
+          "md5": "70214a0d53a61fb43194f1e54f7abe7f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.106.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "elasticbeanstalk",
+          "version": {
+            "requires": "1.106.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticbeanstalk-1.106.0-0.6.21.jar",
+          "url": "elasticbeanstalk-1.106.0-0.6.21.jar",
+          "size": 155130,
+          "sha512": "92599718b1cf977cea8f86b0f9f7b7a1d5820fd11db4a0681fdb2d8fa44bc005f7631f45817426f3501360f4b825aa672e49399647d6e712da5277bdfde3dc5c",
+          "sha256": "f4e7c85df5a99b19d4d62972bc9ca2ac19c019ed352cf273a2526ae8e222fe1a",
+          "sha1": "8fe6a48ec15b5bd244abc2f8fa12ab314fa599b9",
+          "md5": "70214a0d53a61fb43194f1e54f7abe7f"
+        }
+      ]
+    }
+  ]
+}

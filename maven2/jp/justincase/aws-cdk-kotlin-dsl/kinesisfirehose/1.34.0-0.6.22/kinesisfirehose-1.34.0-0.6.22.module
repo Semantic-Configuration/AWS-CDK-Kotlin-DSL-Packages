@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "kinesisfirehose",
+    "version": "1.34.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "kinesisfirehose",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kinesisfirehose-1.34.0-0.6.22.jar",
+          "url": "kinesisfirehose-1.34.0-0.6.22.jar",
+          "size": 368513,
+          "sha512": "c4bd344b20f94dbd9aae7408778f5dd160da2c9567ceeb4b430805fbc20dcf87331cdccda6bbcab63cf309305c9bc10aa6762b66b8cd6b9f95d86504c290b668",
+          "sha256": "b060be705ce539969d34b32820c6e2711cab022a184fcd7b499b8c2e9441e660",
+          "sha1": "cd31f01a2a8c2400aeba0e6d82b930248943045a",
+          "md5": "e3d5e99afb7b5ca3b1bf34cc7b3da869"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "kinesisfirehose",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kinesisfirehose-1.34.0-0.6.22.jar",
+          "url": "kinesisfirehose-1.34.0-0.6.22.jar",
+          "size": 368513,
+          "sha512": "c4bd344b20f94dbd9aae7408778f5dd160da2c9567ceeb4b430805fbc20dcf87331cdccda6bbcab63cf309305c9bc10aa6762b66b8cd6b9f95d86504c290b668",
+          "sha256": "b060be705ce539969d34b32820c6e2711cab022a184fcd7b499b8c2e9441e660",
+          "sha1": "cd31f01a2a8c2400aeba0e6d82b930248943045a",
+          "md5": "e3d5e99afb7b5ca3b1bf34cc7b3da869"
+        }
+      ]
+    }
+  ]
+}

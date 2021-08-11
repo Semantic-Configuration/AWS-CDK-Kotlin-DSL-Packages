@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "datasync",
+    "version": "1.102.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "3v7jvpyge5da5n7rhvpphv65wa"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "datasync",
+          "version": {
+            "requires": "1.102.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.102.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datasync-1.102.0-0.6.21.jar",
+          "url": "datasync-1.102.0-0.6.21.jar",
+          "size": 165849,
+          "sha512": "e3dde65c676ad43e0907cf63d102c55636fc6a3f6f02353ba43e7dbfe8fe5425430a0cabb8055236b1d0cae0792ce53d940956fbaadd0001f778de0382006e63",
+          "sha256": "a4f6df07a6c687d47863baf22c65158a47235142823f96428f97d19a326904a",
+          "sha1": "36e2dc8be16940dfa3b03e7728cb226411cd6fd2",
+          "md5": "8b646082616ebdddbc1ae7ec05c07a16"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.102.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "datasync",
+          "version": {
+            "requires": "1.102.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.102.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datasync-1.102.0-0.6.21.jar",
+          "url": "datasync-1.102.0-0.6.21.jar",
+          "size": 165849,
+          "sha512": "e3dde65c676ad43e0907cf63d102c55636fc6a3f6f02353ba43e7dbfe8fe5425430a0cabb8055236b1d0cae0792ce53d940956fbaadd0001f778de0382006e63",
+          "sha256": "a4f6df07a6c687d47863baf22c65158a47235142823f96428f97d19a326904a",
+          "sha1": "36e2dc8be16940dfa3b03e7728cb226411cd6fd2",
+          "md5": "8b646082616ebdddbc1ae7ec05c07a16"
+        }
+      ]
+    }
+  ]
+}

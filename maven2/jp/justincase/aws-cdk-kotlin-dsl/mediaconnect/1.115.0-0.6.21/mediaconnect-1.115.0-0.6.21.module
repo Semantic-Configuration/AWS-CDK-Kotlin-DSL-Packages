@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "mediaconnect",
+    "version": "1.115.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "mmt4x645szht5dd4sh3qtmk2ta"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "mediaconnect",
+          "version": {
+            "requires": "1.115.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mediaconnect-1.115.0-0.6.21.jar",
+          "url": "mediaconnect-1.115.0-0.6.21.jar",
+          "size": 130874,
+          "sha512": "3247fe9525f16c4b34a501c69485c4480e4435da7372a8a31acf1fd6f54b3850f8dfbdf4084e8ab3aae680b58e9f6a4aeb2fd8ef6f14cf26c8a22a32135fe5fe",
+          "sha256": "9f4c26b1a84ba8ac5a5c606efbc28b53bddf8249f7ee1f007dbe5318a274bf08",
+          "sha1": "568bc3bf188e7ccccea1219625eee85db8789333",
+          "md5": "19716033707dc1dde86aea54e4236e3b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.115.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "mediaconnect",
+          "version": {
+            "requires": "1.115.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mediaconnect-1.115.0-0.6.21.jar",
+          "url": "mediaconnect-1.115.0-0.6.21.jar",
+          "size": 130874,
+          "sha512": "3247fe9525f16c4b34a501c69485c4480e4435da7372a8a31acf1fd6f54b3850f8dfbdf4084e8ab3aae680b58e9f6a4aeb2fd8ef6f14cf26c8a22a32135fe5fe",
+          "sha256": "9f4c26b1a84ba8ac5a5c606efbc28b53bddf8249f7ee1f007dbe5318a274bf08",
+          "sha1": "568bc3bf188e7ccccea1219625eee85db8789333",
+          "md5": "19716033707dc1dde86aea54e4236e3b"
+        }
+      ]
+    }
+  ]
+}

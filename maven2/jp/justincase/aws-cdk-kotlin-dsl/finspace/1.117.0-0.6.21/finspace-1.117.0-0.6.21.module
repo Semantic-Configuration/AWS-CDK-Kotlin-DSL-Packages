@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "finspace",
+    "version": "1.117.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "ka4pthfoybhvvnwbwaxmu2dbry"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "finspace",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "finspace-1.117.0-0.6.21.jar",
+          "url": "finspace-1.117.0-0.6.21.jar",
+          "size": 23133,
+          "sha512": "f031a3c58656499b2d5cc623bf26e700aa972f3c247f0467b9be21c00eda0dd69b7d70fea5085314962416450ef842ebf233bdf2b941d80d219766a54e313e39",
+          "sha256": "a5f3073f7a8e60c7da8d295a880849bacf74e46d9264f591e01a290fc07293c",
+          "sha1": "b5bcbff4bd94655f8198c3cf48ee606df0580e44",
+          "md5": "58e4be245664d587f3e60b6987a023ea"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "finspace",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "finspace-1.117.0-0.6.21.jar",
+          "url": "finspace-1.117.0-0.6.21.jar",
+          "size": 23133,
+          "sha512": "f031a3c58656499b2d5cc623bf26e700aa972f3c247f0467b9be21c00eda0dd69b7d70fea5085314962416450ef842ebf233bdf2b941d80d219766a54e313e39",
+          "sha256": "a5f3073f7a8e60c7da8d295a880849bacf74e46d9264f591e01a290fc07293c",
+          "sha1": "b5bcbff4bd94655f8198c3cf48ee606df0580e44",
+          "md5": "58e4be245664d587f3e60b6987a023ea"
+        }
+      ]
+    }
+  ]
+}

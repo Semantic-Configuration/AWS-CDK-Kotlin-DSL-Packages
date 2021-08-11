@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "s3outposts",
+    "version": "1.108.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "gmwtoadzizbz5jj3nknjggc274"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "s3outposts",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "s3outposts-1.108.1-0.6.21.jar",
+          "url": "s3outposts-1.108.1-0.6.21.jar",
+          "size": 77044,
+          "sha512": "ac96ba3c71c42a88c041e5939b1602423fa27baf19d77054695d0dce04bf2e127a9925855a77fbc9d47db309ac66bdd776fa38948d98d41107a5b802b8d9d19e",
+          "sha256": "6fb51cf9c42d139328fa1afa3d32107fb18abdeca60ef91d853513dced288c38",
+          "sha1": "290c0bd0ee0e50ae8e46aa7222ff74b8fe91b37b",
+          "md5": "5699263785f3ba1a4d94144eae68be10"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "s3outposts",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "s3outposts-1.108.1-0.6.21.jar",
+          "url": "s3outposts-1.108.1-0.6.21.jar",
+          "size": 77044,
+          "sha512": "ac96ba3c71c42a88c041e5939b1602423fa27baf19d77054695d0dce04bf2e127a9925855a77fbc9d47db309ac66bdd776fa38948d98d41107a5b802b8d9d19e",
+          "sha256": "6fb51cf9c42d139328fa1afa3d32107fb18abdeca60ef91d853513dced288c38",
+          "sha1": "290c0bd0ee0e50ae8e46aa7222ff74b8fe91b37b",
+          "md5": "5699263785f3ba1a4d94144eae68be10"
+        }
+      ]
+    }
+  ]
+}

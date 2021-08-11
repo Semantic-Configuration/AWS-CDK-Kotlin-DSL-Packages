@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "fis",
+    "version": "1.106.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "apa3jttzlbgsjbklj7vcehaque"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "fis",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fis-1.106.1-0.6.21.jar",
+          "url": "fis-1.106.1-0.6.21.jar",
+          "size": 70010,
+          "sha512": "fadd383c5d4f5612e778f30276fbc41443671e980b7a4bf7c32c92bc1bc547d2565ecef3d93705820a7f0533b37e1a6223b4aadaf1fbb62f6454619efbf6fd44",
+          "sha256": "c4a5c78b845bb0b881cc4438b80b8d6cdc74fe459048a0c4c131117f307b6479",
+          "sha1": "b7514b08fac91a82e3dcf6b59f20a9c6475f306c",
+          "md5": "4861c7fc36c926d2eee3a292309e1379"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "fis",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fis-1.106.1-0.6.21.jar",
+          "url": "fis-1.106.1-0.6.21.jar",
+          "size": 70010,
+          "sha512": "fadd383c5d4f5612e778f30276fbc41443671e980b7a4bf7c32c92bc1bc547d2565ecef3d93705820a7f0533b37e1a6223b4aadaf1fbb62f6454619efbf6fd44",
+          "sha256": "c4a5c78b845bb0b881cc4438b80b8d6cdc74fe459048a0c4c131117f307b6479",
+          "sha1": "b7514b08fac91a82e3dcf6b59f20a9c6475f306c",
+          "md5": "4861c7fc36c926d2eee3a292309e1379"
+        }
+      ]
+    }
+  ]
+}

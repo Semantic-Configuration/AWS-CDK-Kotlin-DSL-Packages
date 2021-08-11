@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "iotwireless",
+    "version": "1.104.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "qufggsntgrgwvj22f7mprctb2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iotwireless",
+          "version": {
+            "requires": "1.104.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.104.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iotwireless-1.104.0-0.6.21.jar",
+          "url": "iotwireless-1.104.0-0.6.21.jar",
+          "size": 308863,
+          "sha512": "879d9f1e570d4d94eb12ef4d8b867bc8f0a955ba5be9c43263ed00899666b15a3f844ea60a6b9389f22df8bd86b307bc5ef3e8f8f097c93da2cee1e8601eed35",
+          "sha256": "71d44b9e79219ad509355d6cdd74347be7bd88031b2d8c49d11e807c2823f9b8",
+          "sha1": "ff57c5e7b49a2235c7e041fcefe714608e86a39a",
+          "md5": "9117d42fadf16b8eb1590d20fd683090"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.104.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iotwireless",
+          "version": {
+            "requires": "1.104.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.104.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iotwireless-1.104.0-0.6.21.jar",
+          "url": "iotwireless-1.104.0-0.6.21.jar",
+          "size": 308863,
+          "sha512": "879d9f1e570d4d94eb12ef4d8b867bc8f0a955ba5be9c43263ed00899666b15a3f844ea60a6b9389f22df8bd86b307bc5ef3e8f8f097c93da2cee1e8601eed35",
+          "sha256": "71d44b9e79219ad509355d6cdd74347be7bd88031b2d8c49d11e807c2823f9b8",
+          "sha1": "ff57c5e7b49a2235c7e041fcefe714608e86a39a",
+          "md5": "9117d42fadf16b8eb1590d20fd683090"
+        }
+      ]
+    }
+  ]
+}

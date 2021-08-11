@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "elasticache",
+    "version": "1.106.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "apa3jttzlbgsjbklj7vcehaque"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "elasticache",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticache-1.106.1-0.6.21.jar",
+          "url": "elasticache-1.106.1-0.6.21.jar",
+          "size": 281430,
+          "sha512": "2cfaefaad01346cd9abfd0c2f46f35efc2131cf12f6ba44e6143e29da8d3ce121ce9438b1a22e0fba239c137135f2095894a9bf906802df58e17df7dc675cfe4",
+          "sha256": "2e96cc51f3595afb5811f4b69ff7ea6dab7343a83a3cb88467894a56bc304796",
+          "sha1": "dd9658e2c82b8b8a3b5b711f8550bc997dcc9758",
+          "md5": "5f77c8ddcbffe37f169ab4cb96296869"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "elasticache",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticache-1.106.1-0.6.21.jar",
+          "url": "elasticache-1.106.1-0.6.21.jar",
+          "size": 281430,
+          "sha512": "2cfaefaad01346cd9abfd0c2f46f35efc2131cf12f6ba44e6143e29da8d3ce121ce9438b1a22e0fba239c137135f2095894a9bf906802df58e17df7dc675cfe4",
+          "sha256": "2e96cc51f3595afb5811f4b69ff7ea6dab7343a83a3cb88467894a56bc304796",
+          "sha1": "dd9658e2c82b8b8a3b5b711f8550bc997dcc9758",
+          "md5": "5f77c8ddcbffe37f169ab4cb96296869"
+        }
+      ]
+    }
+  ]
+}

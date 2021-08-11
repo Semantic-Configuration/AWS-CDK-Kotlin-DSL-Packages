@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "iotsitewise",
+    "version": "1.100.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "smkqp7thvbfexba6catfwegxzq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iotsitewise",
+          "version": {
+            "requires": "1.100.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.100.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iotsitewise-1.100.0-0.6.21.jar",
+          "url": "iotsitewise-1.100.0-0.6.21.jar",
+          "size": 287687,
+          "sha512": "3c5417fafd19b1c4ec6ba5c64fb093bfeb4bb6d8d9139e68adafaeac1fdac8160f52131914b984c3d24ef438c8ab8a2be85b847da1d2564f503544a57d69392",
+          "sha256": "c7772b75d20b9c5eab5ba55667fc735965e71dc8e6fdd5394fd20b4fcf22cb5b",
+          "sha1": "52d8bc296e93a9bc220e5a639f40caf3b7735072",
+          "md5": "e8f40aba264a8dd3a9361683ffcebcc6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.100.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iotsitewise",
+          "version": {
+            "requires": "1.100.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.100.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iotsitewise-1.100.0-0.6.21.jar",
+          "url": "iotsitewise-1.100.0-0.6.21.jar",
+          "size": 287687,
+          "sha512": "3c5417fafd19b1c4ec6ba5c64fb093bfeb4bb6d8d9139e68adafaeac1fdac8160f52131914b984c3d24ef438c8ab8a2be85b847da1d2564f503544a57d69392",
+          "sha256": "c7772b75d20b9c5eab5ba55667fc735965e71dc8e6fdd5394fd20b4fcf22cb5b",
+          "sha1": "52d8bc296e93a9bc220e5a639f40caf3b7735072",
+          "md5": "e8f40aba264a8dd3a9361683ffcebcc6"
+        }
+      ]
+    }
+  ]
+}

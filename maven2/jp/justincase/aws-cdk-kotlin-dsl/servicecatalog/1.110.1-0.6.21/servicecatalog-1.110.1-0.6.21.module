@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "servicecatalog",
+    "version": "1.110.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "k23roxkwqjbs5i6arr4lg4r4xm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "servicecatalog",
+          "version": {
+            "requires": "1.110.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "servicecatalog-1.110.1-0.6.21.jar",
+          "url": "servicecatalog-1.110.1-0.6.21.jar",
+          "size": 220358,
+          "sha512": "3a30c89a077f817ebbdeeec501c1a023fe65742d4756dd141825c5793d48f67425ee03437a440f56802ad65b27a28a27e1d513ca570fe8e2359791b00a0dd79a",
+          "sha256": "1ab5a0c5ddf56b55b28793a73cf1b8b5f266bbcd0e3f7c2277baee673dbd38d7",
+          "sha1": "d598ca63e878f73d94844930e7d1a7c3852597c4",
+          "md5": "d66b30890561307fb9233e24d2a6249c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.110.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "servicecatalog",
+          "version": {
+            "requires": "1.110.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "iam",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "servicecatalog-1.110.1-0.6.21.jar",
+          "url": "servicecatalog-1.110.1-0.6.21.jar",
+          "size": 220358,
+          "sha512": "3a30c89a077f817ebbdeeec501c1a023fe65742d4756dd141825c5793d48f67425ee03437a440f56802ad65b27a28a27e1d513ca570fe8e2359791b00a0dd79a",
+          "sha256": "1ab5a0c5ddf56b55b28793a73cf1b8b5f266bbcd0e3f7c2277baee673dbd38d7",
+          "sha1": "d598ca63e878f73d94844930e7d1a7c3852597c4",
+          "md5": "d66b30890561307fb9233e24d2a6249c"
+        }
+      ]
+    }
+  ]
+}

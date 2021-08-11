@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "detective",
+    "version": "1.116.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "u6lzbl5mhzberecib7k5lnyrnq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "detective",
+          "version": {
+            "requires": "1.116.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "detective-1.116.0-0.6.21.jar",
+          "url": "detective-1.116.0-0.6.21.jar",
+          "size": 24978,
+          "sha512": "1cd036c6c6716df1077c7ea828f5911cc544c36995c5d3155fb1281a8d921db23e9a733c566488a01fe55650b3133045d3d6e77548660fb1a26cdaba55876939",
+          "sha256": "380949cd2172b53b8574cb4c1e57c4da98db28b43f88fd4f7c33b7affc95c181",
+          "sha1": "22e5c258df5682b12bb9e138aafca657aada8958",
+          "md5": "b9171a7f1eecd85175df33bf07d3cc5d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.116.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "detective",
+          "version": {
+            "requires": "1.116.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.116.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "detective-1.116.0-0.6.21.jar",
+          "url": "detective-1.116.0-0.6.21.jar",
+          "size": 24978,
+          "sha512": "1cd036c6c6716df1077c7ea828f5911cc544c36995c5d3155fb1281a8d921db23e9a733c566488a01fe55650b3133045d3d6e77548660fb1a26cdaba55876939",
+          "sha256": "380949cd2172b53b8574cb4c1e57c4da98db28b43f88fd4f7c33b7affc95c181",
+          "sha1": "22e5c258df5682b12bb9e138aafca657aada8958",
+          "md5": "b9171a7f1eecd85175df33bf07d3cc5d"
+        }
+      ]
+    }
+  ]
+}

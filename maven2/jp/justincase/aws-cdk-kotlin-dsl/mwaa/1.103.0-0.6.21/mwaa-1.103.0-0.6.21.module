@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "mwaa",
+    "version": "1.103.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "scwtlzl2vng5vmpmjwmjvsfnoa"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "mwaa",
+          "version": {
+            "requires": "1.103.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.103.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mwaa-1.103.0-0.6.21.jar",
+          "url": "mwaa-1.103.0-0.6.21.jar",
+          "size": 71869,
+          "sha512": "5f65e4da399a0c0b54ac10164e71a54ccd5e08d887aaa835573de23c50e60cabedbef5facd7e4e46a603ef4c9fb0ddcc4a457b546321a5c5d935443a0afeefab",
+          "sha256": "c43c5dfc40e8cbc8233549d668255e44f4ea3b1aa6547c99898790d103481bb6",
+          "sha1": "d9352038c273b6204263a9075b46aef43ead81f5",
+          "md5": "4fa42de451032afd11611694c0149485"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.103.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "mwaa",
+          "version": {
+            "requires": "1.103.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.103.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mwaa-1.103.0-0.6.21.jar",
+          "url": "mwaa-1.103.0-0.6.21.jar",
+          "size": 71869,
+          "sha512": "5f65e4da399a0c0b54ac10164e71a54ccd5e08d887aaa835573de23c50e60cabedbef5facd7e4e46a603ef4c9fb0ddcc4a457b546321a5c5d935443a0afeefab",
+          "sha256": "c43c5dfc40e8cbc8233549d668255e44f4ea3b1aa6547c99898790d103481bb6",
+          "sha1": "d9352038c273b6204263a9075b46aef43ead81f5",
+          "md5": "4fa42de451032afd11611694c0149485"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "devopsguru",
+    "version": "1.115.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "mmt4x645szht5dd4sh3qtmk2ta"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "devopsguru",
+          "version": {
+            "requires": "1.115.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "devopsguru-1.115.0-0.6.21.jar",
+          "url": "devopsguru-1.115.0-0.6.21.jar",
+          "size": 57003,
+          "sha512": "2041e935d2628ba92e73c5d15f57bbe20e5404e3c3d7b85310b66b23c5710966270c87ffa5dde40ea565323ec08945949a31f9eb30754e7b086c8457119747a0",
+          "sha256": "fca4e7db74a6028d82c85a2c271ece465740e7cff2a9f0120602b47873fb09f9",
+          "sha1": "91ca295d3132f6e3f4872b5f5cac0f47dca31b1f",
+          "md5": "dc4a0a794231f1d8d14872f33e139d68"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.115.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "devopsguru",
+          "version": {
+            "requires": "1.115.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "devopsguru-1.115.0-0.6.21.jar",
+          "url": "devopsguru-1.115.0-0.6.21.jar",
+          "size": 57003,
+          "sha512": "2041e935d2628ba92e73c5d15f57bbe20e5404e3c3d7b85310b66b23c5710966270c87ffa5dde40ea565323ec08945949a31f9eb30754e7b086c8457119747a0",
+          "sha256": "fca4e7db74a6028d82c85a2c271ece465740e7cff2a9f0120602b47873fb09f9",
+          "sha1": "91ca295d3132f6e3f4872b5f5cac0f47dca31b1f",
+          "md5": "dc4a0a794231f1d8d14872f33e139d68"
+        }
+      ]
+    }
+  ]
+}

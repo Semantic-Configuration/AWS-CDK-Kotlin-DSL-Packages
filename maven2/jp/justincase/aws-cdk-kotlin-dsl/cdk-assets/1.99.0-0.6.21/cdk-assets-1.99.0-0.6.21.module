@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "cdk-assets",
+    "version": "1.99.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "77l3wsmng5dcnbpnx6e7ui64wu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cdk-assets",
+          "version": {
+            "requires": "1.99.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.99.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.99.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cdk-assets-1.99.0-0.6.21.jar",
+          "url": "cdk-assets-1.99.0-0.6.21.jar",
+          "size": 16460,
+          "sha512": "c0727c20a090511f16b4320b0d772f6ad0c3f77c6b7ecec3a70594dcf3f579a0abe818ec493aae8a4462ac0d7896d1d2c8ce9a4d63bd3c2d8968b3c3b3551009",
+          "sha256": "c0c02b71b90e57b1a2335821996e63d98896a6e0a8197ef040e317064255d865",
+          "sha1": "2bb265d7a232c80979d0a1ae553fc10c562bdca0",
+          "md5": "ff833d2940475bb7783ededfb5f408d5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.99.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cdk-assets",
+          "version": {
+            "requires": "1.99.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.99.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-cx-api",
+          "version": {
+            "requires": "1.99.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cdk-assets-1.99.0-0.6.21.jar",
+          "url": "cdk-assets-1.99.0-0.6.21.jar",
+          "size": 16460,
+          "sha512": "c0727c20a090511f16b4320b0d772f6ad0c3f77c6b7ecec3a70594dcf3f579a0abe818ec493aae8a4462ac0d7896d1d2c8ce9a4d63bd3c2d8968b3c3b3551009",
+          "sha256": "c0c02b71b90e57b1a2335821996e63d98896a6e0a8197ef040e317064255d865",
+          "sha1": "2bb265d7a232c80979d0a1ae553fc10c562bdca0",
+          "md5": "ff833d2940475bb7783ededfb5f408d5"
+        }
+      ]
+    }
+  ]
+}

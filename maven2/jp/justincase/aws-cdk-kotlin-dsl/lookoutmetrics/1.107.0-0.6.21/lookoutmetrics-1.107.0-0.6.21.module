@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "lookoutmetrics",
+    "version": "1.107.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "ii37qlm56fdwtlikv7tspxqqje"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "lookoutmetrics",
+          "version": {
+            "requires": "1.107.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lookoutmetrics-1.107.0-0.6.21.jar",
+          "url": "lookoutmetrics-1.107.0-0.6.21.jar",
+          "size": 141072,
+          "sha512": "6cb51343e20f34ea0694a46d119c3401023d2d58fac6fa3ef5d0b24fcdcfcc18c63390545a105dd2998fa4486bfbec091b1e1efb25f6f875428939ef1e7444e6",
+          "sha256": "8363de766feb90243c49856f493892ee8cd9857638bafffa93836504bad0923d",
+          "sha1": "5985f265d886e6d2c45cf1c179e9675715bd42a8",
+          "md5": "1b6118711e8781b81a486e62134ccfa4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.107.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "lookoutmetrics",
+          "version": {
+            "requires": "1.107.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lookoutmetrics-1.107.0-0.6.21.jar",
+          "url": "lookoutmetrics-1.107.0-0.6.21.jar",
+          "size": 141072,
+          "sha512": "6cb51343e20f34ea0694a46d119c3401023d2d58fac6fa3ef5d0b24fcdcfcc18c63390545a105dd2998fa4486bfbec091b1e1efb25f6f875428939ef1e7444e6",
+          "sha256": "8363de766feb90243c49856f493892ee8cd9857638bafffa93836504bad0923d",
+          "sha1": "5985f265d886e6d2c45cf1c179e9675715bd42a8",
+          "md5": "1b6118711e8781b81a486e62134ccfa4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "datapipeline",
+    "version": "1.108.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "kpsw6vvxevhebcaohgovtllzpe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "datapipeline",
+          "version": {
+            "requires": "1.108.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datapipeline-1.108.0-0.6.21.jar",
+          "url": "datapipeline-1.108.0-0.6.21.jar",
+          "size": 83309,
+          "sha512": "5d6ad9b89b13a76fa5d20091cd043d0d86d8cb9390ecb044ed6d396a4d6a73f4be9e9ed0bc7d387890eed638a0c88f5fc49ff39c39ad0a212ea59accdd09cd8f",
+          "sha256": "f80a72c01a7322f291f7945e363ed5310ee355b70f8007b8a1162f9db7d7bbb2",
+          "sha1": "cb570e946fddebcf4942695fa9f59bbaf8a44acd",
+          "md5": "d7a2467ccb25fb7369c343b19c8c6974"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.108.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "datapipeline",
+          "version": {
+            "requires": "1.108.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datapipeline-1.108.0-0.6.21.jar",
+          "url": "datapipeline-1.108.0-0.6.21.jar",
+          "size": 83309,
+          "sha512": "5d6ad9b89b13a76fa5d20091cd043d0d86d8cb9390ecb044ed6d396a4d6a73f4be9e9ed0bc7d387890eed638a0c88f5fc49ff39c39ad0a212ea59accdd09cd8f",
+          "sha256": "f80a72c01a7322f291f7945e363ed5310ee355b70f8007b8a1162f9db7d7bbb2",
+          "sha1": "cb570e946fddebcf4942695fa9f59bbaf8a44acd",
+          "md5": "d7a2467ccb25fb7369c343b19c8c6974"
+        }
+      ]
+    }
+  ]
+}

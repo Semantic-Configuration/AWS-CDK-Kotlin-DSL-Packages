@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "groundstation",
+    "version": "1.107.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "ii37qlm56fdwtlikv7tspxqqje"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "groundstation",
+          "version": {
+            "requires": "1.107.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groundstation-1.107.0-0.6.21.jar",
+          "url": "groundstation-1.107.0-0.6.21.jar",
+          "size": 219906,
+          "sha512": "97040153cac74ca854b509ceff6491327bfad806fd9d9b79bc6ed9258593edc790d967320a010441f892e38711179021a5a65a2beea8fa46e49a20fb31bba9c4",
+          "sha256": "85a3db8c53cef51c6d65e01109fe088fe0308d7eba11983c43b2d56fdc5bea4c",
+          "sha1": "860239f97a296c1f9c547750879be0f094cb4fd",
+          "md5": "995e408bd334a6f5a2829cb1a5d98d15"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.107.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "groundstation",
+          "version": {
+            "requires": "1.107.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groundstation-1.107.0-0.6.21.jar",
+          "url": "groundstation-1.107.0-0.6.21.jar",
+          "size": 219906,
+          "sha512": "97040153cac74ca854b509ceff6491327bfad806fd9d9b79bc6ed9258593edc790d967320a010441f892e38711179021a5a65a2beea8fa46e49a20fb31bba9c4",
+          "sha256": "85a3db8c53cef51c6d65e01109fe088fe0308d7eba11983c43b2d56fdc5bea4c",
+          "sha1": "860239f97a296c1f9c547750879be0f094cb4fd",
+          "md5": "995e408bd334a6f5a2829cb1a5d98d15"
+        }
+      ]
+    }
+  ]
+}

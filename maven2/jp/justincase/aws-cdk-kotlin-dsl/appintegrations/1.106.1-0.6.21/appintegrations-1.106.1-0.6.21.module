@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "appintegrations",
+    "version": "1.106.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "apa3jttzlbgsjbklj7vcehaque"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "appintegrations",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "appintegrations-1.106.1-0.6.21.jar",
+          "url": "appintegrations-1.106.1-0.6.21.jar",
+          "size": 35086,
+          "sha512": "f89ff1c22b59c7458caf2a0bd5ac7988721f1feaf4db1700bf2173b4b7be9591c4bc5f899150e957176cdd5b8bd9a7ead672b7d51d133b2f0a1dc2672098774c",
+          "sha256": "2a1b478b221c34fe2aa3de43543c66a9c798fecd8b6709ad61ad957cdd294f19",
+          "sha1": "b927051b4368f16079970783b6841258cfa59ae2",
+          "md5": "89a9db2f77293d15a0eae4acd2f0ae5e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "appintegrations",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "appintegrations-1.106.1-0.6.21.jar",
+          "url": "appintegrations-1.106.1-0.6.21.jar",
+          "size": 35086,
+          "sha512": "f89ff1c22b59c7458caf2a0bd5ac7988721f1feaf4db1700bf2173b4b7be9591c4bc5f899150e957176cdd5b8bd9a7ead672b7d51d133b2f0a1dc2672098774c",
+          "sha256": "2a1b478b221c34fe2aa3de43543c66a9c798fecd8b6709ad61ad957cdd294f19",
+          "sha1": "b927051b4368f16079970783b6841258cfa59ae2",
+          "md5": "89a9db2f77293d15a0eae4acd2f0ae5e"
+        }
+      ]
+    }
+  ]
+}

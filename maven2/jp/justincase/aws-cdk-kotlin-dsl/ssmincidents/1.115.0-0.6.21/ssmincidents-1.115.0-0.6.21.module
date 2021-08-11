@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "ssmincidents",
+    "version": "1.115.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "mmt4x645szht5dd4sh3qtmk2ta"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "ssmincidents",
+          "version": {
+            "requires": "1.115.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ssmincidents-1.115.0-0.6.21.jar",
+          "url": "ssmincidents-1.115.0-0.6.21.jar",
+          "size": 108491,
+          "sha512": "194e093d78715333adea7ad5acf4e1a39e55c6d2125bef905db5e04f540a7bcb737099638d4a9f3759d3c087579c3366819e92a0c0a57e24406d8b3aee13a8c6",
+          "sha256": "d815670a53ccb39cfdea66b3f483081da26bc53703d5db83d208650be4f0393c",
+          "sha1": "2743f6ef1569cdc8da250d5ca977369fdeb67474",
+          "md5": "e68a246a20ea36281cea8a35beb2cb00"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.115.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "ssmincidents",
+          "version": {
+            "requires": "1.115.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ssmincidents-1.115.0-0.6.21.jar",
+          "url": "ssmincidents-1.115.0-0.6.21.jar",
+          "size": 108491,
+          "sha512": "194e093d78715333adea7ad5acf4e1a39e55c6d2125bef905db5e04f540a7bcb737099638d4a9f3759d3c087579c3366819e92a0c0a57e24406d8b3aee13a8c6",
+          "sha256": "d815670a53ccb39cfdea66b3f483081da26bc53703d5db83d208650be4f0393c",
+          "sha1": "2743f6ef1569cdc8da250d5ca977369fdeb67474",
+          "md5": "e68a246a20ea36281cea8a35beb2cb00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "neptune",
+    "version": "1.31.0-0.6.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "neptune",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "neptune-1.31.0-0.6.23.jar",
+          "url": "neptune-1.31.0-0.6.23.jar",
+          "size": 86360,
+          "sha512": "b67599112e15609801061522f93b994f4b3a702713238ae7511949bac35550cc8313cea1f8f05baa730993a1486f57d7e87caa6d09eaddae1d3651a04edf596f",
+          "sha256": "0372767f85c7f40117b6f552e3266496037043189167d8d0d645c93873beefeb",
+          "sha1": "8b03132a2d130b47544a979e5555703c6ee00bdc",
+          "md5": "09daf8bf3af7bb7d3ee78a90609a4555"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.23"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "neptune",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "neptune-1.31.0-0.6.23.jar",
+          "url": "neptune-1.31.0-0.6.23.jar",
+          "size": 86360,
+          "sha512": "b67599112e15609801061522f93b994f4b3a702713238ae7511949bac35550cc8313cea1f8f05baa730993a1486f57d7e87caa6d09eaddae1d3651a04edf596f",
+          "sha256": "0372767f85c7f40117b6f552e3266496037043189167d8d0d645c93873beefeb",
+          "sha1": "8b03132a2d130b47544a979e5555703c6ee00bdc",
+          "md5": "09daf8bf3af7bb7d3ee78a90609a4555"
+        }
+      ]
+    }
+  ]
+}

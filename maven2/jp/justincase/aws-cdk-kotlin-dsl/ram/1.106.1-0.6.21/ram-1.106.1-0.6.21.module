@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "ram",
+    "version": "1.106.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "apa3jttzlbgsjbklj7vcehaque"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "ram",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ram-1.106.1-0.6.21.jar",
+          "url": "ram-1.106.1-0.6.21.jar",
+          "size": 18520,
+          "sha512": "8feeca7d4c24b3b3bbf641a8d688174ecfd1a14e0c6efd1af682cbd1997f20be2643909af309747c71959ec6afae1128bc03d9f15d28b4ae9d3ab514179ea353",
+          "sha256": "b1ef369f7f92cc5622e1c2a2dd34337378d588597d31c10003bdac3da5aeaa25",
+          "sha1": "96ac34cbbbd6076507464f3b20213675d2aae9b4",
+          "md5": "4caea4d4fc0bc4011c2d9b81f2fa0be0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "ram",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ram-1.106.1-0.6.21.jar",
+          "url": "ram-1.106.1-0.6.21.jar",
+          "size": 18520,
+          "sha512": "8feeca7d4c24b3b3bbf641a8d688174ecfd1a14e0c6efd1af682cbd1997f20be2643909af309747c71959ec6afae1128bc03d9f15d28b4ae9d3ab514179ea353",
+          "sha256": "b1ef369f7f92cc5622e1c2a2dd34337378d588597d31c10003bdac3da5aeaa25",
+          "sha1": "96ac34cbbbd6076507464f3b20213675d2aae9b4",
+          "md5": "4caea4d4fc0bc4011c2d9b81f2fa0be0"
+        }
+      ]
+    }
+  ]
+}

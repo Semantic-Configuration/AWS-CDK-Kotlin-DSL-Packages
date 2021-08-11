@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "lookoutequipment",
+    "version": "1.118.0-0.6.25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "lookoutequipment",
+          "version": {
+            "requires": "1.118.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.118.0-0.6.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lookoutequipment-1.118.0-0.6.25.jar",
+          "url": "lookoutequipment-1.118.0-0.6.25.jar",
+          "size": 11028,
+          "sha512": "4f1dcdf21529b7a371fdb91146499874be0bd28c40369879225ac6ca8953af311ae3dbd8c506403a7b2ee79fb530bf600cc9e2462321c703fba7dbac02d3f1fa",
+          "sha256": "3edd6ee3fd613636a213c6ef0e2e7e524b53bd5205c871b70ef26f420d308829",
+          "sha1": "000aaea65933c5d0eedf625431b2ce6ad4185d41",
+          "md5": "c1732d15f499cfc11af46f94854863e7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.25"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.118.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "lookoutequipment",
+          "version": {
+            "requires": "1.118.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.118.0-0.6.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lookoutequipment-1.118.0-0.6.25.jar",
+          "url": "lookoutequipment-1.118.0-0.6.25.jar",
+          "size": 11028,
+          "sha512": "4f1dcdf21529b7a371fdb91146499874be0bd28c40369879225ac6ca8953af311ae3dbd8c506403a7b2ee79fb530bf600cc9e2462321c703fba7dbac02d3f1fa",
+          "sha256": "3edd6ee3fd613636a213c6ef0e2e7e524b53bd5205c871b70ef26f420d308829",
+          "sha1": "000aaea65933c5d0eedf625431b2ce6ad4185d41",
+          "md5": "c1732d15f499cfc11af46f94854863e7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "transfer",
+    "version": "1.34.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "transfer",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transfer-1.34.0-0.6.22.jar",
+          "url": "transfer-1.34.0-0.6.22.jar",
+          "size": 56733,
+          "sha512": "9cf0071bdeec5298daea542b5070647df382ad0714932897180abcb53427b63bba8ef87561c4d3e82d15ce463569360417eb06f742f8dd32017ec78a34f8576f",
+          "sha256": "fd02fe6393fa03b530c21f459b00d8ff66a7187cb434b483f0b3631e47768ad4",
+          "sha1": "01d730a3c7b11860652534af2b0487d5d77220c6",
+          "md5": "f644c37cb79f58955c1999370fde820f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "transfer",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transfer-1.34.0-0.6.22.jar",
+          "url": "transfer-1.34.0-0.6.22.jar",
+          "size": 56733,
+          "sha512": "9cf0071bdeec5298daea542b5070647df382ad0714932897180abcb53427b63bba8ef87561c4d3e82d15ce463569360417eb06f742f8dd32017ec78a34f8576f",
+          "sha256": "fd02fe6393fa03b530c21f459b00d8ff66a7187cb434b483f0b3631e47768ad4",
+          "sha1": "01d730a3c7b11860652534af2b0487d5d77220c6",
+          "md5": "f644c37cb79f58955c1999370fde820f"
+        }
+      ]
+    }
+  ]
+}

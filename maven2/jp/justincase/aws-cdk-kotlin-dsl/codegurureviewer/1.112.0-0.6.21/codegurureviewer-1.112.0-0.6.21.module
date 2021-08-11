@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "codegurureviewer",
+    "version": "1.112.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "635otboqmzf4dpqli6tn2j4rca"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codegurureviewer",
+          "version": {
+            "requires": "1.112.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codegurureviewer-1.112.0-0.6.21.jar",
+          "url": "codegurureviewer-1.112.0-0.6.21.jar",
+          "size": 10126,
+          "sha512": "7e1b13decfdddf5d86750e4787aaa519eae7ee69de117dfc1056845e7a48dc48b20697a752f0a31674752f1d3200941bcb24434343b54b6d46ff435298684b47",
+          "sha256": "2dcc2dcf37791a44bcc630d4d46b1c3e91901e16fa1553fd3ae4e78f415e8614",
+          "sha1": "1e6f832c761d98d0a6a2a39aebeec820a88dd23c",
+          "md5": "f306d2144622d15eecf737db4e8290f4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.112.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codegurureviewer",
+          "version": {
+            "requires": "1.112.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codegurureviewer-1.112.0-0.6.21.jar",
+          "url": "codegurureviewer-1.112.0-0.6.21.jar",
+          "size": 10126,
+          "sha512": "7e1b13decfdddf5d86750e4787aaa519eae7ee69de117dfc1056845e7a48dc48b20697a752f0a31674752f1d3200941bcb24434343b54b6d46ff435298684b47",
+          "sha256": "2dcc2dcf37791a44bcc630d4d46b1c3e91901e16fa1553fd3ae4e78f415e8614",
+          "sha1": "1e6f832c761d98d0a6a2a39aebeec820a88dd23c",
+          "md5": "f306d2144622d15eecf737db4e8290f4"
+        }
+      ]
+    }
+  ]
+}

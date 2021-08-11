@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "licensemanager",
+    "version": "1.102.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "3v7jvpyge5da5n7rhvpphv65wa"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "licensemanager",
+          "version": {
+            "requires": "1.102.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.102.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "licensemanager-1.102.0-0.6.21.jar",
+          "url": "licensemanager-1.102.0-0.6.21.jar",
+          "size": 110274,
+          "sha512": "8386033fe4a74fd74769fe58496f06959e3060dccadeb594c947d14c67b8d9d93b746ac9b63dc20fef9ac6b32e04575ee3cdebcd87d5de98b82100bd4266de9c",
+          "sha256": "e548157bae086a0d1ac3cc80fcf1039c2d6d9239fca085a3c6a15d163817c4bd",
+          "sha1": "211696060d32bda848acb7e89a03ead8ace4c1dc",
+          "md5": "925aaf47d53bc979c5073ed9c2b7095a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.102.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "licensemanager",
+          "version": {
+            "requires": "1.102.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.102.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "licensemanager-1.102.0-0.6.21.jar",
+          "url": "licensemanager-1.102.0-0.6.21.jar",
+          "size": 110274,
+          "sha512": "8386033fe4a74fd74769fe58496f06959e3060dccadeb594c947d14c67b8d9d93b746ac9b63dc20fef9ac6b32e04575ee3cdebcd87d5de98b82100bd4266de9c",
+          "sha256": "e548157bae086a0d1ac3cc80fcf1039c2d6d9239fca085a3c6a15d163817c4bd",
+          "sha1": "211696060d32bda848acb7e89a03ead8ace4c1dc",
+          "md5": "925aaf47d53bc979c5073ed9c2b7095a"
+        }
+      ]
+    }
+  ]
+}

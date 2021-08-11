@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "greengrass",
+    "version": "1.106.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "apa3jttzlbgsjbklj7vcehaque"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "greengrass",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "greengrass-1.106.1-0.6.21.jar",
+          "url": "greengrass-1.106.1-0.6.21.jar",
+          "size": 685786,
+          "sha512": "c24af8e2536572b56758cc8b356955b4ebbd9f7ebf6087eb8c6c85182672263de34eda97aa8e97c7d4512307f50a879d4738da3ac05fdd44c2182cef4718ef8",
+          "sha256": "d8577ec96f09efdabe342e1e540470ee2aba9d8955aa98ccf51f8aef21f59aef",
+          "sha1": "5ee3caac24c8af9d728c745148647d808d8ea01a",
+          "md5": "43c1f0c2f99a8617727bfd614a4f45d7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "greengrass",
+          "version": {
+            "requires": "1.106.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.106.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "greengrass-1.106.1-0.6.21.jar",
+          "url": "greengrass-1.106.1-0.6.21.jar",
+          "size": 685786,
+          "sha512": "c24af8e2536572b56758cc8b356955b4ebbd9f7ebf6087eb8c6c85182672263de34eda97aa8e97c7d4512307f50a879d4738da3ac05fdd44c2182cef4718ef8",
+          "sha256": "d8577ec96f09efdabe342e1e540470ee2aba9d8955aa98ccf51f8aef21f59aef",
+          "sha1": "5ee3caac24c8af9d728c745148647d808d8ea01a",
+          "md5": "43c1f0c2f99a8617727bfd614a4f45d7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "elasticloadbalancing",
+    "version": "1.111.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "x2nrgrzbtvb4vn7ivydfsyaxee"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "elasticloadbalancing",
+          "version": {
+            "requires": "1.111.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.111.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.111.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticloadbalancing-1.111.0-0.6.21.jar",
+          "url": "elasticloadbalancing-1.111.0-0.6.21.jar",
+          "size": 153881,
+          "sha512": "cbb5931a3bdce55a9349f4e1f8a8c680eba0bf7a5fa12c928642ee3dfe7c555a7791652c371f3c10838f5f439bfade820c7bf24fc756deefc88e30cc9f2b7844",
+          "sha256": "45945dab7f2f4dc058d9e4230b4876112f4322d82693da74f2a5b5ca6525dd12",
+          "sha1": "b332c717031a3495a8f0190fc2d0343b1e02ad3f",
+          "md5": "263fd1333a54e78ae73cdbeb9758e2af"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.111.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "elasticloadbalancing",
+          "version": {
+            "requires": "1.111.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "ec2",
+          "version": {
+            "requires": "1.111.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.111.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticloadbalancing-1.111.0-0.6.21.jar",
+          "url": "elasticloadbalancing-1.111.0-0.6.21.jar",
+          "size": 153881,
+          "sha512": "cbb5931a3bdce55a9349f4e1f8a8c680eba0bf7a5fa12c928642ee3dfe7c555a7791652c371f3c10838f5f439bfade820c7bf24fc756deefc88e30cc9f2b7844",
+          "sha256": "45945dab7f2f4dc058d9e4230b4876112f4322d82693da74f2a5b5ca6525dd12",
+          "sha1": "b332c717031a3495a8f0190fc2d0343b1e02ad3f",
+          "md5": "263fd1333a54e78ae73cdbeb9758e2af"
+        }
+      ]
+    }
+  ]
+}

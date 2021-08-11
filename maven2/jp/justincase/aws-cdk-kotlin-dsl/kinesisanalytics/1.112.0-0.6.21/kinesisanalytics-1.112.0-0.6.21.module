@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "kinesisanalytics",
+    "version": "1.112.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "635otboqmzf4dpqli6tn2j4rca"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "kinesisanalytics",
+          "version": {
+            "requires": "1.112.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kinesisanalytics-1.112.0-0.6.21.jar",
+          "url": "kinesisanalytics-1.112.0-0.6.21.jar",
+          "size": 695119,
+          "sha512": "34b1e135f11d1c0689102923e8b8b03368458e9427b5e0119bc4a196773209946333a856b158ad91585daaee45bc8fd39c036afc54f215f42c4d49b50a6e7ec5",
+          "sha256": "12c8ee814ced9e04ce584f97a577782ad6bf3cfc3821ec6c1682fc06c63f77cb",
+          "sha1": "323d37a7ca64dc13a5fa2a266bdadced6fb2d4e8",
+          "md5": "c0cbcc2ec4a0c2b23b2de081d95974a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.112.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "kinesisanalytics",
+          "version": {
+            "requires": "1.112.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.112.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kinesisanalytics-1.112.0-0.6.21.jar",
+          "url": "kinesisanalytics-1.112.0-0.6.21.jar",
+          "size": 695119,
+          "sha512": "34b1e135f11d1c0689102923e8b8b03368458e9427b5e0119bc4a196773209946333a856b158ad91585daaee45bc8fd39c036afc54f215f42c4d49b50a6e7ec5",
+          "sha256": "12c8ee814ced9e04ce584f97a577782ad6bf3cfc3821ec6c1682fc06c63f77cb",
+          "sha1": "323d37a7ca64dc13a5fa2a266bdadced6fb2d4e8",
+          "md5": "c0cbcc2ec4a0c2b23b2de081d95974a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "redshift",
+    "version": "1.34.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "redshift",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "redshift-1.34.0-0.6.22.jar",
+          "url": "redshift-1.34.0-0.6.22.jar",
+          "size": 94709,
+          "sha512": "598737821eab7142b20d60da039906a048b45387d971b4fcd5a3e4fcadfb2a25aefa9a01fce29ad14dfad3adc5779fff968fa1ec12177ea87d566c4c3291b364",
+          "sha256": "bd3b46da431256db21c3c5c39948c092915a0ae24f1b995e995b57cd31e7bc3f",
+          "sha1": "87f6e47abb4dce66117332ccac67d3b9febc8106",
+          "md5": "b2e07c296666c4dfe7307159a13a5e69"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "redshift",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "redshift-1.34.0-0.6.22.jar",
+          "url": "redshift-1.34.0-0.6.22.jar",
+          "size": 94709,
+          "sha512": "598737821eab7142b20d60da039906a048b45387d971b4fcd5a3e4fcadfb2a25aefa9a01fce29ad14dfad3adc5779fff968fa1ec12177ea87d566c4c3291b364",
+          "sha256": "bd3b46da431256db21c3c5c39948c092915a0ae24f1b995e995b57cd31e7bc3f",
+          "sha1": "87f6e47abb4dce66117332ccac67d3b9febc8106",
+          "md5": "b2e07c296666c4dfe7307159a13a5e69"
+        }
+      ]
+    }
+  ]
+}

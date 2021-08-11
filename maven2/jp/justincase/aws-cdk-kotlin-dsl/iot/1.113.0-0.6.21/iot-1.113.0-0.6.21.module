@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "iot",
+    "version": "1.113.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "4eq3z6kztfacfbxsxa2ublfmc4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iot",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iot-1.113.0-0.6.21.jar",
+          "url": "iot-1.113.0-0.6.21.jar",
+          "size": 799321,
+          "sha512": "c8e49fd909a0dec4ddeb271d9d23ee14f60ff25e6638dad91c148ef347fb83a6f5b29a81e35c2380885aa18f40525d419223033f1812018b04596504a5d945b",
+          "sha256": "5f675d4864975a3b67f853e1a3db9063c92fdede6688a6273f14ae219142cc76",
+          "sha1": "b3c4e408e8053f50435dccde65a6cae83271af09",
+          "md5": "21f22a987738aa1fdb805295a871ef43"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iot",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iot-1.113.0-0.6.21.jar",
+          "url": "iot-1.113.0-0.6.21.jar",
+          "size": 799321,
+          "sha512": "c8e49fd909a0dec4ddeb271d9d23ee14f60ff25e6638dad91c148ef347fb83a6f5b29a81e35c2380885aa18f40525d419223033f1812018b04596504a5d945b",
+          "sha256": "5f675d4864975a3b67f853e1a3db9063c92fdede6688a6273f14ae219142cc76",
+          "sha1": "b3c4e408e8053f50435dccde65a6cae83271af09",
+          "md5": "21f22a987738aa1fdb805295a871ef43"
+        }
+      ]
+    }
+  ]
+}

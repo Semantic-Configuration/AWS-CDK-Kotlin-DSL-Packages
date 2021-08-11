@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "alexa-ask",
+    "version": "1.117.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "ka4pthfoybhvvnwbwaxmu2dbry"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "alexa-ask",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "alexa-ask-1.117.0-0.6.21.jar",
+          "url": "alexa-ask-1.117.0-0.6.21.jar",
+          "size": 41781,
+          "sha512": "c5d337e45470cd0ccfa56d2bca894f43ea7a4ca06b113701f703b71d870dbca5790c0ea30c0758131051dbc8dbd8623a949a35bd06afa36cd5f5ef7211e96919",
+          "sha256": "b0849a36e948b8ca2e573d5424b0450d361544eb9102283135b8aaf42487b9e7",
+          "sha1": "8965efc2b62b1ee90739655dc868f9dee6fc12d4",
+          "md5": "d222a89b49f6c3fb8d718054315cf7a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "alexa-ask",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "alexa-ask-1.117.0-0.6.21.jar",
+          "url": "alexa-ask-1.117.0-0.6.21.jar",
+          "size": 41781,
+          "sha512": "c5d337e45470cd0ccfa56d2bca894f43ea7a4ca06b113701f703b71d870dbca5790c0ea30c0758131051dbc8dbd8623a949a35bd06afa36cd5f5ef7211e96919",
+          "sha256": "b0849a36e948b8ca2e573d5424b0450d361544eb9102283135b8aaf42487b9e7",
+          "sha1": "8965efc2b62b1ee90739655dc868f9dee6fc12d4",
+          "md5": "d222a89b49f6c3fb8d718054315cf7a"
+        }
+      ]
+    }
+  ]
+}

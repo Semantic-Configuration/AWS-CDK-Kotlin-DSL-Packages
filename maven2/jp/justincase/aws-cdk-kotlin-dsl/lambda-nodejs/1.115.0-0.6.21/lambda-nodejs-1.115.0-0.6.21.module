@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "lambda-nodejs",
+    "version": "1.115.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "mmt4x645szht5dd4sh3qtmk2ta"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "lambda-nodejs",
+          "version": {
+            "requires": "1.115.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lambda-nodejs-1.115.0-0.6.21.jar",
+          "url": "lambda-nodejs-1.115.0-0.6.21.jar",
+          "size": 26052,
+          "sha512": "f15595a68de08115731e678eb7df21a9583ff49cbbaa614a696d3cb9e81b48aebca9b2d4eca4a2e2c0c45c0b39a0c8023284b15a874dfb3a276c3b111691f749",
+          "sha256": "501b16a29ad9f71cfc10e73b75528f49501687e7dffcc3755e852aa1346fdeeb",
+          "sha1": "72957bec6ac11dea0b373c426cc971196ff459d3",
+          "md5": "2beb21584b34db6e191aceac8478163"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.115.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "lambda-nodejs",
+          "version": {
+            "requires": "1.115.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.115.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lambda-nodejs-1.115.0-0.6.21.jar",
+          "url": "lambda-nodejs-1.115.0-0.6.21.jar",
+          "size": 26052,
+          "sha512": "f15595a68de08115731e678eb7df21a9583ff49cbbaa614a696d3cb9e81b48aebca9b2d4eca4a2e2c0c45c0b39a0c8023284b15a874dfb3a276c3b111691f749",
+          "sha256": "501b16a29ad9f71cfc10e73b75528f49501687e7dffcc3755e852aa1346fdeeb",
+          "sha1": "72957bec6ac11dea0b373c426cc971196ff459d3",
+          "md5": "2beb21584b34db6e191aceac8478163"
+        }
+      ]
+    }
+  ]
+}

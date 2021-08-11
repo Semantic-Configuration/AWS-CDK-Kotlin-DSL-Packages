@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "directoryservice",
+    "version": "1.64.0-0.6.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "directoryservice",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "directoryservice-1.64.0-0.6.23.jar",
+          "url": "directoryservice-1.64.0-0.6.23.jar",
+          "size": 77719,
+          "sha512": "62485ee119f347417e579046c94ea0d263c0904c8e5c0f1d5a193617414064c5d737215962e8e66e099983d6253b2fd8ea63a86da116282eeb217d5208ab9bb1",
+          "sha256": "defb04fe839236fe890a57cc679c19fba05b5b4ff6d6619ac90cfe92caddb6b4",
+          "sha1": "9b4f7a1832ba04bbc2b5f5255b0fc4d9820f0bf7",
+          "md5": "d571d6d7981f2e19efc8bda9584f04c6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.23"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "directoryservice",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "directoryservice-1.64.0-0.6.23.jar",
+          "url": "directoryservice-1.64.0-0.6.23.jar",
+          "size": 77719,
+          "sha512": "62485ee119f347417e579046c94ea0d263c0904c8e5c0f1d5a193617414064c5d737215962e8e66e099983d6253b2fd8ea63a86da116282eeb217d5208ab9bb1",
+          "sha256": "defb04fe839236fe890a57cc679c19fba05b5b4ff6d6619ac90cfe92caddb6b4",
+          "sha1": "9b4f7a1832ba04bbc2b5f5255b0fc4d9820f0bf7",
+          "md5": "d571d6d7981f2e19efc8bda9584f04c6"
+        }
+      ]
+    }
+  ]
+}

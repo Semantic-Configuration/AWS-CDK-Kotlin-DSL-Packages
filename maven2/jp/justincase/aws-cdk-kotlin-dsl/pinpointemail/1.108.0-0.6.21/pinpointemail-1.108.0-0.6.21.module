@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "pinpointemail",
+    "version": "1.108.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "kpsw6vvxevhebcaohgovtllzpe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "pinpointemail",
+          "version": {
+            "requires": "1.108.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pinpointemail-1.108.0-0.6.21.jar",
+          "url": "pinpointemail-1.108.0-0.6.21.jar",
+          "size": 191975,
+          "sha512": "4b1eb35c9a427e39fa63cadf43cc1e5b3d36d544246f2b59af41f578fd5fd01094ac260c35eed654d2bfc5e83eb8118a4e50f7d39d9dd91f239143047d10853",
+          "sha256": "f24bb97045af64069fee123da800280c0c74645b8f3357e3784d29020b8c111c",
+          "sha1": "476f96adbfb62d76e56b461eb468e702b04c1a8e",
+          "md5": "20d75a8e821d0d77be062f5910ff993d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.108.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "pinpointemail",
+          "version": {
+            "requires": "1.108.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pinpointemail-1.108.0-0.6.21.jar",
+          "url": "pinpointemail-1.108.0-0.6.21.jar",
+          "size": 191975,
+          "sha512": "4b1eb35c9a427e39fa63cadf43cc1e5b3d36d544246f2b59af41f578fd5fd01094ac260c35eed654d2bfc5e83eb8118a4e50f7d39d9dd91f239143047d10853",
+          "sha256": "f24bb97045af64069fee123da800280c0c74645b8f3357e3784d29020b8c111c",
+          "sha1": "476f96adbfb62d76e56b461eb468e702b04c1a8e",
+          "md5": "20d75a8e821d0d77be062f5910ff993d"
+        }
+      ]
+    }
+  ]
+}

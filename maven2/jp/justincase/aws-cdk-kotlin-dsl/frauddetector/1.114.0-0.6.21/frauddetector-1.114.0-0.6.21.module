@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "frauddetector",
+    "version": "1.114.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "eyeo232rubbsjhxluyggv7snsq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "frauddetector",
+          "version": {
+            "requires": "1.114.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.114.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frauddetector-1.114.0-0.6.21.jar",
+          "url": "frauddetector-1.114.0-0.6.21.jar",
+          "size": 195394,
+          "sha512": "7f5b9cdf6f772389531e9512e9adc0cca1eecf1fadfc0f65eb7fdcef88864f619eb22ebfd1400cded90e727c66d0ecae1f33b5d7311e90011cb08870f76d0f86",
+          "sha256": "c0d12abb29a46dc3422feea079486d4584799256431146ca6103fee5dc2c45a4",
+          "sha1": "9ded627a1b37564c1c6a22e007b14fafdf865b41",
+          "md5": "165e097348077af82212267590a3e68c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.114.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "frauddetector",
+          "version": {
+            "requires": "1.114.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.114.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frauddetector-1.114.0-0.6.21.jar",
+          "url": "frauddetector-1.114.0-0.6.21.jar",
+          "size": 195394,
+          "sha512": "7f5b9cdf6f772389531e9512e9adc0cca1eecf1fadfc0f65eb7fdcef88864f619eb22ebfd1400cded90e727c66d0ecae1f33b5d7311e90011cb08870f76d0f86",
+          "sha256": "c0d12abb29a46dc3422feea079486d4584799256431146ca6103fee5dc2c45a4",
+          "sha1": "9ded627a1b37564c1c6a22e007b14fafdf865b41",
+          "md5": "165e097348077af82212267590a3e68c"
+        }
+      ]
+    }
+  ]
+}

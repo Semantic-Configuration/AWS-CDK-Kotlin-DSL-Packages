@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "networkmanager",
+    "version": "1.108.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "gmwtoadzizbz5jj3nknjggc274"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "networkmanager",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "networkmanager-1.108.1-0.6.21.jar",
+          "url": "networkmanager-1.108.1-0.6.21.jar",
+          "size": 92809,
+          "sha512": "dfb75deed737731822656b7a1d03ae1c06191093c2cc240fa348ccfbc7e2e9dc0e339dea80dce1abdf35c82aee12eab61a574a7c58a9a29aa91d6dc9389ff89f",
+          "sha256": "c7dbd60745f1510d4c59345c3d0d9fccda8f57eeb7779ce6cf8bfb10f0de347d",
+          "sha1": "ad9f61122640fc4cb2865c4cdb1dd5018a01e377",
+          "md5": "c99ab71cd905aa9bbaf5f218ee1db290"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "networkmanager",
+          "version": {
+            "requires": "1.108.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "networkmanager-1.108.1-0.6.21.jar",
+          "url": "networkmanager-1.108.1-0.6.21.jar",
+          "size": 92809,
+          "sha512": "dfb75deed737731822656b7a1d03ae1c06191093c2cc240fa348ccfbc7e2e9dc0e339dea80dce1abdf35c82aee12eab61a574a7c58a9a29aa91d6dc9389ff89f",
+          "sha256": "c7dbd60745f1510d4c59345c3d0d9fccda8f57eeb7779ce6cf8bfb10f0de347d",
+          "sha1": "ad9f61122640fc4cb2865c4cdb1dd5018a01e377",
+          "md5": "c99ab71cd905aa9bbaf5f218ee1db290"
+        }
+      ]
+    }
+  ]
+}

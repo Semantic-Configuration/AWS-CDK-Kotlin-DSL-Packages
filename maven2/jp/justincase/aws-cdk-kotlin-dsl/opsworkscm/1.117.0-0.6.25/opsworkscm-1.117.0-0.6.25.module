@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "opsworkscm",
+    "version": "1.117.0-0.6.25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "opsworkscm",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opsworkscm-1.117.0-0.6.25.jar",
+          "url": "opsworkscm-1.117.0-0.6.25.jar",
+          "size": 43083,
+          "sha512": "a76187b9c3ed04aa144ffbbdc1aa28910f3faf38779bedb4240872c97f93bdea1699423ff9260adf7d49c0278aca10940a6fd1d8c6817808c559d1bc98d00202",
+          "sha256": "efcfba1560cc7ef65ac9bf57760ff7d8be4507f4041ab121b0b712fa2c949d1e",
+          "sha1": "aae0d037e06414fec2717a7464e8a85e21e5be28",
+          "md5": "dd0d08c39b3636e3677bff0923285369"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.25"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "opsworkscm",
+          "version": {
+            "requires": "1.117.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.117.0-0.6.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opsworkscm-1.117.0-0.6.25.jar",
+          "url": "opsworkscm-1.117.0-0.6.25.jar",
+          "size": 43083,
+          "sha512": "a76187b9c3ed04aa144ffbbdc1aa28910f3faf38779bedb4240872c97f93bdea1699423ff9260adf7d49c0278aca10940a6fd1d8c6817808c559d1bc98d00202",
+          "sha256": "efcfba1560cc7ef65ac9bf57760ff7d8be4507f4041ab121b0b712fa2c949d1e",
+          "sha1": "aae0d037e06414fec2717a7464e8a85e21e5be28",
+          "md5": "dd0d08c39b3636e3677bff0923285369"
+        }
+      ]
+    }
+  ]
+}

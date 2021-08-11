@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "ssmcontacts",
+    "version": "1.107.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "ii37qlm56fdwtlikv7tspxqqje"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "ssmcontacts",
+          "version": {
+            "requires": "1.107.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ssmcontacts-1.107.0-0.6.21.jar",
+          "url": "ssmcontacts-1.107.0-0.6.21.jar",
+          "size": 46056,
+          "sha512": "b4422e10e284f91ab91bf3ae6e759beef8b27541ed61a23afd7549ac3eb48356f56987db46edbe78baca0114a154f355faadd10d2ce158ad093dcdaa445a8b58",
+          "sha256": "2441f260292102ca96a51390b0755a0327bd7be1fb77ef4f8b7ba3ee89b37368",
+          "sha1": "3bc7cfe979c7f5528175d2bd8cb1c5464f09062e",
+          "md5": "ada0a1aace2ae67a157f219a8966aa0c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.107.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "ssmcontacts",
+          "version": {
+            "requires": "1.107.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.107.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ssmcontacts-1.107.0-0.6.21.jar",
+          "url": "ssmcontacts-1.107.0-0.6.21.jar",
+          "size": 46056,
+          "sha512": "b4422e10e284f91ab91bf3ae6e759beef8b27541ed61a23afd7549ac3eb48356f56987db46edbe78baca0114a154f355faadd10d2ce158ad093dcdaa445a8b58",
+          "sha256": "2441f260292102ca96a51390b0755a0327bd7be1fb77ef4f8b7ba3ee89b37368",
+          "sha1": "3bc7cfe979c7f5528175d2bd8cb1c5464f09062e",
+          "md5": "ada0a1aace2ae67a157f219a8966aa0c"
+        }
+      ]
+    }
+  ]
+}

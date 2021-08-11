@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "cdk-region-info",
+    "version": "1.64.0-0.6.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cdk-region-info",
+          "version": {
+            "requires": "1.64.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cdk-region-info-1.64.0-0.6.23.jar",
+          "url": "cdk-region-info-1.64.0-0.6.23.jar",
+          "size": 432,
+          "sha512": "11c48d8cdb038b789aac064a311c0194bf85aeeb9cccc984fccc054de418c8842b27965d2de94b8c61e67a59d8d050b48a216d2bbb420b160e0e6bd125f1b499",
+          "sha256": "475887b70ca09743423e5e20563b831505df9c44df13ea449422d07893ff36dd",
+          "sha1": "224597616dd929a974638e9b0e763cfd00bbd40a",
+          "md5": "26d87f3162946fcd3f6ba681842c6989"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.23"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cdk-region-info",
+          "version": {
+            "requires": "1.64.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cdk-region-info-1.64.0-0.6.23.jar",
+          "url": "cdk-region-info-1.64.0-0.6.23.jar",
+          "size": 432,
+          "sha512": "11c48d8cdb038b789aac064a311c0194bf85aeeb9cccc984fccc054de418c8842b27965d2de94b8c61e67a59d8d050b48a216d2bbb420b160e0e6bd125f1b499",
+          "sha256": "475887b70ca09743423e5e20563b831505df9c44df13ea449422d07893ff36dd",
+          "sha1": "224597616dd929a974638e9b0e763cfd00bbd40a",
+          "md5": "26d87f3162946fcd3f6ba681842c6989"
+        }
+      ]
+    }
+  ]
+}

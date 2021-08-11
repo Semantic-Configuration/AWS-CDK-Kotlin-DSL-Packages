@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "iotevents",
+    "version": "1.101.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "d5vusioiqzbnxk6vuwjeusvgpu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iotevents",
+          "version": {
+            "requires": "1.101.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iotevents-1.101.0-0.6.21.jar",
+          "url": "iotevents-1.101.0-0.6.21.jar",
+          "size": 292785,
+          "sha512": "62a1820fa338debe08c23553806b2b1ba43807461099d5950eb785c16b69d91f7038610dc535a549de480b0c468e3f5278d47afd84e14d51e97850c816bd3827",
+          "sha256": "d80a57f68234872c1f3a8441351d65c6748379247cd14c37ee917b736543ef88",
+          "sha1": "9e866b81d358e05428aaf9445e7f0f7a39c2b784",
+          "md5": "e7ca6fce97fa763198f318685ac1508"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.101.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iotevents",
+          "version": {
+            "requires": "1.101.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.101.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iotevents-1.101.0-0.6.21.jar",
+          "url": "iotevents-1.101.0-0.6.21.jar",
+          "size": 292785,
+          "sha512": "62a1820fa338debe08c23553806b2b1ba43807461099d5950eb785c16b69d91f7038610dc535a549de480b0c468e3f5278d47afd84e14d51e97850c816bd3827",
+          "sha256": "d80a57f68234872c1f3a8441351d65c6748379247cd14c37ee917b736543ef88",
+          "sha1": "9e866b81d358e05428aaf9445e7f0f7a39c2b784",
+          "md5": "e7ca6fce97fa763198f318685ac1508"
+        }
+      ]
+    }
+  ]
+}

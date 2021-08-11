@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "servicecatalogappregistry",
+    "version": "1.110.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "pksuzuox3ne6pgnvsva7g32w2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "servicecatalogappregistry",
+          "version": {
+            "requires": "1.110.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "servicecatalogappregistry-1.110.1-0.6.21.jar",
+          "url": "servicecatalogappregistry-1.110.1-0.6.21.jar",
+          "size": 45210,
+          "sha512": "9d5e90695bb6cc2e59dee46416d0c58449e2f5dd5fef048398b54e59e074f1774c1ba261a01213511b0375e0ba2606c41d9e92f4d949760dbd0c30411be269d8",
+          "sha256": "aebde1bf6af8e7fdc75a0c01a21ecf2ee2ff7d543356696f02818222d487f6c1",
+          "sha1": "7417cdd4bc614fcfc8b7e70a70971d3477aa3030",
+          "md5": "c314b72e8f53e3bed579d0598a2bac7d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.110.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "servicecatalogappregistry",
+          "version": {
+            "requires": "1.110.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "servicecatalogappregistry-1.110.1-0.6.21.jar",
+          "url": "servicecatalogappregistry-1.110.1-0.6.21.jar",
+          "size": 45210,
+          "sha512": "9d5e90695bb6cc2e59dee46416d0c58449e2f5dd5fef048398b54e59e074f1774c1ba261a01213511b0375e0ba2606c41d9e92f4d949760dbd0c30411be269d8",
+          "sha256": "aebde1bf6af8e7fdc75a0c01a21ecf2ee2ff7d543356696f02818222d487f6c1",
+          "sha1": "7417cdd4bc614fcfc8b7e70a70971d3477aa3030",
+          "md5": "c314b72e8f53e3bed579d0598a2bac7d"
+        }
+      ]
+    }
+  ]
+}

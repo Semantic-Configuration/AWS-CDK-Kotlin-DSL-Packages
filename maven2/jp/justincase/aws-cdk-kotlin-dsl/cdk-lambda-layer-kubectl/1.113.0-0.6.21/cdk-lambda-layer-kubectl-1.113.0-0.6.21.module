@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "cdk-lambda-layer-kubectl",
+    "version": "1.113.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "4eq3z6kztfacfbxsxa2ublfmc4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cdk-lambda-layer-kubectl",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cdk-lambda-layer-kubectl-1.113.0-0.6.21.jar",
+          "url": "cdk-lambda-layer-kubectl-1.113.0-0.6.21.jar",
+          "size": 450,
+          "sha512": "a6e2a69e1b41c13c217a8fc816c0299634e5f6147a293623f06e11608e7ff6fcadbd18e19823a77885404a5c8540d8fd5b5cd84f930cd3852c3498e977528c8e",
+          "sha256": "2cd84e6c1d43e522a21f31fe33c92637c03eb5895ffe05e4b5c0116ed347060b",
+          "sha1": "146ac34789ab637f62e026a2a3830eb1b3bca3ca",
+          "md5": "ad4b873b7a30f6a3940430c40d6449b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cdk-lambda-layer-kubectl",
+          "version": {
+            "requires": "1.113.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "lambda",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.113.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cdk-lambda-layer-kubectl-1.113.0-0.6.21.jar",
+          "url": "cdk-lambda-layer-kubectl-1.113.0-0.6.21.jar",
+          "size": 450,
+          "sha512": "a6e2a69e1b41c13c217a8fc816c0299634e5f6147a293623f06e11608e7ff6fcadbd18e19823a77885404a5c8540d8fd5b5cd84f930cd3852c3498e977528c8e",
+          "sha256": "2cd84e6c1d43e522a21f31fe33c92637c03eb5895ffe05e4b5c0116ed347060b",
+          "sha1": "146ac34789ab637f62e026a2a3830eb1b3bca3ca",
+          "md5": "ad4b873b7a30f6a3940430c40d6449b"
+        }
+      ]
+    }
+  ]
+}

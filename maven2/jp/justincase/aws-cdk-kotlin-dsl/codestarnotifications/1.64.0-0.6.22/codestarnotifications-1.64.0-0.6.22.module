@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "codestarnotifications",
+    "version": "1.64.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codestarnotifications",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codestarnotifications-1.64.0-0.6.22.jar",
+          "url": "codestarnotifications-1.64.0-0.6.22.jar",
+          "size": 23607,
+          "sha512": "d7f1edf4fe0d18c56684d11f13f7abff01be4003fa2de0073ad61ae2e261fbf86ad1736922b441666119a4a0c8e19ec55af9efd7f96fbac1db0179447647dd2d",
+          "sha256": "ed5f7e113a1cd784d229d38ee19fcead15e42431b3acef56357357ada963ed2e",
+          "sha1": "524115930bb665031b4ef475509a1735d25a2f31",
+          "md5": "ee54ede9bf5f7dedcacc6ddfdec25a8a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codestarnotifications",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codestarnotifications-1.64.0-0.6.22.jar",
+          "url": "codestarnotifications-1.64.0-0.6.22.jar",
+          "size": 23607,
+          "sha512": "d7f1edf4fe0d18c56684d11f13f7abff01be4003fa2de0073ad61ae2e261fbf86ad1736922b441666119a4a0c8e19ec55af9efd7f96fbac1db0179447647dd2d",
+          "sha256": "ed5f7e113a1cd784d229d38ee19fcead15e42431b3acef56357357ada963ed2e",
+          "sha1": "524115930bb665031b4ef475509a1735d25a2f31",
+          "md5": "ee54ede9bf5f7dedcacc6ddfdec25a8a"
+        }
+      ]
+    }
+  ]
+}

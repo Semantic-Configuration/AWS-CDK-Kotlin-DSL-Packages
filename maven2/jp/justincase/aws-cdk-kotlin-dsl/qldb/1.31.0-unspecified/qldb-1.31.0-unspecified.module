@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "qldb",
+    "version": "1.31.0-unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "qldb",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qldb-1.31.0-unspecified.jar",
+          "url": "qldb-1.31.0-unspecified.jar",
+          "size": 17987,
+          "sha512": "ae02d29005577ef25f2fb962e458da1ddb3b7df2b5c30e0bf15213758816d125674bcfedce6437b55281b2f459d2a613ef26e90e6ee06509e0154b446a453216",
+          "sha256": "3619e126cb483d2e46c78b93e11b2ddd97dddd81df9ce5fccee69fc4900b59d6",
+          "sha1": "0808ca2a9aa92c469f0f53e114c9f3cedbf8dc48",
+          "md5": "2bf0636bfab8d862627e7bcf4cca63e5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "qldb",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qldb-1.31.0-unspecified.jar",
+          "url": "qldb-1.31.0-unspecified.jar",
+          "size": 17987,
+          "sha512": "ae02d29005577ef25f2fb962e458da1ddb3b7df2b5c30e0bf15213758816d125674bcfedce6437b55281b2f459d2a613ef26e90e6ee06509e0154b446a453216",
+          "sha256": "3619e126cb483d2e46c78b93e11b2ddd97dddd81df9ce5fccee69fc4900b59d6",
+          "sha1": "0808ca2a9aa92c469f0f53e114c9f3cedbf8dc48",
+          "md5": "2bf0636bfab8d862627e7bcf4cca63e5"
+        }
+      ]
+    }
+  ]
+}

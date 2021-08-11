@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "cdk-yaml-cfn",
+    "version": "1.111.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "x2nrgrzbtvb4vn7ivydfsyaxee"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cdk-yaml-cfn",
+          "version": {
+            "requires": "1.111.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cdk-yaml-cfn-1.111.0-0.6.21.jar",
+          "url": "cdk-yaml-cfn-1.111.0-0.6.21.jar",
+          "size": 426,
+          "sha512": "3985910de5583a496cff1b78fc9a83df5961fb59cf5291c95af4c8f62775c6cae5e0ca1b14c1bafe285097c2fbc8b416b0e3cf7e25469dbd87a0dff8d18c4954",
+          "sha256": "9debd972c0ce0301538823ba532111677aa74bc6253a1685d6cd1bf33916a2ae",
+          "sha1": "8fa058d03343747bb25f1b3f7584b865046b3242",
+          "md5": "89cf32228984deffbf0eeaaa850cb12a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.111.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "cdk-yaml-cfn",
+          "version": {
+            "requires": "1.111.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cdk-yaml-cfn-1.111.0-0.6.21.jar",
+          "url": "cdk-yaml-cfn-1.111.0-0.6.21.jar",
+          "size": 426,
+          "sha512": "3985910de5583a496cff1b78fc9a83df5961fb59cf5291c95af4c8f62775c6cae5e0ca1b14c1bafe285097c2fbc8b416b0e3cf7e25469dbd87a0dff8d18c4954",
+          "sha256": "9debd972c0ce0301538823ba532111677aa74bc6253a1685d6cd1bf33916a2ae",
+          "sha1": "8fa058d03343747bb25f1b3f7584b865046b3242",
+          "md5": "89cf32228984deffbf0eeaaa850cb12a"
+        }
+      ]
+    }
+  ]
+}

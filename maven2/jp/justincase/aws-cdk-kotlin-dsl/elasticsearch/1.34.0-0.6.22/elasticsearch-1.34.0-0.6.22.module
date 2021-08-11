@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "elasticsearch",
+    "version": "1.34.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "elasticsearch",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticsearch-1.34.0-0.6.22.jar",
+          "url": "elasticsearch-1.34.0-0.6.22.jar",
+          "size": 159332,
+          "sha512": "a0c688413babe7e8b261025368ca932ef382054b71a0994790957e87279a12d7cbd75328b102935b48055043a81ddeb56756614b6a2643663b275585f196e68b",
+          "sha256": "2e8dd6a15ebb23f1062c661e5b72b46e2635d93c6bfa9a49ecb98ba3f9380969",
+          "sha1": "1217c800d68ab670f6fb87354653c2ef75551a28",
+          "md5": "e63c8b605be677b4dbce4cd825d1c109"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "elasticsearch",
+          "version": {
+            "requires": "1.34.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.34.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticsearch-1.34.0-0.6.22.jar",
+          "url": "elasticsearch-1.34.0-0.6.22.jar",
+          "size": 159332,
+          "sha512": "a0c688413babe7e8b261025368ca932ef382054b71a0994790957e87279a12d7cbd75328b102935b48055043a81ddeb56756614b6a2643663b275585f196e68b",
+          "sha256": "2e8dd6a15ebb23f1062c661e5b72b46e2635d93c6bfa9a49ecb98ba3f9380969",
+          "sha1": "1217c800d68ab670f6fb87354653c2ef75551a28",
+          "md5": "e63c8b605be677b4dbce4cd825d1c109"
+        }
+      ]
+    }
+  ]
+}

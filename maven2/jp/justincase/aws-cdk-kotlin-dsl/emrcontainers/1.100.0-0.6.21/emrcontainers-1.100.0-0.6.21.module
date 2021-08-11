@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "emrcontainers",
+    "version": "1.100.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "smkqp7thvbfexba6catfwegxzq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "emrcontainers",
+          "version": {
+            "requires": "1.100.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.100.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "emrcontainers-1.100.0-0.6.21.jar",
+          "url": "emrcontainers-1.100.0-0.6.21.jar",
+          "size": 38493,
+          "sha512": "3e416957c7edab77563a3300a28aa668b373fd48338252f73ccdd913f820e0915e4b274ddd22df9b5abb9be69c766fc82174fe6ce21801c3446809b3cffae7ee",
+          "sha256": "859011b1dc01fc09072d5e93f9d8562d6616bb1e20ee5e117f1955d7e27b1ac6",
+          "sha1": "109a3d9e1d68d83a794e2a8e8b937341b11c561b",
+          "md5": "8539047e0e08dc8ae7f0d0c2d052ac16"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.100.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "emrcontainers",
+          "version": {
+            "requires": "1.100.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.100.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "emrcontainers-1.100.0-0.6.21.jar",
+          "url": "emrcontainers-1.100.0-0.6.21.jar",
+          "size": 38493,
+          "sha512": "3e416957c7edab77563a3300a28aa668b373fd48338252f73ccdd913f820e0915e4b274ddd22df9b5abb9be69c766fc82174fe6ce21801c3446809b3cffae7ee",
+          "sha256": "859011b1dc01fc09072d5e93f9d8562d6616bb1e20ee5e117f1955d7e27b1ac6",
+          "sha1": "109a3d9e1d68d83a794e2a8e8b937341b11c561b",
+          "md5": "8539047e0e08dc8ae7f0d0c2d052ac16"
+        }
+      ]
+    }
+  ]
+}

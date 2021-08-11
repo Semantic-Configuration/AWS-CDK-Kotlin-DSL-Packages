@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "iam",
+    "version": "1.64.0-0.6.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iam",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-region-info",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iam-1.64.0-0.6.22.jar",
+          "url": "iam-1.64.0-0.6.22.jar",
+          "size": 229565,
+          "sha512": "29e28e3eb826513f3ee326cd44244d7708056f7d525fb41cd1350d6f628b0f12bbc9cdca8bc892ecdc561a5cd1a5602e88984dfafee3e2ab7f9549305f2bd69a",
+          "sha256": "f42b726c05fc9d74255732b6d55e40ef9c64dd4a0cb3142d3f6f7082f24c344f",
+          "sha1": "9bd007d8285e4522dc729b3a9a552bbee57010f2",
+          "md5": "6cf7ae17a2510110ce514da732233936"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.22"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iam",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "cdk-region-info",
+          "version": {
+            "requires": "1.64.0-0.6.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iam-1.64.0-0.6.22.jar",
+          "url": "iam-1.64.0-0.6.22.jar",
+          "size": 229565,
+          "sha512": "29e28e3eb826513f3ee326cd44244d7708056f7d525fb41cd1350d6f628b0f12bbc9cdca8bc892ecdc561a5cd1a5602e88984dfafee3e2ab7f9549305f2bd69a",
+          "sha256": "f42b726c05fc9d74255732b6d55e40ef9c64dd4a0cb3142d3f6f7082f24c344f",
+          "sha1": "9bd007d8285e4522dc729b3a9a552bbee57010f2",
+          "md5": "6cf7ae17a2510110ce514da732233936"
+        }
+      ]
+    }
+  ]
+}

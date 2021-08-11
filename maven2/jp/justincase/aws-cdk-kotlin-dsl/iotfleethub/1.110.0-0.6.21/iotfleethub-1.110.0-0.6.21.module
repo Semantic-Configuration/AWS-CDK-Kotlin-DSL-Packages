@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "iotfleethub",
+    "version": "1.110.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "cnrjfrtzdvad5bhmsg7msamtuq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iotfleethub",
+          "version": {
+            "requires": "1.110.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iotfleethub-1.110.0-0.6.21.jar",
+          "url": "iotfleethub-1.110.0-0.6.21.jar",
+          "size": 9506,
+          "sha512": "402889690e0677acb0671f87664e7748f6922cff512f00cf1df074968dcf3f76c589335df54c632013d2465502924ac762dceebc4fc6c86cbde73bee3077c4ef",
+          "sha256": "3aa80c5afddd527858e8265230cd436e8ea4852d25ef65929d1c5a88e03f69bd",
+          "sha1": "bcc985b374589a5eff145b430ebb1a0f57bb4b67",
+          "md5": "4a7cd54ba4f78a4dca235fafa488aaff"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.110.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "iotfleethub",
+          "version": {
+            "requires": "1.110.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iotfleethub-1.110.0-0.6.21.jar",
+          "url": "iotfleethub-1.110.0-0.6.21.jar",
+          "size": 9506,
+          "sha512": "402889690e0677acb0671f87664e7748f6922cff512f00cf1df074968dcf3f76c589335df54c632013d2465502924ac762dceebc4fc6c86cbde73bee3077c4ef",
+          "sha256": "3aa80c5afddd527858e8265230cd436e8ea4852d25ef65929d1c5a88e03f69bd",
+          "sha1": "bcc985b374589a5eff145b430ebb1a0f57bb4b67",
+          "md5": "4a7cd54ba4f78a4dca235fafa488aaff"
+        }
+      ]
+    }
+  ]
+}

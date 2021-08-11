@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "codestar",
+    "version": "1.31.0-unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codestar",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codestar-1.31.0-unspecified.jar",
+          "url": "codestar-1.31.0-unspecified.jar",
+          "size": 47166,
+          "sha512": "7cd4ed6629438c6de572639b957a6121b1a07fa9da89790805f5d68bf0afdf1190bae09e7d6324bb5775a40634e1c6c4399f19d13497a61971260b499c16bed5",
+          "sha256": "048248b48561702f5543e31216ec77dc6e147e61927d44bd86ee911f52e0f4dc",
+          "sha1": "257e6963bac3e9d45c0d10804b6f0fca56d11edd",
+          "md5": "d054d9af148f8867935c80476c766ade"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "codestar",
+          "version": {
+            "requires": "1.31.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.31.0-unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "codestar-1.31.0-unspecified.jar",
+          "url": "codestar-1.31.0-unspecified.jar",
+          "size": 47166,
+          "sha512": "7cd4ed6629438c6de572639b957a6121b1a07fa9da89790805f5d68bf0afdf1190bae09e7d6324bb5775a40634e1c6c4399f19d13497a61971260b499c16bed5",
+          "sha256": "048248b48561702f5543e31216ec77dc6e147e61927d44bd86ee911f52e0f4dc",
+          "sha1": "257e6963bac3e9d45c0d10804b6f0fca56d11edd",
+          "md5": "d054d9af148f8867935c80476c766ade"
+        }
+      ]
+    }
+  ]
+}

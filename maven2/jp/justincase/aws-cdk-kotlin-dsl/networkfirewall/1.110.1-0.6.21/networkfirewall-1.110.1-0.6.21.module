@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "networkfirewall",
+    "version": "1.110.1-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "pksuzuox3ne6pgnvsva7g32w2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "networkfirewall",
+          "version": {
+            "requires": "1.110.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "networkfirewall-1.110.1-0.6.21.jar",
+          "url": "networkfirewall-1.110.1-0.6.21.jar",
+          "size": 337469,
+          "sha512": "99c245de1342d25bb583cf62a72fd4658186ce157f021a333e4ccc9ea3c2bfeff5eb02166dcb72bc1da0c2d1073a6d80215addcb368bedf7361108a70452f8fd",
+          "sha256": "d9310673e39714210aa689c1e34245caee9ff6df42e277d12f3eeca6579ada8d",
+          "sha1": "605208c012b88c48cd1cde3e79e348abdb86d3b4",
+          "md5": "66a05185025b5af76d85924a7ca0fabc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.110.1"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "networkfirewall",
+          "version": {
+            "requires": "1.110.1"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.110.1-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "networkfirewall-1.110.1-0.6.21.jar",
+          "url": "networkfirewall-1.110.1-0.6.21.jar",
+          "size": 337469,
+          "sha512": "99c245de1342d25bb583cf62a72fd4658186ce157f021a333e4ccc9ea3c2bfeff5eb02166dcb72bc1da0c2d1073a6d80215addcb368bedf7361108a70452f8fd",
+          "sha256": "d9310673e39714210aa689c1e34245caee9ff6df42e277d12f3eeca6579ada8d",
+          "sha1": "605208c012b88c48cd1cde3e79e348abdb86d3b4",
+          "md5": "66a05185025b5af76d85924a7ca0fabc"
+        }
+      ]
+    }
+  ]
+}

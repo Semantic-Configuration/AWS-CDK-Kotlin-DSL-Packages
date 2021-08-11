@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.justincase.aws-cdk-kotlin-dsl",
+    "module": "lookoutvision",
+    "version": "1.108.0-0.6.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "kpsw6vvxevhebcaohgovtllzpe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awscdk",
+          "module": "lookoutvision",
+          "version": {
+            "requires": "1.108.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lookoutvision-1.108.0-0.6.21.jar",
+          "url": "lookoutvision-1.108.0-0.6.21.jar",
+          "size": 8632,
+          "sha512": "3d7e4877c917e99384cb4a863cb55d9f31f4f9c8e7f5900f06d7b88046de76ddd98ef5223f5eb9470fde84a70ed16065cb961b7ddc19cb3a220ff58334a24687",
+          "sha256": "5c39e0ae7e8c3939fe0b3dba4d1a91bfee7174db359c12939ff1a1ff5471ecbc",
+          "sha1": "758283d1729d3e8a8c2c28ce1dce3b29f4dcb4b",
+          "md5": "ee633f3a58b42deefd09bc1810646b02"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "dsl-common",
+          "version": {
+            "requires": "0.6.21"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "core",
+          "version": {
+            "requires": "1.108.0"
+          }
+        },
+        {
+          "group": "software.amazon.awscdk",
+          "module": "lookoutvision",
+          "version": {
+            "requires": "1.108.0"
+          }
+        },
+        {
+          "group": "jp.justincase.aws-cdk-kotlin-dsl",
+          "module": "core",
+          "version": {
+            "requires": "1.108.0-0.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lookoutvision-1.108.0-0.6.21.jar",
+          "url": "lookoutvision-1.108.0-0.6.21.jar",
+          "size": 8632,
+          "sha512": "3d7e4877c917e99384cb4a863cb55d9f31f4f9c8e7f5900f06d7b88046de76ddd98ef5223f5eb9470fde84a70ed16065cb961b7ddc19cb3a220ff58334a24687",
+          "sha256": "5c39e0ae7e8c3939fe0b3dba4d1a91bfee7174db359c12939ff1a1ff5471ecbc",
+          "sha1": "758283d1729d3e8a8c2c28ce1dce3b29f4dcb4b",
+          "md5": "ee633f3a58b42deefd09bc1810646b02"
+        }
+      ]
+    }
+  ]
+}
