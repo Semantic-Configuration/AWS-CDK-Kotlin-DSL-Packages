@@ -23,4 +23,5 @@ object HeaderOf {
   }
 
   object Host extends HeaderOf[Id, headers.Host]
+  object `Content-Type` extends HeaderOf[Id, headers.`Content-Type`]
 }
