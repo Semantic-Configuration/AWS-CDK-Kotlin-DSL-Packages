@@ -6,6 +6,7 @@ import cats.syntax.compose._
 import cats.syntax.flatMap._
 import io.lemm.chamelania.HeaderOf._
 import org.http4s.Status.Ok
+import org.http4s.dsl.&
 import org.http4s.headers.{Host, `Accept-Encoding`, `Content-Disposition`, `User-Agent`}
 import org.http4s.syntax.literals._
 import org.http4s.{Request, Response}
@@ -27,7 +28,7 @@ object Main extends IOApp.Simple {
   def proxy = Porterie(
     _: Int,
     forwarded[IO](identity).map(_.removeHeader[Host]).local[Request[IO]] {
-      case r @ Request(_, _, _, HeaderOf.Host(s"$subdirectory.$_.$_.$_" :: _), _, _) =>
+      case r @ Request(_, _, _, HeaderOf.Host((s"maven$_" & s"$subdirectory.$_.$_.$_") :: _), _, _) =>
         // Artifactory chokes on gzip decoding when 'Store Artifacts Locally' is disabled
         r.removeHeader[`Accept-Encoding`].withUri(
           r.uri withPath r.uri.path.dropEndsWithSlash withBaseUri legacyPackages/subdirectory
