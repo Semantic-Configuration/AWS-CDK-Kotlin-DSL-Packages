@@ -33,10 +33,13 @@ object Main extends IOApp.Simple {
           r.uri withPath r.uri.path.dropEndsWithSlash withBaseUri legacyPackages/subdirectory
         )
 
-      case r =>
+      case r @ Request(_, _, _, HeaderOf.Host(s"$site.$_.$_" :: _), _, _) =>
         // Prevent weird redirections that break previews on a browser
         r.removeHeader[`User-Agent`].withUri(
-          r.uri withBaseUri https"://chamelania.jfrog.io/artifactory/maven"
+          r.uri withBaseUri (site match {
+            case "cdk" => https"://chamelania.jfrog.io/artifactory"
+            case _ => https"://chamelania.jfrog.io/artifactory/maven"
+          })
         )
     },
     Kleisli.fromFunction[IO, Response[IO]] {
