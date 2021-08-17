@@ -14,3 +14,6 @@ the above three sources as `https://cdk.lemm.io/maven`, and at the same time, ge
 the [GitHub Packages Authorization restriction](
   https://github.community/t/how-to-allow-unauthorised-read-access-to-github-packages-maven-repository/115517
 ).
+
+You may see https://github.com/Semantic-Configuration/AWS-CDK-Kotlin-DSL
+for the implementation that generates those packages, along with usage examples.
